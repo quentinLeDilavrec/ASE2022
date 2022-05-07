@@ -1,0 +1,11 @@
+[2022-05-07T00:42:42.948Z WARN] args: ["target/release/reserializing", "apache/logging-log4j2", "", "ebfc8945a5dd77b617f4667647ed4b740323acc8", ""]
+[2022-05-07T00:43:08.397Z ERROR] LambdaExpression Declarations([]) MethodReference(Old(3))
+[2022-05-07T00:43:08.404Z ERROR] LambdaExpression Declarations([]) MethodReference(Old(3))
+[2022-05-07T00:43:09.908Z ERROR] LambdaExpression Declarations([]) MethodReference(Old(3))
+[2022-05-07T00:43:09.914Z ERROR] LambdaExpression Declarations([]) MethodReference(Old(3))
+[2022-05-07T00:43:30.329Z ERROR] MethodReference ScopedIdentifier(2) TypeArguments([Old(2)])
+[2022-05-07T00:43:47.478Z ERROR] LambdaExpression Declarations([]) MethodReference(Old(3))
+[2022-05-07T00:43:47.484Z ERROR] LambdaExpression Declarations([]) MethodReference(Old(3))
+[2022-05-07T00:44:13.809Z ERROR] MethodReference ScopedIdentifier(2) TypeArguments([Old(2)])
+[2022-05-07T00:44:41.764Z ERROR] LambdaExpression Declarations([]) MethodReference(Old(3))
+[2022-05-07T00:44:41.770Z ERROR] LambdaExpression Declarations([]) MethodReference(Old(3))

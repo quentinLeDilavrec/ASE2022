@@ -1,0 +1,126 @@
+[2022-05-07T00:42:50.968Z WARN] args: ["target/release/reserializing", "apache/flink", "", "d67338a140bf1b744d95a514b82824bba5b16105", ""]
+[2022-05-07T00:43:38.915Z WARN] bad CST
+[2022-05-07T00:43:58.839Z WARN] bad CST
+[2022-05-07T00:43:58.843Z ERROR] FieldDeclaration Declarations([(None, Field(5), Runtime([4]))]) None
+[2022-05-07T00:44:01.142Z WARN] bad CST
+[2022-05-07T00:44:13.101Z WARN] not possible
+[2022-05-07T00:44:50.543Z WARN] bad CST
+[2022-05-07T00:44:57.033Z WARN] bad CST
+[2022-05-07T00:45:00.553Z WARN] resolution of local type decl without a package should not append
+[2022-05-07T00:45:46.490Z WARN] bad CST
+[2022-05-07T00:46:15.008Z WARN] bad CST
+[2022-05-07T00:46:18.175Z WARN] bad CST
+[2022-05-07T00:46:18.175Z ERROR] LocalVariableDeclaration Declarations([(None, Variable(3), Runtime([2]))]) None
+[2022-05-07T00:46:28.516Z WARN] not possible
+[2022-05-07T00:47:13.795Z ERROR] ParenthesizedExpression None MethodReference(Old(3))
+[2022-05-07T00:47:14.378Z WARN] not possible
+[2022-05-07T00:47:15.874Z WARN] not possible
+[2022-05-07T00:48:01.079Z ERROR] ParenthesizedExpression None MethodReference(Old(3))
+[2022-05-07T00:48:20.492Z WARN] bad CST
+[2022-05-07T00:48:36.037Z WARN] bad CST
+[2022-05-07T00:48:39.581Z WARN] bad CST
+[2022-05-07T00:48:42.251Z WARN] not possible
+[2022-05-07T00:48:57.643Z ERROR] InstanceofExpression None LiteralType(Old(5))
+[2022-05-07T00:48:57.643Z ERROR] ParenthesizedExpression None None
+[2022-05-07T00:48:57.643Z ERROR] UnaryExpression None None
+[2022-05-07T00:48:57.643Z ERROR] ParenthesizedExpression None None
+[2022-05-07T00:48:57.643Z ERROR] ParenthesizedExpression None None
+[2022-05-07T00:48:57.643Z ERROR] UnaryExpression None None
+[2022-05-07T00:48:57.643Z ERROR] ParenthesizedExpression None None
+[2022-05-07T00:49:07.936Z WARN] bad CST
+[2022-05-07T00:49:12.784Z WARN] bad CST
+[2022-05-07T00:49:12.788Z WARN] resolution of local type decl without a package should not append
+[2022-05-07T00:49:26.492Z WARN] bad CST
+[2022-05-07T00:49:41.047Z WARN] not possible
+[2022-05-07T00:49:59.087Z WARN] bad CST
+[2022-05-07T00:50:12.097Z WARN] bad CST
+[2022-05-07T00:50:13.980Z WARN] bad CST
+[2022-05-07T00:50:21.445Z ERROR] InstanceofExpression None LiteralType(Old(5))
+[2022-05-07T00:50:21.445Z ERROR] ParenthesizedExpression None None
+[2022-05-07T00:50:21.445Z ERROR] UnaryExpression None None
+[2022-05-07T00:50:21.445Z ERROR] ParenthesizedExpression None None
+[2022-05-07T00:50:21.445Z ERROR] ParenthesizedExpression None None
+[2022-05-07T00:50:21.445Z ERROR] UnaryExpression None None
+[2022-05-07T00:50:21.445Z ERROR] ParenthesizedExpression None None
+[2022-05-07T00:50:30.145Z WARN] bad CST
+[2022-05-07T00:51:31.152Z WARN] bad CST
+[2022-05-07T00:52:29.781Z ERROR] MethodReference ScopedIdentifier(2) TypeArguments([Old(2)])
+[2022-05-07T00:52:30.787Z WARN] bad CST
+[2022-05-07T00:52:48.431Z ERROR] ParenthesizedExpression None MethodReference(Old(3))
+[2022-05-07T00:52:49.784Z WARN] bad CST
+[2022-05-07T00:52:58.645Z WARN] bad CST
+[2022-05-07T00:52:58.647Z ERROR] Dimensions None None
+[2022-05-07T00:52:58.647Z ERROR] ArrayType ScopedTypeIdentifier(2) None
+[2022-05-07T00:52:58.647Z ERROR] ArrayType ScopedTypeIdentifier(2) None
+[2022-05-07T00:52:58.647Z ERROR] Dimensions None None
+[2022-05-07T00:52:58.647Z ERROR] ArrayType None None
+[2022-05-07T00:52:58.647Z ERROR] FieldDeclaration Declarations([(None, Field(5), Runtime([4]))]) None
+[2022-05-07T00:53:12.571Z WARN] not possible
+[2022-05-07T00:53:43.509Z WARN] bad CST
+[2022-05-07T00:53:50.000Z WARN] bad CST
+[2022-05-07T00:54:45.829Z WARN] bad CST
+[2022-05-07T00:54:53.477Z WARN] not possible
+[2022-05-07T00:55:19.716Z WARN] bad CST
+[2022-05-07T00:55:35.477Z WARN] bad CST
+[2022-05-07T00:55:42.423Z WARN] bad CST
+[2022-05-07T00:56:07.228Z WARN] bad CST
+[2022-05-07T00:56:38.359Z WARN] bad CST
+[2022-05-07T00:57:07.679Z WARN] bad CST
+[2022-05-07T00:57:07.679Z ERROR] ScopedAbsoluteIdentifier ScopedIdentifier(5) None
+[2022-05-07T00:57:07.680Z ERROR] AssignmentExpression ScopedIdentifier(2) None
+[2022-05-07T00:57:39.752Z WARN] bad CST
+[2022-05-07T00:58:09.599Z WARN] bad CST
+[2022-05-07T00:58:20.862Z ERROR] MethodReference ScopedIdentifier(2) TypeArguments([Old(2)])
+[2022-05-07T00:58:22.716Z ERROR] MethodReference ScopedIdentifier(2) TypeArguments([Old(2)])
+[2022-05-07T00:58:41.748Z WARN] bad CST
+[2022-05-07T00:58:41.750Z ERROR] BinaryExpression ScopedIdentifier(2) None
+[2022-05-07T00:58:46.451Z ERROR] InstanceofExpression None LiteralType(Old(5))
+[2022-05-07T00:58:46.451Z ERROR] ParenthesizedExpression None None
+[2022-05-07T00:58:46.451Z ERROR] UnaryExpression None None
+[2022-05-07T00:58:46.451Z ERROR] ParenthesizedExpression None None
+[2022-05-07T00:58:46.451Z ERROR] ParenthesizedExpression None None
+[2022-05-07T00:58:46.451Z ERROR] UnaryExpression None None
+[2022-05-07T00:58:46.451Z ERROR] ParenthesizedExpression None None
+[2022-05-07T00:58:48.526Z WARN] not possible
+[2022-05-07T00:58:52.358Z WARN] bad CST
+[2022-05-07T00:59:12.284Z WARN] bad CST
+[2022-05-07T00:59:13.491Z WARN] bad CST
+[2022-05-07T00:59:13.492Z ERROR] ScopedAbsoluteIdentifier ScopedIdentifier(3) None
+[2022-05-07T00:59:13.492Z ERROR] ScopedAbsoluteIdentifier ScopedIdentifier(4) None
+[2022-05-07T00:59:13.492Z ERROR] ScopedAbsoluteIdentifier ScopedIdentifier(3) None
+[2022-05-07T00:59:13.492Z ERROR] ScopedAbsoluteIdentifier ScopedIdentifier(7) None
+[2022-05-07T00:59:13.492Z ERROR] ScopedAbsoluteIdentifier ScopedIdentifier(7) None
+[2022-05-07T00:59:13.492Z ERROR] ScopedAbsoluteIdentifier ScopedIdentifier(5) None
+[2022-05-07T00:59:13.492Z ERROR] ScopedAbsoluteIdentifier ScopedIdentifier(6) None
+[2022-05-07T00:59:13.492Z ERROR] ScopedAbsoluteIdentifier ScopedIdentifier(7) None
+[2022-05-07T00:59:13.492Z ERROR] ScopedAbsoluteIdentifier ScopedIdentifier(6) None
+[2022-05-07T00:59:13.492Z ERROR] ScopedAbsoluteIdentifier ScopedIdentifier(9) None
+[2022-05-07T00:59:13.492Z ERROR] ScopedAbsoluteIdentifier ScopedIdentifier(7) None
+[2022-05-07T00:59:13.492Z ERROR] ScopedAbsoluteIdentifier ScopedIdentifier(8) None
+[2022-05-07T00:59:13.492Z ERROR] ScopedAbsoluteIdentifier ScopedIdentifier(6) None
+[2022-05-07T00:59:13.492Z ERROR] ScopedAbsoluteIdentifier ScopedIdentifier(6) None
+[2022-05-07T00:59:13.492Z ERROR] ScopedAbsoluteIdentifier ScopedIdentifier(6) None
+[2022-05-07T00:59:13.492Z ERROR] ScopedAbsoluteIdentifier ScopedIdentifier(7) None
+[2022-05-07T00:59:13.492Z ERROR] ScopedAbsoluteIdentifier ScopedIdentifier(7) None
+[2022-05-07T00:59:13.492Z ERROR] ScopedAbsoluteIdentifier ScopedIdentifier(7) None
+[2022-05-07T00:59:13.492Z ERROR] ScopedAbsoluteIdentifier ScopedIdentifier(6) None
+[2022-05-07T00:59:13.492Z ERROR] ScopedAbsoluteIdentifier ScopedIdentifier(6) None
+[2022-05-07T00:59:13.492Z ERROR] ScopedAbsoluteIdentifier ScopedIdentifier(5) None
+[2022-05-07T00:59:13.492Z ERROR] ScopedAbsoluteIdentifier ScopedIdentifier(3) None
+[2022-05-07T00:59:13.492Z ERROR] ScopedAbsoluteIdentifier ScopedIdentifier(4) None
+[2022-05-07T00:59:13.492Z ERROR] ScopedAbsoluteIdentifier ScopedIdentifier(3) None
+[2022-05-07T00:59:13.493Z ERROR] ScopedAbsoluteIdentifier ScopedIdentifier(4) None
+[2022-05-07T00:59:13.493Z ERROR] ScopedAbsoluteIdentifier ScopedIdentifier(3) None
+[2022-05-07T00:59:13.493Z ERROR] ScopedAbsoluteIdentifier ScopedIdentifier(2) None
+[2022-05-07T00:59:13.493Z ERROR] ScopedAbsoluteIdentifier ScopedIdentifier(2) None
+[2022-05-07T00:59:13.493Z ERROR] ScopedAbsoluteIdentifier ScopedIdentifier(2) None
+[2022-05-07T00:59:13.493Z ERROR] ScopedAbsoluteIdentifier ScopedIdentifier(2) None
+[2022-05-07T00:59:13.493Z ERROR] ScopedAbsoluteIdentifier ScopedIdentifier(2) None
+[2022-05-07T00:59:13.493Z ERROR] ScopedAbsoluteIdentifier ScopedIdentifier(4) None
+[2022-05-07T00:59:13.493Z ERROR] ImportDeclaration ImportDeclaration { sstatic: false, identifier: 2, asterisk: false } None
+[2022-05-07T00:59:13.493Z ERROR] ImportDeclaration None None
+[2022-05-07T00:59:13.493Z ERROR] ImportDeclaration ImportDeclaration { sstatic: false, identifier: 3, asterisk: false } None
+[2022-05-07T00:59:13.495Z ERROR] Dimensions None None
+[2022-05-07T00:59:13.495Z ERROR] FormalParameter Declaration { visibility: None, kind: Runtime([2]), identifier: Variable(3) } None
+thread 'main' panicked at 'should handle before', gen/tree-sitter/java/src/impact/partial_analysis.rs:4555:44
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

@@ -1,0 +1,16 @@
+[2022-05-07T00:42:47.960Z WARN] args: ["target/release/reserializing", "jenkinsci/jenkins", "", "be6713661c120c222c17026e62401191bdc4035c", ""]
+[2022-05-07T00:45:39.451Z WARN] bad CST
+[2022-05-07T00:48:11.376Z WARN] bad CST
+[2022-05-07T00:48:35.029Z WARN] resolution of local type decl without a package should not append
+[2022-05-07T00:50:54.531Z WARN] bad CST
+[2022-05-07T00:57:40.232Z WARN] resolution of local type decl without a package should not append
+[2022-05-07T00:58:00.651Z WARN] bad CST
+[2022-05-07T00:58:00.680Z ERROR] FieldAccess ScopedIdentifier(3) None
+[2022-05-07T00:59:15.465Z WARN] bad CST
+[2022-05-07T00:59:15.484Z ERROR] FormalParameter Declaration { visibility: None, kind: Runtime([2]), identifier: None } None
+[2022-05-07T00:59:15.484Z ERROR] FormalParameter None SimpleIdentifier(FlatCase, LabelPtr(SymbolU32 { value: 2328 }, FlatCase))
+[2022-05-07T00:59:15.485Z ERROR] FormalParameter Declaration { visibility: None, kind: Runtime([2]), identifier: None } None
+[2022-05-07T00:59:15.485Z ERROR] FormalParameter None SimpleIdentifier(LowerCamelCase, LabelPtr(SymbolU32 { value: 7464 }, LowerCamelCase))
+[2022-05-07T00:59:28.134Z WARN] bad CST
+[2022-05-07T01:01:17.664Z WARN] bad CST
+[2022-05-07T01:03:01.988Z WARN] bad CST

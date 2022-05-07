@@ -1,0 +1,58 @@
+[2022-05-07T00:42:59.990Z WARN] args: ["target/release/reserializing", "jacoco/jacoco", "", "62a2b556c26f0f42a2ae791a86dc39dd36d35392", ""]
+[2022-05-07T00:43:02.566Z WARN] resolution of local type decl without a package should not append
+[2022-05-07T00:43:04.759Z WARN] bad CST
+[2022-05-07T00:43:04.759Z ERROR] BinaryExpression ScopedIdentifier(2) None
+[2022-05-07T00:43:04.759Z ERROR] SwitchRule None None
+[2022-05-07T00:43:04.759Z ERROR] SwitchRule None None
+[2022-05-07T00:43:04.759Z ERROR] SwitchRule None None
+[2022-05-07T00:43:04.759Z ERROR] SwitchRule None None
+[2022-05-07T00:43:04.759Z ERROR] SwitchRule None None
+[2022-05-07T00:43:04.759Z ERROR] SwitchRule None None
+[2022-05-07T00:43:06.733Z ERROR] SwitchExpression None ScopedIdentifier(Old(2))
+[2022-05-07T00:43:06.733Z ERROR] SwitchRule None None
+[2022-05-07T00:43:06.733Z ERROR] SwitchRule None None
+[2022-05-07T00:43:06.733Z ERROR] SwitchRule None None
+[2022-05-07T00:43:06.733Z ERROR] SwitchRule None None
+[2022-05-07T00:43:06.733Z ERROR] SwitchRule None None
+[2022-05-07T00:43:06.733Z ERROR] SwitchRule None None
+[2022-05-07T00:43:06.733Z ERROR] SwitchRule None None
+[2022-05-07T00:43:06.733Z ERROR] SwitchExpression None None
+[2022-05-07T00:43:06.733Z ERROR] SwitchExpression None ScopedIdentifier(Old(2))
+[2022-05-07T00:43:06.733Z ERROR] SwitchRule None None
+[2022-05-07T00:43:06.733Z ERROR] SwitchRule None None
+[2022-05-07T00:43:06.733Z ERROR] SwitchRule None None
+[2022-05-07T00:43:06.733Z ERROR] SwitchRule None None
+[2022-05-07T00:43:06.733Z ERROR] SwitchRule None None
+[2022-05-07T00:43:06.733Z ERROR] SwitchExpression None None
+[2022-05-07T00:43:06.733Z ERROR] SwitchExpression None ScopedIdentifier(Old(2))
+[2022-05-07T00:43:06.733Z ERROR] SwitchRule None None
+[2022-05-07T00:43:06.733Z ERROR] YieldStatement None ScopedIdentifier(Old(2))
+[2022-05-07T00:43:06.733Z ERROR] SwitchRule None None
+[2022-05-07T00:43:06.733Z ERROR] SwitchRule None None
+[2022-05-07T00:43:06.733Z ERROR] YieldStatement None ScopedIdentifier(Old(2))
+[2022-05-07T00:43:06.733Z ERROR] SwitchRule None None
+[2022-05-07T00:43:06.733Z ERROR] SwitchRule None None
+[2022-05-07T00:43:06.733Z ERROR] YieldStatement None ScopedIdentifier(Old(2))
+[2022-05-07T00:43:06.733Z ERROR] SwitchRule None None
+[2022-05-07T00:43:06.733Z ERROR] YieldStatement None ScopedIdentifier(Old(2))
+[2022-05-07T00:43:06.733Z ERROR] SwitchRule None None
+[2022-05-07T00:43:06.733Z ERROR] SwitchExpression None None
+[2022-05-07T00:43:06.733Z ERROR] SwitchExpression None ScopedIdentifier(Old(2))
+[2022-05-07T00:43:06.733Z ERROR] YieldStatement None ScopedIdentifier(Old(2))
+[2022-05-07T00:43:06.733Z ERROR] YieldStatement None ScopedIdentifier(Old(2))
+[2022-05-07T00:43:06.733Z ERROR] YieldStatement None ScopedIdentifier(Old(2))
+[2022-05-07T00:43:06.733Z ERROR] YieldStatement None ScopedIdentifier(Old(2))
+[2022-05-07T00:43:06.733Z ERROR] SwitchExpression None None
+[2022-05-07T00:43:06.733Z ERROR] SwitchExpression None ScopedIdentifier(Old(2))
+[2022-05-07T00:43:06.733Z ERROR] SwitchRule None None
+[2022-05-07T00:43:06.733Z ERROR] SwitchRule None None
+[2022-05-07T00:43:06.733Z ERROR] SwitchRule None None
+[2022-05-07T00:43:06.733Z ERROR] SwitchRule None None
+[2022-05-07T00:43:06.733Z ERROR] SwitchRule None None
+[2022-05-07T00:43:06.733Z ERROR] SwitchRule None None
+[2022-05-07T00:43:06.733Z ERROR] SwitchExpression None None
+[2022-05-07T00:43:09.745Z WARN] resolution of local type decl without a package should not append
+[2022-05-07T00:43:09.760Z WARN] bad CST
+[2022-05-07T00:43:09.760Z ERROR] ParenthesizedExpression ScopedIdentifier(1) None
+[2022-05-07T00:43:13.974Z WARN] bad CST
+[2022-05-07T00:43:13.974Z ERROR] ParenthesizedExpression ScopedIdentifier(1) None
