@@ -1,0 +1,3662 @@
+[
+  {
+    "relations_stats": [
+      {
+        "module": "javaparser-core-metamodel-generator",
+        "content": {
+          "exact_decls_matches": 161,
+          "decls_in_baseline_and_tool_with_refs": 161,
+          "remaining_decls_in_baseline": 4,
+          "remaining_decls_in_tool_results": 4,
+          "overall_success_rate": 1.0,
+          "overall_overestimation_rate": 0.9748603351955307,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9797775586237125,
+          "mean_of_exact_references": 2.237179472838593,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.05769230732248521,
+          "files_len": 6
+        }
+      },
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 0
+        }
+      },
+      {
+        "module": "javaparser-symbol-solver-core",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 4051,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 160
+        }
+      },
+      {
+        "module": "javaparser-symbol-solver-testing",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 4735,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 239
+        }
+      },
+      {
+        "module": "javaparser-core-testing",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 3380,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 179
+        }
+      },
+      {
+        "module": "javaparser-core-generators",
+        "content": {
+          "exact_decls_matches": 410,
+          "decls_in_baseline_and_tool_with_refs": 410,
+          "remaining_decls_in_baseline": 3,
+          "remaining_decls_in_tool_results": 3,
+          "overall_success_rate": 0.9956756756756757,
+          "overall_overestimation_rate": 0.9504643962848297,
+          "mean_success_rate": 0.9960212201591512,
+          "mean_overestimation_rate": 0.966622458001769,
+          "mean_of_exact_references": 2.4429708158011385,
+          "mean_of_remaining_refs_in_baseline": 0.01061007954745337,
+          "mean_of_remaining_refs_in_tool_results": 0.12732095456944045,
+          "files_len": 33
+        }
+      },
+      {
+        "module": "javaparser-core",
+        "content": {
+          "exact_decls_matches": 12065,
+          "decls_in_baseline_and_tool_with_refs": 12065,
+          "remaining_decls_in_baseline": 326,
+          "remaining_decls_in_tool_results": 2,
+          "overall_success_rate": 0.99027224930288,
+          "overall_overestimation_rate": 0.903427517234683,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 4.174623115203282,
+          "mean_of_remaining_refs_in_baseline": 0.04100861449739693,
+          "mean_of_remaining_refs_in_tool_results": 0.4462491026160939,
+          "files_len": 523
+        }
+      },
+      {
+        "module": "javaparser-core-testing-bdd",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 819,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 19
+        }
+      },
+      {
+        "module": "javaparser-core-serialization",
+        "content": {
+          "exact_decls_matches": 128,
+          "decls_in_baseline_and_tool_with_refs": 128,
+          "remaining_decls_in_baseline": 4,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9722222222222222,
+          "overall_overestimation_rate": 0.8909090909090909,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9541666666666667,
+          "mean_of_exact_references": 2.041666649652778,
+          "mean_of_remaining_refs_in_baseline": 0.058333332847222225,
+          "mean_of_remaining_refs_in_tool_results": 0.2499999979166667,
+          "files_len": 4
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 25097493015,
+        "memory": 219947016
+      },
+      "evaluated": {
+        "time": 1024768652,
+        "memory": 857608
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 15785469230,
+        "memory": 629129696
+      },
+      "evaluated": {
+        "time": 43373294251,
+        "memory": 0
+      }
+    },
+    "info": {
+      "repo_name": "javaparser/javaparser",
+      "commit": "29d13b37edb5ba081c6eb432e930a25da5edc109",
+      "no": 350,
+      "batch_id": "javaparser/javaparser:(,046bf8be251189452ad6b25bf9107a1a2167ce6f)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "javaparser-symbol-solver-testing",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 4280,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 181
+        }
+      },
+      {
+        "module": "javaparser-core",
+        "content": {
+          "exact_decls_matches": 11723,
+          "decls_in_baseline_and_tool_with_refs": 11723,
+          "remaining_decls_in_baseline": 454,
+          "remaining_decls_in_tool_results": 2,
+          "overall_success_rate": 0.9840143651732142,
+          "overall_overestimation_rate": 0.9026918441141021,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 4.151515151131604,
+          "mean_of_remaining_refs_in_baseline": 0.06744271987551342,
+          "mean_of_remaining_refs_in_tool_results": 0.44752402065340685,
+          "files_len": 522
+        }
+      },
+      {
+        "module": "javaparser-core-generators",
+        "content": {
+          "exact_decls_matches": 385,
+          "decls_in_baseline_and_tool_with_refs": 385,
+          "remaining_decls_in_baseline": 13,
+          "remaining_decls_in_tool_results": 3,
+          "overall_success_rate": 0.9954545454545455,
+          "overall_overestimation_rate": 0.919202518363064,
+          "mean_success_rate": 0.995702005730659,
+          "mean_overestimation_rate": 0.9603317968522908,
+          "mean_of_exact_references": 2.51002864610307,
+          "mean_of_remaining_refs_in_baseline": 0.011461318018735478,
+          "mean_of_remaining_refs_in_tool_results": 0.22063037186065795,
+          "files_len": 33
+        }
+      },
+      {
+        "module": "javaparser-core-serialization",
+        "content": {
+          "exact_decls_matches": 128,
+          "decls_in_baseline_and_tool_with_refs": 128,
+          "remaining_decls_in_baseline": 4,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9722222222222222,
+          "overall_overestimation_rate": 0.8909090909090909,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9541666666666667,
+          "mean_of_exact_references": 2.041666649652778,
+          "mean_of_remaining_refs_in_baseline": 0.058333332847222225,
+          "mean_of_remaining_refs_in_tool_results": 0.2499999979166667,
+          "files_len": 4
+        }
+      },
+      {
+        "module": "javaparser-core-testing",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 2713,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 164
+        }
+      },
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 0
+        }
+      },
+      {
+        "module": "javaparser-core-metamodel-generator",
+        "content": {
+          "exact_decls_matches": 161,
+          "decls_in_baseline_and_tool_with_refs": 161,
+          "remaining_decls_in_baseline": 4,
+          "remaining_decls_in_tool_results": 4,
+          "overall_success_rate": 1.0,
+          "overall_overestimation_rate": 0.9748603351955307,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9797775586237125,
+          "mean_of_exact_references": 2.237179472838593,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.05769230732248521,
+          "files_len": 6
+        }
+      },
+      {
+        "module": "javaparser-symbol-solver-core",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 4041,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 157
+        }
+      },
+      {
+        "module": "javaparser-core-testing-bdd",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 815,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 19
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 24151517938,
+        "memory": 212445168
+      },
+      "evaluated": {
+        "time": 856699334,
+        "memory": 433592
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 14438620477,
+        "memory": 607879208
+      },
+      "evaluated": {
+        "time": 37492958345,
+        "memory": 0
+      }
+    },
+    "info": {
+      "repo_name": "javaparser/javaparser",
+      "commit": "4a82210169e992a0db4cf307eded22367806bed1",
+      "no": 900,
+      "batch_id": "javaparser/javaparser:(,046bf8be251189452ad6b25bf9107a1a2167ce6f)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 0
+        }
+      },
+      {
+        "module": "javaparser-core-testing-bdd",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 819,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 19
+        }
+      },
+      {
+        "module": "javaparser-symbol-solver-core",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 4115,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 165
+        }
+      },
+      {
+        "module": "javaparser-core-testing",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 3439,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 182
+        }
+      },
+      {
+        "module": "javaparser-core",
+        "content": {
+          "exact_decls_matches": 12094,
+          "decls_in_baseline_and_tool_with_refs": 12094,
+          "remaining_decls_in_baseline": 251,
+          "remaining_decls_in_tool_results": 2,
+          "overall_success_rate": 0.9932712986819411,
+          "overall_overestimation_rate": 0.903241422043219,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 4.174601753698353,
+          "mean_of_remaining_refs_in_baseline": 0.028279935562172908,
+          "mean_of_remaining_refs_in_tool_results": 0.4471988544436013,
+          "files_len": 520
+        }
+      },
+      {
+        "module": "javaparser-symbol-solver-testing",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 4817,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 244
+        }
+      },
+      {
+        "module": "javaparser-core-metamodel-generator",
+        "content": {
+          "exact_decls_matches": 161,
+          "decls_in_baseline_and_tool_with_refs": 161,
+          "remaining_decls_in_baseline": 4,
+          "remaining_decls_in_tool_results": 4,
+          "overall_success_rate": 1.0,
+          "overall_overestimation_rate": 0.9748603351955307,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9797775586237125,
+          "mean_of_exact_references": 2.237179472838593,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.05769230732248521,
+          "files_len": 6
+        }
+      },
+      {
+        "module": "javaparser-core-serialization",
+        "content": {
+          "exact_decls_matches": 128,
+          "decls_in_baseline_and_tool_with_refs": 128,
+          "remaining_decls_in_baseline": 4,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9722222222222222,
+          "overall_overestimation_rate": 0.8909090909090909,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9541666666666667,
+          "mean_of_exact_references": 2.041666649652778,
+          "mean_of_remaining_refs_in_baseline": 0.058333332847222225,
+          "mean_of_remaining_refs_in_tool_results": 0.2499999979166667,
+          "files_len": 4
+        }
+      },
+      {
+        "module": "javaparser-core-generators",
+        "content": {
+          "exact_decls_matches": 410,
+          "decls_in_baseline_and_tool_with_refs": 410,
+          "remaining_decls_in_baseline": 3,
+          "remaining_decls_in_tool_results": 3,
+          "overall_success_rate": 0.9956756756756757,
+          "overall_overestimation_rate": 0.9504643962848297,
+          "mean_success_rate": 0.9960212201591512,
+          "mean_overestimation_rate": 0.966622458001769,
+          "mean_of_exact_references": 2.4429708158011385,
+          "mean_of_remaining_refs_in_baseline": 0.01061007954745337,
+          "mean_of_remaining_refs_in_tool_results": 0.12732095456944045,
+          "files_len": 33
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 26039537629,
+        "memory": 220586320
+      },
+      "evaluated": {
+        "time": 108500,
+        "memory": 0
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 15244418566,
+        "memory": 1238213984
+      },
+      "evaluated": {
+        "time": 44489049109,
+        "memory": 0
+      }
+    },
+    "info": {
+      "repo_name": "javaparser/javaparser",
+      "commit": "f04904808d61b8cf2756d39bed9f788d9190fb87",
+      "no": 200,
+      "batch_id": "javaparser/javaparser:(,046bf8be251189452ad6b25bf9107a1a2167ce6f)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "javaparser-core-testing",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 3410,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 181
+        }
+      },
+      {
+        "module": "javaparser-symbol-solver-core",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 4058,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 161
+        }
+      },
+      {
+        "module": "javaparser-core",
+        "content": {
+          "exact_decls_matches": 12095,
+          "decls_in_baseline_and_tool_with_refs": 12095,
+          "remaining_decls_in_baseline": 312,
+          "remaining_decls_in_tool_results": 2,
+          "overall_success_rate": 0.9904236118483916,
+          "overall_overestimation_rate": 0.9032532920216886,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 4.1739597311701155,
+          "mean_of_remaining_refs_in_baseline": 0.04035794183084045,
+          "mean_of_remaining_refs_in_tool_results": 0.44706935119041885,
+          "files_len": 523
+        }
+      },
+      {
+        "module": "javaparser-core-generators",
+        "content": {
+          "exact_decls_matches": 410,
+          "decls_in_baseline_and_tool_with_refs": 410,
+          "remaining_decls_in_baseline": 3,
+          "remaining_decls_in_tool_results": 3,
+          "overall_success_rate": 0.9956756756756757,
+          "overall_overestimation_rate": 0.9504643962848297,
+          "mean_success_rate": 0.9960212201591512,
+          "mean_overestimation_rate": 0.966622458001769,
+          "mean_of_exact_references": 2.4429708158011385,
+          "mean_of_remaining_refs_in_baseline": 0.01061007954745337,
+          "mean_of_remaining_refs_in_tool_results": 0.12732095456944045,
+          "files_len": 33
+        }
+      },
+      {
+        "module": "javaparser-core-serialization",
+        "content": {
+          "exact_decls_matches": 128,
+          "decls_in_baseline_and_tool_with_refs": 128,
+          "remaining_decls_in_baseline": 4,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9722222222222222,
+          "overall_overestimation_rate": 0.8909090909090909,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9541666666666667,
+          "mean_of_exact_references": 2.041666649652778,
+          "mean_of_remaining_refs_in_baseline": 0.058333332847222225,
+          "mean_of_remaining_refs_in_tool_results": 0.2499999979166667,
+          "files_len": 4
+        }
+      },
+      {
+        "module": "javaparser-core-metamodel-generator",
+        "content": {
+          "exact_decls_matches": 161,
+          "decls_in_baseline_and_tool_with_refs": 161,
+          "remaining_decls_in_baseline": 4,
+          "remaining_decls_in_tool_results": 4,
+          "overall_success_rate": 1.0,
+          "overall_overestimation_rate": 0.9748603351955307,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9797775586237125,
+          "mean_of_exact_references": 2.237179472838593,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.05769230732248521,
+          "files_len": 6
+        }
+      },
+      {
+        "module": "javaparser-symbol-solver-testing",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 4740,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 239
+        }
+      },
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 0
+        }
+      },
+      {
+        "module": "javaparser-core-testing-bdd",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 819,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 19
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 25992705370,
+        "memory": 220309152
+      },
+      "evaluated": {
+        "time": 818349916,
+        "memory": 1475016
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 16610744511,
+        "memory": 590203776
+      },
+      "evaluated": {
+        "time": 44252232919,
+        "memory": 364488
+      }
+    },
+    "info": {
+      "repo_name": "javaparser/javaparser",
+      "commit": "f37bfd9d0adb4423eed7161691bbf98b01d12f1d",
+      "no": 250,
+      "batch_id": "javaparser/javaparser:(,046bf8be251189452ad6b25bf9107a1a2167ce6f)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "javaparser-core-testing",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 2718,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 165
+        }
+      },
+      {
+        "module": "javaparser-symbol-solver-testing",
+        "content": {
+          "exact_decls_matches": 4392,
+          "decls_in_baseline_and_tool_with_refs": 4392,
+          "remaining_decls_in_baseline": 363,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9927591463414634,
+          "overall_overestimation_rate": 0.9787100814026299,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 1.8940862816543658,
+          "mean_of_remaining_refs_in_baseline": 0.013814832764465624,
+          "mean_of_remaining_refs_in_tool_results": 0.04120213280630098,
+          "files_len": 249
+        }
+      },
+      {
+        "module": "javaparser-symbol-solver-core",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 4073,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 158
+        }
+      },
+      {
+        "module": "javaparser-core-serialization",
+        "content": {
+          "exact_decls_matches": 128,
+          "decls_in_baseline_and_tool_with_refs": 128,
+          "remaining_decls_in_baseline": 4,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9722222222222222,
+          "overall_overestimation_rate": 0.8909090909090909,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9541666666666667,
+          "mean_of_exact_references": 2.041666649652778,
+          "mean_of_remaining_refs_in_baseline": 0.058333332847222225,
+          "mean_of_remaining_refs_in_tool_results": 0.2499999979166667,
+          "files_len": 4
+        }
+      },
+      {
+        "module": "javaparser-core-testing-bdd",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 815,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 19
+        }
+      },
+      {
+        "module": "javaparser-core-metamodel-generator",
+        "content": {
+          "exact_decls_matches": 161,
+          "decls_in_baseline_and_tool_with_refs": 161,
+          "remaining_decls_in_baseline": 4,
+          "remaining_decls_in_tool_results": 4,
+          "overall_success_rate": 1.0,
+          "overall_overestimation_rate": 0.9748603351955307,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9797775586237125,
+          "mean_of_exact_references": 2.237179472838593,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.05769230732248521,
+          "files_len": 6
+        }
+      },
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 0
+        }
+      },
+      {
+        "module": "javaparser-core-generators",
+        "content": {
+          "exact_decls_matches": 385,
+          "decls_in_baseline_and_tool_with_refs": 385,
+          "remaining_decls_in_baseline": 13,
+          "remaining_decls_in_tool_results": 3,
+          "overall_success_rate": 0.9954545454545455,
+          "overall_overestimation_rate": 0.919202518363064,
+          "mean_success_rate": 0.995702005730659,
+          "mean_overestimation_rate": 0.9603317968522908,
+          "mean_of_exact_references": 2.51002864610307,
+          "mean_of_remaining_refs_in_baseline": 0.011461318018735478,
+          "mean_of_remaining_refs_in_tool_results": 0.22063037186065795,
+          "files_len": 33
+        }
+      },
+      {
+        "module": "javaparser-core",
+        "content": {
+          "exact_decls_matches": 11725,
+          "decls_in_baseline_and_tool_with_refs": 11725,
+          "remaining_decls_in_baseline": 181,
+          "remaining_decls_in_tool_results": 2,
+          "overall_success_rate": 0.9914426236739375,
+          "overall_overestimation_rate": 0.9030333467255927,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 4.152318492134461,
+          "mean_of_remaining_refs_in_baseline": 0.03583964529504529,
+          "mean_of_remaining_refs_in_tool_results": 0.44587105113191655,
+          "files_len": 489
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 26969492308,
+        "memory": 211694080
+      },
+      "evaluated": {
+        "time": 1572271,
+        "memory": 0
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 132727566890,
+        "memory": 947182352
+      },
+      "evaluated": {
+        "time": 39222746578,
+        "memory": 0
+      }
+    },
+    "info": {
+      "repo_name": "javaparser/javaparser",
+      "commit": "53cf132eb3113b7438862b1251d68e3a40267e77",
+      "no": 850,
+      "batch_id": "javaparser/javaparser:(,046bf8be251189452ad6b25bf9107a1a2167ce6f)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 0
+        }
+      },
+      {
+        "module": "javaparser-symbol-solver-testing",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 4657,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 234
+        }
+      },
+      {
+        "module": "javaparser-core",
+        "content": {
+          "exact_decls_matches": 12065,
+          "decls_in_baseline_and_tool_with_refs": 12065,
+          "remaining_decls_in_baseline": 319,
+          "remaining_decls_in_tool_results": 2,
+          "overall_success_rate": 0.9904415208413164,
+          "overall_overestimation_rate": 0.9033980582524271,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 4.174892318361908,
+          "mean_of_remaining_refs_in_baseline": 0.04029073940772696,
+          "mean_of_remaining_refs_in_tool_results": 0.44642857138851144,
+          "files_len": 522
+        }
+      },
+      {
+        "module": "javaparser-symbol-solver-core",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 4047,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 159
+        }
+      },
+      {
+        "module": "javaparser-core-testing",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 3346,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 176
+        }
+      },
+      {
+        "module": "javaparser-core-testing-bdd",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 819,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 19
+        }
+      },
+      {
+        "module": "javaparser-core-serialization",
+        "content": {
+          "exact_decls_matches": 128,
+          "decls_in_baseline_and_tool_with_refs": 128,
+          "remaining_decls_in_baseline": 4,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9722222222222222,
+          "overall_overestimation_rate": 0.8909090909090909,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9541666666666667,
+          "mean_of_exact_references": 2.041666649652778,
+          "mean_of_remaining_refs_in_baseline": 0.058333332847222225,
+          "mean_of_remaining_refs_in_tool_results": 0.2499999979166667,
+          "files_len": 4
+        }
+      },
+      {
+        "module": "javaparser-core-generators",
+        "content": {
+          "exact_decls_matches": 410,
+          "decls_in_baseline_and_tool_with_refs": 410,
+          "remaining_decls_in_baseline": 3,
+          "remaining_decls_in_tool_results": 3,
+          "overall_success_rate": 0.9956756756756757,
+          "overall_overestimation_rate": 0.9504643962848297,
+          "mean_success_rate": 0.9960212201591512,
+          "mean_overestimation_rate": 0.966622458001769,
+          "mean_of_exact_references": 2.4429708158011385,
+          "mean_of_remaining_refs_in_baseline": 0.01061007954745337,
+          "mean_of_remaining_refs_in_tool_results": 0.12732095456944045,
+          "files_len": 33
+        }
+      },
+      {
+        "module": "javaparser-core-metamodel-generator",
+        "content": {
+          "exact_decls_matches": 161,
+          "decls_in_baseline_and_tool_with_refs": 161,
+          "remaining_decls_in_baseline": 4,
+          "remaining_decls_in_tool_results": 4,
+          "overall_success_rate": 1.0,
+          "overall_overestimation_rate": 0.9748603351955307,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9797775586237125,
+          "mean_of_exact_references": 2.237179472838593,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.05769230732248521,
+          "files_len": 6
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 25737882204,
+        "memory": 219542448
+      },
+      "evaluated": {
+        "time": 8552,
+        "memory": 640
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 15495450707,
+        "memory": 1303640720
+      },
+      "evaluated": {
+        "time": 43418403001,
+        "memory": 0
+      }
+    },
+    "info": {
+      "repo_name": "javaparser/javaparser",
+      "commit": "37335bbf7b7f2ccef1bca19ce504f6cd1d88dc47",
+      "no": 450,
+      "batch_id": "javaparser/javaparser:(,046bf8be251189452ad6b25bf9107a1a2167ce6f)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "javaparser-core-testing",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 3507,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 187
+        }
+      },
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 0
+        }
+      },
+      {
+        "module": "javaparser-core-generators",
+        "content": {
+          "exact_decls_matches": 413,
+          "decls_in_baseline_and_tool_with_refs": 413,
+          "remaining_decls_in_baseline": 3,
+          "remaining_decls_in_tool_results": 3,
+          "overall_success_rate": 0.9957264957264957,
+          "overall_overestimation_rate": 0.9510204081632653,
+          "mean_success_rate": 0.9960526315789474,
+          "mean_overestimation_rate": 0.9668859649122812,
+          "mean_of_exact_references": 2.452631572493075,
+          "mean_of_remaining_refs_in_baseline": 0.010526315761772853,
+          "mean_of_remaining_refs_in_tool_results": 0.12631578914127423,
+          "files_len": 33
+        }
+      },
+      {
+        "module": "javaparser-symbol-solver-core",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 4159,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 170
+        }
+      },
+      {
+        "module": "javaparser-core",
+        "content": {
+          "exact_decls_matches": 12007,
+          "decls_in_baseline_and_tool_with_refs": 12007,
+          "remaining_decls_in_baseline": 251,
+          "remaining_decls_in_tool_results": 2,
+          "overall_success_rate": 0.9932244092799862,
+          "overall_overestimation_rate": 0.902347326385507,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 4.176916140290629,
+          "mean_of_remaining_refs_in_baseline": 0.028494138861271945,
+          "mean_of_remaining_refs_in_tool_results": 0.4520288547834059,
+          "files_len": 520
+        }
+      },
+      {
+        "module": "javaparser-symbol-solver-testing",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 4944,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 249
+        }
+      },
+      {
+        "module": "javaparser-core-testing-bdd",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 819,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 19
+        }
+      },
+      {
+        "module": "javaparser-core-serialization",
+        "content": {
+          "exact_decls_matches": 128,
+          "decls_in_baseline_and_tool_with_refs": 128,
+          "remaining_decls_in_baseline": 4,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9722222222222222,
+          "overall_overestimation_rate": 0.8909090909090909,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9541666666666667,
+          "mean_of_exact_references": 2.041666649652778,
+          "mean_of_remaining_refs_in_baseline": 0.058333332847222225,
+          "mean_of_remaining_refs_in_tool_results": 0.2499999979166667,
+          "files_len": 4
+        }
+      },
+      {
+        "module": "javaparser-core-metamodel-generator",
+        "content": {
+          "exact_decls_matches": 161,
+          "decls_in_baseline_and_tool_with_refs": 161,
+          "remaining_decls_in_baseline": 4,
+          "remaining_decls_in_tool_results": 4,
+          "overall_success_rate": 1.0,
+          "overall_overestimation_rate": 0.9748603351955307,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9797775586237125,
+          "mean_of_exact_references": 2.237179472838593,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.05769230732248521,
+          "files_len": 6
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 36271338816,
+        "memory": 223113744
+      },
+      "evaluated": {
+        "time": 10722583282,
+        "memory": 260432736
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 15673845498,
+        "memory": 834887560
+      },
+      "evaluated": {
+        "time": 45075916109,
+        "memory": 259320352
+      }
+    },
+    "info": {
+      "repo_name": "javaparser/javaparser",
+      "commit": "046bf8be251189452ad6b25bf9107a1a2167ce6f",
+      "no": 0,
+      "batch_id": "javaparser/javaparser:(,046bf8be251189452ad6b25bf9107a1a2167ce6f)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "javaparser-core",
+        "content": {
+          "exact_decls_matches": 11730,
+          "decls_in_baseline_and_tool_with_refs": 11730,
+          "remaining_decls_in_baseline": 454,
+          "remaining_decls_in_tool_results": 2,
+          "overall_success_rate": 0.9839553386962064,
+          "overall_overestimation_rate": 0.9023441436720214,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 4.133321022607947,
+          "mean_of_remaining_refs_in_baseline": 0.06739913211454167,
+          "mean_of_remaining_refs_in_tool_results": 0.44732711656843066,
+          "files_len": 522
+        }
+      },
+      {
+        "module": "javaparser-core-metamodel-generator",
+        "content": {
+          "exact_decls_matches": 161,
+          "decls_in_baseline_and_tool_with_refs": 161,
+          "remaining_decls_in_baseline": 4,
+          "remaining_decls_in_tool_results": 4,
+          "overall_success_rate": 1.0,
+          "overall_overestimation_rate": 0.9748603351955307,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9797775586237125,
+          "mean_of_exact_references": 2.237179472838593,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.05769230732248521,
+          "files_len": 6
+        }
+      },
+      {
+        "module": "javaparser-core-testing-bdd",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 815,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 19
+        }
+      },
+      {
+        "module": "javaparser-symbol-solver-core",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 4038,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 159
+        }
+      },
+      {
+        "module": "javaparser-core-serialization",
+        "content": {
+          "exact_decls_matches": 128,
+          "decls_in_baseline_and_tool_with_refs": 128,
+          "remaining_decls_in_baseline": 4,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9722222222222222,
+          "overall_overestimation_rate": 0.8909090909090909,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9541666666666667,
+          "mean_of_exact_references": 2.041666649652778,
+          "mean_of_remaining_refs_in_baseline": 0.058333332847222225,
+          "mean_of_remaining_refs_in_tool_results": 0.2499999979166667,
+          "files_len": 4
+        }
+      },
+      {
+        "module": "javaparser-core-generators",
+        "content": {
+          "exact_decls_matches": 405,
+          "decls_in_baseline_and_tool_with_refs": 405,
+          "remaining_decls_in_baseline": 3,
+          "remaining_decls_in_tool_results": 3,
+          "overall_success_rate": 0.9956521739130435,
+          "overall_overestimation_rate": 0.9224572004028198,
+          "mean_success_rate": 0.9959677419354839,
+          "mean_overestimation_rate": 0.9627844008103482,
+          "mean_of_exact_references": 2.462365584778587,
+          "mean_of_remaining_refs_in_baseline": 0.010752688143137935,
+          "mean_of_remaining_refs_in_tool_results": 0.20698924675540525,
+          "files_len": 33
+        }
+      },
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 0
+        }
+      },
+      {
+        "module": "javaparser-core-testing",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 3158,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 169
+        }
+      },
+      {
+        "module": "javaparser-symbol-solver-testing",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 4637,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 233
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 25140773140,
+        "memory": 217559496
+      },
+      "evaluated": {
+        "time": 398799776,
+        "memory": 311264
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 16511177565,
+        "memory": 521779088
+      },
+      "evaluated": {
+        "time": 41196209183,
+        "memory": 0
+      }
+    },
+    "info": {
+      "repo_name": "javaparser/javaparser",
+      "commit": "a84a971c969f629e1c615d6b62bf46004255eeca",
+      "no": 600,
+      "batch_id": "javaparser/javaparser:(,046bf8be251189452ad6b25bf9107a1a2167ce6f)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "javaparser-core",
+        "content": {
+          "exact_decls_matches": 11730,
+          "decls_in_baseline_and_tool_with_refs": 11730,
+          "remaining_decls_in_baseline": 400,
+          "remaining_decls_in_tool_results": 2,
+          "overall_success_rate": 0.986709572193692,
+          "overall_overestimation_rate": 0.9023441436720214,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 4.133321022607947,
+          "mean_of_remaining_refs_in_baseline": 0.0556735296781762,
+          "mean_of_remaining_refs_in_tool_results": 0.44732711656843066,
+          "files_len": 520
+        }
+      },
+      {
+        "module": "javaparser-symbol-solver-testing",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 4571,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 230
+        }
+      },
+      {
+        "module": "javaparser-symbol-solver-core",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 4044,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 159
+        }
+      },
+      {
+        "module": "javaparser-core-testing",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 3137,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 168
+        }
+      },
+      {
+        "module": "javaparser-core-metamodel-generator",
+        "content": {
+          "exact_decls_matches": 161,
+          "decls_in_baseline_and_tool_with_refs": 161,
+          "remaining_decls_in_baseline": 4,
+          "remaining_decls_in_tool_results": 4,
+          "overall_success_rate": 1.0,
+          "overall_overestimation_rate": 0.9748603351955307,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9797775586237125,
+          "mean_of_exact_references": 2.237179472838593,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.05769230732248521,
+          "files_len": 6
+        }
+      },
+      {
+        "module": "javaparser-core-testing-bdd",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 815,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 19
+        }
+      },
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 0
+        }
+      },
+      {
+        "module": "javaparser-core-generators",
+        "content": {
+          "exact_decls_matches": 405,
+          "decls_in_baseline_and_tool_with_refs": 405,
+          "remaining_decls_in_baseline": 3,
+          "remaining_decls_in_tool_results": 3,
+          "overall_success_rate": 0.9956521739130435,
+          "overall_overestimation_rate": 0.9224572004028198,
+          "mean_success_rate": 0.9959677419354839,
+          "mean_overestimation_rate": 0.9627844008103482,
+          "mean_of_exact_references": 2.462365584778587,
+          "mean_of_remaining_refs_in_baseline": 0.010752688143137935,
+          "mean_of_remaining_refs_in_tool_results": 0.20698924675540525,
+          "files_len": 33
+        }
+      },
+      {
+        "module": "javaparser-core-serialization",
+        "content": {
+          "exact_decls_matches": 128,
+          "decls_in_baseline_and_tool_with_refs": 128,
+          "remaining_decls_in_baseline": 4,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9722222222222222,
+          "overall_overestimation_rate": 0.8909090909090909,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9541666666666667,
+          "mean_of_exact_references": 2.041666649652778,
+          "mean_of_remaining_refs_in_baseline": 0.058333332847222225,
+          "mean_of_remaining_refs_in_tool_results": 0.2499999979166667,
+          "files_len": 4
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 25101856297,
+        "memory": 216514928
+      },
+      "evaluated": {
+        "time": 422333060,
+        "memory": 293592
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 14141514359,
+        "memory": 310620424
+      },
+      "evaluated": {
+        "time": 41163376026,
+        "memory": 0
+      }
+    },
+    "info": {
+      "repo_name": "javaparser/javaparser",
+      "commit": "4234e5c809a57b570e56fc5f4a5f39cf9351882f",
+      "no": 650,
+      "batch_id": "javaparser/javaparser:(,046bf8be251189452ad6b25bf9107a1a2167ce6f)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "javaparser-symbol-solver-core",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 4135,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 165
+        }
+      },
+      {
+        "module": "javaparser-core-generators",
+        "content": {
+          "exact_decls_matches": 413,
+          "decls_in_baseline_and_tool_with_refs": 413,
+          "remaining_decls_in_baseline": 3,
+          "remaining_decls_in_tool_results": 3,
+          "overall_success_rate": 0.9957264957264957,
+          "overall_overestimation_rate": 0.9510204081632653,
+          "mean_success_rate": 0.9960526315789474,
+          "mean_overestimation_rate": 0.9668859649122812,
+          "mean_of_exact_references": 2.452631572493075,
+          "mean_of_remaining_refs_in_baseline": 0.010526315761772853,
+          "mean_of_remaining_refs_in_tool_results": 0.12631578914127423,
+          "files_len": 33
+        }
+      },
+      {
+        "module": "javaparser-core-testing-bdd",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 819,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 19
+        }
+      },
+      {
+        "module": "javaparser-core",
+        "content": {
+          "exact_decls_matches": 12006,
+          "decls_in_baseline_and_tool_with_refs": 12006,
+          "remaining_decls_in_baseline": 305,
+          "remaining_decls_in_tool_results": 2,
+          "overall_success_rate": 0.9905053140303232,
+          "overall_overestimation_rate": 0.9023591981453702,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 4.177022273949227,
+          "mean_of_remaining_refs_in_baseline": 0.0400396789575219,
+          "mean_of_remaining_refs_in_tool_results": 0.45197943904301746,
+          "files_len": 522
+        }
+      },
+      {
+        "module": "javaparser-core-metamodel-generator",
+        "content": {
+          "exact_decls_matches": 161,
+          "decls_in_baseline_and_tool_with_refs": 161,
+          "remaining_decls_in_baseline": 4,
+          "remaining_decls_in_tool_results": 4,
+          "overall_success_rate": 1.0,
+          "overall_overestimation_rate": 0.9748603351955307,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9797775586237125,
+          "mean_of_exact_references": 2.237179472838593,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.05769230732248521,
+          "files_len": 6
+        }
+      },
+      {
+        "module": "javaparser-symbol-solver-testing",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 4928,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 248
+        }
+      },
+      {
+        "module": "javaparser-core-serialization",
+        "content": {
+          "exact_decls_matches": 128,
+          "decls_in_baseline_and_tool_with_refs": 128,
+          "remaining_decls_in_baseline": 4,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9722222222222222,
+          "overall_overestimation_rate": 0.8909090909090909,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9541666666666667,
+          "mean_of_exact_references": 2.041666649652778,
+          "mean_of_remaining_refs_in_baseline": 0.058333332847222225,
+          "mean_of_remaining_refs_in_tool_results": 0.2499999979166667,
+          "files_len": 4
+        }
+      },
+      {
+        "module": "javaparser-core-testing",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 3505,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 187
+        }
+      },
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 0
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 24773174568,
+        "memory": 223521816
+      },
+      "evaluated": {
+        "time": 3819813,
+        "memory": 5840
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 15401896684,
+        "memory": 851328360
+      },
+      "evaluated": {
+        "time": 44890480311,
+        "memory": 0
+      }
+    },
+    "info": {
+      "repo_name": "javaparser/javaparser",
+      "commit": "404e920e6ea6f589aaf278b9000190a0c7877062",
+      "no": 50,
+      "batch_id": "javaparser/javaparser:(,046bf8be251189452ad6b25bf9107a1a2167ce6f)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "javaparser-core-generators",
+        "content": {
+          "exact_decls_matches": 385,
+          "decls_in_baseline_and_tool_with_refs": 385,
+          "remaining_decls_in_baseline": 13,
+          "remaining_decls_in_tool_results": 3,
+          "overall_success_rate": 0.9954545454545455,
+          "overall_overestimation_rate": 0.919202518363064,
+          "mean_success_rate": 0.995702005730659,
+          "mean_overestimation_rate": 0.9603317968522908,
+          "mean_of_exact_references": 2.51002864610307,
+          "mean_of_remaining_refs_in_baseline": 0.011461318018735478,
+          "mean_of_remaining_refs_in_tool_results": 0.22063037186065795,
+          "files_len": 33
+        }
+      },
+      {
+        "module": "javaparser-core-metamodel-generator",
+        "content": {
+          "exact_decls_matches": 161,
+          "decls_in_baseline_and_tool_with_refs": 161,
+          "remaining_decls_in_baseline": 4,
+          "remaining_decls_in_tool_results": 4,
+          "overall_success_rate": 1.0,
+          "overall_overestimation_rate": 0.9748603351955307,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9797775586237125,
+          "mean_of_exact_references": 2.237179472838593,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.05769230732248521,
+          "files_len": 6
+        }
+      },
+      {
+        "module": "javaparser-core-serialization",
+        "content": {
+          "exact_decls_matches": 128,
+          "decls_in_baseline_and_tool_with_refs": 128,
+          "remaining_decls_in_baseline": 4,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9722222222222222,
+          "overall_overestimation_rate": 0.8909090909090909,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9541666666666667,
+          "mean_of_exact_references": 2.041666649652778,
+          "mean_of_remaining_refs_in_baseline": 0.058333332847222225,
+          "mean_of_remaining_refs_in_tool_results": 0.2499999979166667,
+          "files_len": 4
+        }
+      },
+      {
+        "module": "javaparser-core-testing-bdd",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 815,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 19
+        }
+      },
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 0
+        }
+      },
+      {
+        "module": "javaparser-core-testing",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 2699,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 163
+        }
+      },
+      {
+        "module": "javaparser-core",
+        "content": {
+          "exact_decls_matches": 11708,
+          "decls_in_baseline_and_tool_with_refs": 11708,
+          "remaining_decls_in_baseline": 407,
+          "remaining_decls_in_tool_results": 2,
+          "overall_success_rate": 0.9866142078424477,
+          "overall_overestimation_rate": 0.9031226107601303,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 4.151590824625269,
+          "mean_of_remaining_refs_in_baseline": 0.05632630410133867,
+          "mean_of_remaining_refs_in_tool_results": 0.4453385127224067,
+          "files_len": 520
+        }
+      },
+      {
+        "module": "javaparser-symbol-solver-core",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 4041,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 157
+        }
+      },
+      {
+        "module": "javaparser-symbol-solver-testing",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 4230,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 177
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 26621565489,
+        "memory": 211674496
+      },
+      "evaluated": {
+        "time": 439856012,
+        "memory": 697448
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 14821339826,
+        "memory": 775261784
+      },
+      "evaluated": {
+        "time": 37517963781,
+        "memory": 0
+      }
+    },
+    "info": {
+      "repo_name": "javaparser/javaparser",
+      "commit": "f968e942ff677480d344581441d46646db24a5e9",
+      "no": 950,
+      "batch_id": "javaparser/javaparser:(,046bf8be251189452ad6b25bf9107a1a2167ce6f)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "javaparser-core-testing-bdd",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 819,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 19
+        }
+      },
+      {
+        "module": "javaparser-core-metamodel-generator",
+        "content": {
+          "exact_decls_matches": 161,
+          "decls_in_baseline_and_tool_with_refs": 161,
+          "remaining_decls_in_baseline": 4,
+          "remaining_decls_in_tool_results": 4,
+          "overall_success_rate": 1.0,
+          "overall_overestimation_rate": 0.9748603351955307,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9797775586237125,
+          "mean_of_exact_references": 2.237179472838593,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.05769230732248521,
+          "files_len": 6
+        }
+      },
+      {
+        "module": "javaparser-core-serialization",
+        "content": {
+          "exact_decls_matches": 128,
+          "decls_in_baseline_and_tool_with_refs": 128,
+          "remaining_decls_in_baseline": 4,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9722222222222222,
+          "overall_overestimation_rate": 0.8909090909090909,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9541666666666667,
+          "mean_of_exact_references": 2.041666649652778,
+          "mean_of_remaining_refs_in_baseline": 0.058333332847222225,
+          "mean_of_remaining_refs_in_tool_results": 0.2499999979166667,
+          "files_len": 4
+        }
+      },
+      {
+        "module": "javaparser-core-testing",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 3496,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 185
+        }
+      },
+      {
+        "module": "javaparser-symbol-solver-testing",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 4919,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 248
+        }
+      },
+      {
+        "module": "javaparser-symbol-solver-core",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 4131,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 165
+        }
+      },
+      {
+        "module": "javaparser-core-generators",
+        "content": {
+          "exact_decls_matches": 413,
+          "decls_in_baseline_and_tool_with_refs": 413,
+          "remaining_decls_in_baseline": 3,
+          "remaining_decls_in_tool_results": 3,
+          "overall_success_rate": 0.9957264957264957,
+          "overall_overestimation_rate": 0.9510204081632653,
+          "mean_success_rate": 0.9960526315789474,
+          "mean_overestimation_rate": 0.9668859649122812,
+          "mean_of_exact_references": 2.452631572493075,
+          "mean_of_remaining_refs_in_baseline": 0.010526315761772853,
+          "mean_of_remaining_refs_in_tool_results": 0.12631578914127423,
+          "files_len": 33
+        }
+      },
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 0
+        }
+      },
+      {
+        "module": "javaparser-core",
+        "content": {
+          "exact_decls_matches": 12000,
+          "decls_in_baseline_and_tool_with_refs": 12000,
+          "remaining_decls_in_baseline": 33,
+          "remaining_decls_in_tool_results": 2,
+          "overall_success_rate": 0.9977597794244356,
+          "overall_overestimation_rate": 0.9027831917049973,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 4.180505414785153,
+          "mean_of_remaining_refs_in_baseline": 0.009386281587600517,
+          "mean_of_remaining_refs_in_tool_results": 0.4501805053745324,
+          "files_len": 489
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 27849691860,
+        "memory": 220062056
+      },
+      "evaluated": {
+        "time": 9594,
+        "memory": 256
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 16557069934,
+        "memory": 1471888632
+      },
+      "evaluated": {
+        "time": 44646628965,
+        "memory": 0
+      }
+    },
+    "info": {
+      "repo_name": "javaparser/javaparser",
+      "commit": "eb7df5cc65b4fd5c6db6db24bc50269639f6c2f1",
+      "no": 100,
+      "batch_id": "javaparser/javaparser:(,046bf8be251189452ad6b25bf9107a1a2167ce6f)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "javaparser-core-serialization",
+        "content": {
+          "exact_decls_matches": 128,
+          "decls_in_baseline_and_tool_with_refs": 128,
+          "remaining_decls_in_baseline": 4,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9722222222222222,
+          "overall_overestimation_rate": 0.8909090909090909,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9541666666666667,
+          "mean_of_exact_references": 2.041666649652778,
+          "mean_of_remaining_refs_in_baseline": 0.058333332847222225,
+          "mean_of_remaining_refs_in_tool_results": 0.2499999979166667,
+          "files_len": 4
+        }
+      },
+      {
+        "module": "javaparser-core-generators",
+        "content": {
+          "exact_decls_matches": 410,
+          "decls_in_baseline_and_tool_with_refs": 410,
+          "remaining_decls_in_baseline": 3,
+          "remaining_decls_in_tool_results": 3,
+          "overall_success_rate": 0.9956756756756757,
+          "overall_overestimation_rate": 0.9504643962848297,
+          "mean_success_rate": 0.9960212201591512,
+          "mean_overestimation_rate": 0.966622458001769,
+          "mean_of_exact_references": 2.4429708158011385,
+          "mean_of_remaining_refs_in_baseline": 0.01061007954745337,
+          "mean_of_remaining_refs_in_tool_results": 0.12732095456944045,
+          "files_len": 33
+        }
+      },
+      {
+        "module": "javaparser-core-metamodel-generator",
+        "content": {
+          "exact_decls_matches": 161,
+          "decls_in_baseline_and_tool_with_refs": 161,
+          "remaining_decls_in_baseline": 4,
+          "remaining_decls_in_tool_results": 4,
+          "overall_success_rate": 1.0,
+          "overall_overestimation_rate": 0.9748603351955307,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9797775586237125,
+          "mean_of_exact_references": 2.237179472838593,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.05769230732248521,
+          "files_len": 6
+        }
+      },
+      {
+        "module": "javaparser-core-testing",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 3398,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 180
+        }
+      },
+      {
+        "module": "javaparser-symbol-solver-testing",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 4740,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 239
+        }
+      },
+      {
+        "module": "javaparser-core",
+        "content": {
+          "exact_decls_matches": 12074,
+          "decls_in_baseline_and_tool_with_refs": 12074,
+          "remaining_decls_in_baseline": 47,
+          "remaining_decls_in_tool_results": 2,
+          "overall_success_rate": 0.9976015589866587,
+          "overall_overestimation_rate": 0.903720803910918,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 4.17652859923108,
+          "mean_of_remaining_refs_in_baseline": 0.010041240809571342,
+          "mean_of_remaining_refs_in_tool_results": 0.4449524833741301,
+          "files_len": 489
+        }
+      },
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 0
+        }
+      },
+      {
+        "module": "javaparser-core-testing-bdd",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 819,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 19
+        }
+      },
+      {
+        "module": "javaparser-symbol-solver-core",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 4055,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 161
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 28838265955,
+        "memory": 218716536
+      },
+      "evaluated": {
+        "time": 16947,
+        "memory": 6336
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 16499769960,
+        "memory": 500937696
+      },
+      "evaluated": {
+        "time": 43705845091,
+        "memory": 0
+      }
+    },
+    "info": {
+      "repo_name": "javaparser/javaparser",
+      "commit": "5d17579bf6e8e0f3035c137c2c263466f5e90e4e",
+      "no": 300,
+      "batch_id": "javaparser/javaparser:(,046bf8be251189452ad6b25bf9107a1a2167ce6f)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "javaparser-core",
+        "content": {
+          "exact_decls_matches": 11985,
+          "decls_in_baseline_and_tool_with_refs": 11985,
+          "remaining_decls_in_baseline": 312,
+          "remaining_decls_in_tool_results": 2,
+          "overall_success_rate": 0.9903214063938673,
+          "overall_overestimation_rate": 0.9024547299406807,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 4.179755986969746,
+          "mean_of_remaining_refs_in_baseline": 0.040849525527261676,
+          "mean_of_remaining_refs_in_tool_results": 0.45178490732473703,
+          "files_len": 523
+        }
+      },
+      {
+        "module": "javaparser-core-testing-bdd",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 819,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 19
+        }
+      },
+      {
+        "module": "javaparser-core-generators",
+        "content": {
+          "exact_decls_matches": 413,
+          "decls_in_baseline_and_tool_with_refs": 413,
+          "remaining_decls_in_baseline": 3,
+          "remaining_decls_in_tool_results": 3,
+          "overall_success_rate": 0.9957264957264957,
+          "overall_overestimation_rate": 0.9510204081632653,
+          "mean_success_rate": 0.9960526315789474,
+          "mean_overestimation_rate": 0.9668859649122812,
+          "mean_of_exact_references": 2.452631572493075,
+          "mean_of_remaining_refs_in_baseline": 0.010526315761772853,
+          "mean_of_remaining_refs_in_tool_results": 0.12631578914127423,
+          "files_len": 33
+        }
+      },
+      {
+        "module": "javaparser-symbol-solver-core",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 4131,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 165
+        }
+      },
+      {
+        "module": "javaparser-symbol-solver-testing",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 4843,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 246
+        }
+      },
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 0
+        }
+      },
+      {
+        "module": "javaparser-core-testing",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 3482,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 184
+        }
+      },
+      {
+        "module": "javaparser-core-serialization",
+        "content": {
+          "exact_decls_matches": 128,
+          "decls_in_baseline_and_tool_with_refs": 128,
+          "remaining_decls_in_baseline": 4,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9722222222222222,
+          "overall_overestimation_rate": 0.8909090909090909,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9541666666666667,
+          "mean_of_exact_references": 2.041666649652778,
+          "mean_of_remaining_refs_in_baseline": 0.058333332847222225,
+          "mean_of_remaining_refs_in_tool_results": 0.2499999979166667,
+          "files_len": 4
+        }
+      },
+      {
+        "module": "javaparser-core-metamodel-generator",
+        "content": {
+          "exact_decls_matches": 161,
+          "decls_in_baseline_and_tool_with_refs": 161,
+          "remaining_decls_in_baseline": 4,
+          "remaining_decls_in_tool_results": 4,
+          "overall_success_rate": 1.0,
+          "overall_overestimation_rate": 0.9748603351955307,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9797775586237125,
+          "mean_of_exact_references": 2.237179472838593,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.05769230732248521,
+          "files_len": 6
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 25533917179,
+        "memory": 220740568
+      },
+      "evaluated": {
+        "time": 317532103,
+        "memory": 572624
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 15812810478,
+        "memory": 415687504
+      },
+      "evaluated": {
+        "time": 44104789907,
+        "memory": 0
+      }
+    },
+    "info": {
+      "repo_name": "javaparser/javaparser",
+      "commit": "c0e0817026dd2efaa42236964a5c0a37cdf3abde",
+      "no": 150,
+      "batch_id": "javaparser/javaparser:(,046bf8be251189452ad6b25bf9107a1a2167ce6f)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "javaparser-symbol-solver-core",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 4041,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 157
+        }
+      },
+      {
+        "module": "javaparser-symbol-solver-testing",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 4275,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 180
+        }
+      },
+      {
+        "module": "javaparser-core-metamodel-generator",
+        "content": {
+          "exact_decls_matches": 161,
+          "decls_in_baseline_and_tool_with_refs": 161,
+          "remaining_decls_in_baseline": 4,
+          "remaining_decls_in_tool_results": 4,
+          "overall_success_rate": 1.0,
+          "overall_overestimation_rate": 0.9748603351955307,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9797775586237125,
+          "mean_of_exact_references": 2.237179472838593,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.05769230732248521,
+          "files_len": 6
+        }
+      },
+      {
+        "module": "javaparser-core-generators",
+        "content": {
+          "exact_decls_matches": 385,
+          "decls_in_baseline_and_tool_with_refs": 385,
+          "remaining_decls_in_baseline": 13,
+          "remaining_decls_in_tool_results": 3,
+          "overall_success_rate": 0.9954545454545455,
+          "overall_overestimation_rate": 0.919202518363064,
+          "mean_success_rate": 0.995702005730659,
+          "mean_overestimation_rate": 0.9603317968522908,
+          "mean_of_exact_references": 2.51002864610307,
+          "mean_of_remaining_refs_in_baseline": 0.011461318018735478,
+          "mean_of_remaining_refs_in_tool_results": 0.22063037186065795,
+          "files_len": 33
+        }
+      },
+      {
+        "module": "javaparser-core",
+        "content": {
+          "exact_decls_matches": 11836,
+          "decls_in_baseline_and_tool_with_refs": 11836,
+          "remaining_decls_in_baseline": 421,
+          "remaining_decls_in_tool_results": 2,
+          "overall_success_rate": 0.9862433862433863,
+          "overall_overestimation_rate": 0.9037083943483595,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 4.177460665552738,
+          "mean_of_remaining_refs_in_baseline": 0.05826930112895451,
+          "mean_of_remaining_refs_in_tool_results": 0.44511525791757084,
+          "files_len": 523
+        }
+      },
+      {
+        "module": "javaparser-core-serialization",
+        "content": {
+          "exact_decls_matches": 128,
+          "decls_in_baseline_and_tool_with_refs": 128,
+          "remaining_decls_in_baseline": 4,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9722222222222222,
+          "overall_overestimation_rate": 0.8909090909090909,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9541666666666667,
+          "mean_of_exact_references": 2.041666649652778,
+          "mean_of_remaining_refs_in_baseline": 0.058333332847222225,
+          "mean_of_remaining_refs_in_tool_results": 0.2499999979166667,
+          "files_len": 4
+        }
+      },
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 0
+        }
+      },
+      {
+        "module": "javaparser-core-testing-bdd",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 815,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 19
+        }
+      },
+      {
+        "module": "javaparser-core-testing",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 2716,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 165
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 24861323750,
+        "memory": 212080616
+      },
+      "evaluated": {
+        "time": 871253884,
+        "memory": 468624
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 14413661437,
+        "memory": 573291264
+      },
+      "evaluated": {
+        "time": 39986226476,
+        "memory": 0
+      }
+    },
+    "info": {
+      "repo_name": "javaparser/javaparser",
+      "commit": "d8799e58f40dccb2b1c058e8515a4df0d0dd80d0",
+      "no": 550,
+      "batch_id": "javaparser/javaparser:(,046bf8be251189452ad6b25bf9107a1a2167ce6f)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "javaparser-core",
+        "content": {
+          "exact_decls_matches": 11991,
+          "decls_in_baseline_and_tool_with_refs": 11991,
+          "remaining_decls_in_baseline": 339,
+          "remaining_decls_in_tool_results": 2,
+          "overall_success_rate": 0.9896269997433484,
+          "overall_overestimation_rate": 0.9035539933606718,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 4.177214046747566,
+          "mean_of_remaining_refs_in_baseline": 0.04378441815981002,
+          "mean_of_remaining_refs_in_tool_results": 0.4458788480233024,
+          "files_len": 522
+        }
+      },
+      {
+        "module": "javaparser-core-metamodel-generator",
+        "content": {
+          "exact_decls_matches": 161,
+          "decls_in_baseline_and_tool_with_refs": 161,
+          "remaining_decls_in_baseline": 4,
+          "remaining_decls_in_tool_results": 4,
+          "overall_success_rate": 1.0,
+          "overall_overestimation_rate": 0.9748603351955307,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9797775586237125,
+          "mean_of_exact_references": 2.237179472838593,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.05769230732248521,
+          "files_len": 6
+        }
+      },
+      {
+        "module": "javaparser-symbol-solver-testing",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 4657,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 234
+        }
+      },
+      {
+        "module": "javaparser-core-testing-bdd",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 815,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 19
+        }
+      },
+      {
+        "module": "javaparser-core-generators",
+        "content": {
+          "exact_decls_matches": 410,
+          "decls_in_baseline_and_tool_with_refs": 410,
+          "remaining_decls_in_baseline": 3,
+          "remaining_decls_in_tool_results": 3,
+          "overall_success_rate": 0.9956756756756757,
+          "overall_overestimation_rate": 0.9504643962848297,
+          "mean_success_rate": 0.9960212201591512,
+          "mean_overestimation_rate": 0.966622458001769,
+          "mean_of_exact_references": 2.4429708158011385,
+          "mean_of_remaining_refs_in_baseline": 0.01061007954745337,
+          "mean_of_remaining_refs_in_tool_results": 0.12732095456944045,
+          "files_len": 33
+        }
+      },
+      {
+        "module": "javaparser-symbol-solver-core",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 4041,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 159
+        }
+      },
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 0
+        }
+      },
+      {
+        "module": "javaparser-core-testing",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 3327,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 176
+        }
+      },
+      {
+        "module": "javaparser-core-serialization",
+        "content": {
+          "exact_decls_matches": 128,
+          "decls_in_baseline_and_tool_with_refs": 128,
+          "remaining_decls_in_baseline": 4,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9722222222222222,
+          "overall_overestimation_rate": 0.8909090909090909,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9541666666666667,
+          "mean_of_exact_references": 2.041666649652778,
+          "mean_of_remaining_refs_in_baseline": 0.058333332847222225,
+          "mean_of_remaining_refs_in_tool_results": 0.2499999979166667,
+          "files_len": 4
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 27076132759,
+        "memory": 218975608
+      },
+      "evaluated": {
+        "time": 4015563010,
+        "memory": 7831344
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 15449530962,
+        "memory": 615862088
+      },
+      "evaluated": {
+        "time": 43005846303,
+        "memory": 6720800
+      }
+    },
+    "info": {
+      "repo_name": "javaparser/javaparser",
+      "commit": "c289717a0e998643be9f59719ad7dd32564b4a57",
+      "no": 500,
+      "batch_id": "javaparser/javaparser:(,046bf8be251189452ad6b25bf9107a1a2167ce6f)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "javaparser-core-generators",
+        "content": {
+          "exact_decls_matches": 405,
+          "decls_in_baseline_and_tool_with_refs": 405,
+          "remaining_decls_in_baseline": 3,
+          "remaining_decls_in_tool_results": 3,
+          "overall_success_rate": 0.9956521739130435,
+          "overall_overestimation_rate": 0.9224572004028198,
+          "mean_success_rate": 0.9959677419354839,
+          "mean_overestimation_rate": 0.9627844008103482,
+          "mean_of_exact_references": 2.462365584778587,
+          "mean_of_remaining_refs_in_baseline": 0.010752688143137935,
+          "mean_of_remaining_refs_in_tool_results": 0.20698924675540525,
+          "files_len": 33
+        }
+      },
+      {
+        "module": "javaparser-core-serialization",
+        "content": {
+          "exact_decls_matches": 128,
+          "decls_in_baseline_and_tool_with_refs": 128,
+          "remaining_decls_in_baseline": 4,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9722222222222222,
+          "overall_overestimation_rate": 0.8909090909090909,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9541666666666667,
+          "mean_of_exact_references": 2.041666649652778,
+          "mean_of_remaining_refs_in_baseline": 0.058333332847222225,
+          "mean_of_remaining_refs_in_tool_results": 0.2499999979166667,
+          "files_len": 4
+        }
+      },
+      {
+        "module": "javaparser-core-metamodel-generator",
+        "content": {
+          "exact_decls_matches": 161,
+          "decls_in_baseline_and_tool_with_refs": 161,
+          "remaining_decls_in_baseline": 4,
+          "remaining_decls_in_tool_results": 4,
+          "overall_success_rate": 1.0,
+          "overall_overestimation_rate": 0.9748603351955307,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9797775586237125,
+          "mean_of_exact_references": 2.237179472838593,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.05769230732248521,
+          "files_len": 6
+        }
+      },
+      {
+        "module": "javaparser-core-testing",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 3122,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 168
+        }
+      },
+      {
+        "module": "javaparser-symbol-solver-core",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 4082,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 158
+        }
+      },
+      {
+        "module": "javaparser-core",
+        "content": {
+          "exact_decls_matches": 11730,
+          "decls_in_baseline_and_tool_with_refs": 11730,
+          "remaining_decls_in_baseline": 460,
+          "remaining_decls_in_tool_results": 2,
+          "overall_success_rate": 0.983825953191957,
+          "overall_overestimation_rate": 0.9023097387939374,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 4.133413350186187,
+          "mean_of_remaining_refs_in_baseline": 0.06795309758397626,
+          "mean_of_remaining_refs_in_tool_results": 0.44751177172490886,
+          "files_len": 523
+        }
+      },
+      {
+        "module": "javaparser-symbol-solver-testing",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 4513,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 225
+        }
+      },
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 0
+        }
+      },
+      {
+        "module": "javaparser-core-testing-bdd",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 815,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 19
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 24868847274,
+        "memory": 216686280
+      },
+      "evaluated": {
+        "time": 19617,
+        "memory": 1344
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 15170880342,
+        "memory": 1460722288
+      },
+      "evaluated": {
+        "time": 40544291745,
+        "memory": 0
+      }
+    },
+    "info": {
+      "repo_name": "javaparser/javaparser",
+      "commit": "ed44b00cbd0f238dd626eaed1abc39076d495dee",
+      "no": 750,
+      "batch_id": "javaparser/javaparser:(,046bf8be251189452ad6b25bf9107a1a2167ce6f)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "javaparser-core",
+        "content": {
+          "exact_decls_matches": 12065,
+          "decls_in_baseline_and_tool_with_refs": 12065,
+          "remaining_decls_in_baseline": 326,
+          "remaining_decls_in_tool_results": 2,
+          "overall_success_rate": 0.9902728704610276,
+          "overall_overestimation_rate": 0.9033980582524271,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 4.174892318361908,
+          "mean_of_remaining_refs_in_baseline": 0.04100861449739693,
+          "mean_of_remaining_refs_in_tool_results": 0.44642857138851144,
+          "files_len": 523
+        }
+      },
+      {
+        "module": "javaparser-core-metamodel-generator",
+        "content": {
+          "exact_decls_matches": 161,
+          "decls_in_baseline_and_tool_with_refs": 161,
+          "remaining_decls_in_baseline": 4,
+          "remaining_decls_in_tool_results": 4,
+          "overall_success_rate": 1.0,
+          "overall_overestimation_rate": 0.9748603351955307,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9797775586237125,
+          "mean_of_exact_references": 2.237179472838593,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.05769230732248521,
+          "files_len": 6
+        }
+      },
+      {
+        "module": "javaparser-core-serialization",
+        "content": {
+          "exact_decls_matches": 128,
+          "decls_in_baseline_and_tool_with_refs": 128,
+          "remaining_decls_in_baseline": 4,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9722222222222222,
+          "overall_overestimation_rate": 0.8909090909090909,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9541666666666667,
+          "mean_of_exact_references": 2.041666649652778,
+          "mean_of_remaining_refs_in_baseline": 0.058333332847222225,
+          "mean_of_remaining_refs_in_tool_results": 0.2499999979166667,
+          "files_len": 4
+        }
+      },
+      {
+        "module": "javaparser-core-testing-bdd",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 819,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 19
+        }
+      },
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 0
+        }
+      },
+      {
+        "module": "javaparser-core-generators",
+        "content": {
+          "exact_decls_matches": 410,
+          "decls_in_baseline_and_tool_with_refs": 410,
+          "remaining_decls_in_baseline": 3,
+          "remaining_decls_in_tool_results": 3,
+          "overall_success_rate": 0.9956756756756757,
+          "overall_overestimation_rate": 0.9504643962848297,
+          "mean_success_rate": 0.9960212201591512,
+          "mean_overestimation_rate": 0.966622458001769,
+          "mean_of_exact_references": 2.4429708158011385,
+          "mean_of_remaining_refs_in_baseline": 0.01061007954745337,
+          "mean_of_remaining_refs_in_tool_results": 0.12732095456944045,
+          "files_len": 33
+        }
+      },
+      {
+        "module": "javaparser-core-testing",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 3370,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 178
+        }
+      },
+      {
+        "module": "javaparser-symbol-solver-core",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 4056,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 160
+        }
+      },
+      {
+        "module": "javaparser-symbol-solver-testing",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 4665,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 234
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 24958366121,
+        "memory": 219796168
+      },
+      "evaluated": {
+        "time": 461903667,
+        "memory": 493432
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 14810518770,
+        "memory": 1136531456
+      },
+      "evaluated": {
+        "time": 43138940521,
+        "memory": 0
+      }
+    },
+    "info": {
+      "repo_name": "javaparser/javaparser",
+      "commit": "853048dfe3ae630cbf8e0ab487f0dee115e636ce",
+      "no": 400,
+      "batch_id": "javaparser/javaparser:(,046bf8be251189452ad6b25bf9107a1a2167ce6f)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "javaparser-core",
+        "content": {
+          "exact_decls_matches": 11730,
+          "decls_in_baseline_and_tool_with_refs": 11730,
+          "remaining_decls_in_baseline": 181,
+          "remaining_decls_in_tool_results": 2,
+          "overall_success_rate": 0.9914107984858211,
+          "overall_overestimation_rate": 0.9026686016043859,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 4.134890591438012,
+          "mean_of_remaining_refs_in_baseline": 0.035823100356770096,
+          "mean_of_remaining_refs_in_tool_results": 0.44584987531660514,
+          "files_len": 489
+        }
+      },
+      {
+        "module": "javaparser-core-testing",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 3137,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 168
+        }
+      },
+      {
+        "module": "javaparser-core-metamodel-generator",
+        "content": {
+          "exact_decls_matches": 161,
+          "decls_in_baseline_and_tool_with_refs": 161,
+          "remaining_decls_in_baseline": 4,
+          "remaining_decls_in_tool_results": 4,
+          "overall_success_rate": 1.0,
+          "overall_overestimation_rate": 0.9748603351955307,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9797775586237125,
+          "mean_of_exact_references": 2.237179472838593,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.05769230732248521,
+          "files_len": 6
+        }
+      },
+      {
+        "module": "javaparser-core-generators",
+        "content": {
+          "exact_decls_matches": 405,
+          "decls_in_baseline_and_tool_with_refs": 405,
+          "remaining_decls_in_baseline": 3,
+          "remaining_decls_in_tool_results": 3,
+          "overall_success_rate": 0.9956521739130435,
+          "overall_overestimation_rate": 0.9224572004028198,
+          "mean_success_rate": 0.9959677419354839,
+          "mean_overestimation_rate": 0.9627844008103482,
+          "mean_of_exact_references": 2.462365584778587,
+          "mean_of_remaining_refs_in_baseline": 0.010752688143137935,
+          "mean_of_remaining_refs_in_tool_results": 0.20698924675540525,
+          "files_len": 33
+        }
+      },
+      {
+        "module": "javaparser-symbol-solver-testing",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 4544,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 227
+        }
+      },
+      {
+        "module": "javaparser-core-serialization",
+        "content": {
+          "exact_decls_matches": 128,
+          "decls_in_baseline_and_tool_with_refs": 128,
+          "remaining_decls_in_baseline": 4,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9722222222222222,
+          "overall_overestimation_rate": 0.8909090909090909,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9541666666666667,
+          "mean_of_exact_references": 2.041666649652778,
+          "mean_of_remaining_refs_in_baseline": 0.058333332847222225,
+          "mean_of_remaining_refs_in_tool_results": 0.2499999979166667,
+          "files_len": 4
+        }
+      },
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 0
+        }
+      },
+      {
+        "module": "javaparser-symbol-solver-core",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 4097,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 158
+        }
+      },
+      {
+        "module": "javaparser-core-testing-bdd",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 815,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 19
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 27449681547,
+        "memory": 215632952
+      },
+      "evaluated": {
+        "time": 341829381,
+        "memory": 483424
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 14769842453,
+        "memory": 1041491648
+      },
+      "evaluated": {
+        "time": 40778524509,
+        "memory": 0
+      }
+    },
+    "info": {
+      "repo_name": "javaparser/javaparser",
+      "commit": "c7e8dbedf74cd45c7529913063e4f1522b989f6c",
+      "no": 700,
+      "batch_id": "javaparser/javaparser:(,046bf8be251189452ad6b25bf9107a1a2167ce6f)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 0
+        }
+      },
+      {
+        "module": "javaparser-core-serialization",
+        "content": {
+          "exact_decls_matches": 128,
+          "decls_in_baseline_and_tool_with_refs": 128,
+          "remaining_decls_in_baseline": 4,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9722222222222222,
+          "overall_overestimation_rate": 0.8909090909090909,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9541666666666667,
+          "mean_of_exact_references": 2.041666649652778,
+          "mean_of_remaining_refs_in_baseline": 0.058333332847222225,
+          "mean_of_remaining_refs_in_tool_results": 0.2499999979166667,
+          "files_len": 4
+        }
+      },
+      {
+        "module": "javaparser-core-metamodel-generator",
+        "content": {
+          "exact_decls_matches": 161,
+          "decls_in_baseline_and_tool_with_refs": 161,
+          "remaining_decls_in_baseline": 4,
+          "remaining_decls_in_tool_results": 4,
+          "overall_success_rate": 1.0,
+          "overall_overestimation_rate": 0.9748603351955307,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9797775586237125,
+          "mean_of_exact_references": 2.237179472838593,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.05769230732248521,
+          "files_len": 6
+        }
+      },
+      {
+        "module": "javaparser-core-testing-bdd",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 815,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 19
+        }
+      },
+      {
+        "module": "javaparser-core-generators",
+        "content": {
+          "exact_decls_matches": 385,
+          "decls_in_baseline_and_tool_with_refs": 385,
+          "remaining_decls_in_baseline": 13,
+          "remaining_decls_in_tool_results": 3,
+          "overall_success_rate": 0.9954545454545455,
+          "overall_overestimation_rate": 0.919202518363064,
+          "mean_success_rate": 0.995702005730659,
+          "mean_overestimation_rate": 0.9603317968522908,
+          "mean_of_exact_references": 2.51002864610307,
+          "mean_of_remaining_refs_in_baseline": 0.011461318018735478,
+          "mean_of_remaining_refs_in_tool_results": 0.22063037186065795,
+          "files_len": 33
+        }
+      },
+      {
+        "module": "javaparser-core",
+        "content": {
+          "exact_decls_matches": 11730,
+          "decls_in_baseline_and_tool_with_refs": 11730,
+          "remaining_decls_in_baseline": 460,
+          "remaining_decls_in_tool_results": 2,
+          "overall_success_rate": 0.9838886213388205,
+          "overall_overestimation_rate": 0.9026569999799169,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 4.149755331534506,
+          "mean_of_remaining_refs_in_baseline": 0.06795309758397626,
+          "mean_of_remaining_refs_in_tool_results": 0.44751177172490886,
+          "files_len": 523
+        }
+      },
+      {
+        "module": "javaparser-core-testing",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 3122,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 168
+        }
+      },
+      {
+        "module": "javaparser-symbol-solver-core",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 4080,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 158
+        }
+      },
+      {
+        "module": "javaparser-symbol-solver-testing",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 4496,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 224
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 25228277378,
+        "memory": 217233352
+      },
+      "evaluated": {
+        "time": 7621,
+        "memory": 0
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 15525248272,
+        "memory": 762389128
+      },
+      "evaluated": {
+        "time": 42808361227,
+        "memory": 0
+      }
+    },
+    "info": {
+      "repo_name": "javaparser/javaparser",
+      "commit": "ba2608a7755e361f1ec8cb77f1f593a299c6eb66",
+      "no": 800,
+      "batch_id": "javaparser/javaparser:(,046bf8be251189452ad6b25bf9107a1a2167ce6f)"
+    }
+  }
+]
