@@ -1,0 +1,1659 @@
+[
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 5215,
+          "decls_in_baseline_and_tool_with_refs": 5215,
+          "remaining_decls_in_baseline": 142,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9930538728697197,
+          "overall_overestimation_rate": 0.8642626177421623,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 2.7316151966229727,
+          "mean_of_remaining_refs_in_baseline": 0.01910686514107976,
+          "mean_of_remaining_refs_in_tool_results": 0.4290157742723839,
+          "files_len": 371
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 3825352952,
+        "memory": 38624840
+      },
+      "evaluated": {
+        "time": 93435,
+        "memory": 12272
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 8684198306,
+        "memory": 228216696
+      },
+      "evaluated": {
+        "time": 18643009953,
+        "memory": 45216
+      }
+    },
+    "info": {
+      "repo_name": "junit-team/junit4",
+      "commit": "277ccefbc64b7f39272204b68106e7e394975d78",
+      "no": 200,
+      "batch_id": "junit-team/junit4:(,cc7c500584fcb85eaf98c568b7441ceac6dd335c)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 5312,
+          "decls_in_baseline_and_tool_with_refs": 5312,
+          "remaining_decls_in_baseline": 143,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9928791834797057,
+          "overall_overestimation_rate": 0.8674224096218981,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 2.7757133377571335,
+          "mean_of_remaining_refs_in_baseline": 0.019907100199071003,
+          "mean_of_remaining_refs_in_tool_results": 0.42424242424242425,
+          "files_len": 401
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 3764700320,
+        "memory": 39128744
+      },
+      "evaluated": {
+        "time": 6333505090,
+        "memory": 3277984
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 8827585936,
+        "memory": 255900000
+      },
+      "evaluated": {
+        "time": 18857120540,
+        "memory": 3310928
+      }
+    },
+    "info": {
+      "repo_name": "junit-team/junit4",
+      "commit": "de6077c8f07a44b50ec257d26b1f859f50e16b4e",
+      "no": 400,
+      "batch_id": "junit-team/junit4:(,cc7c500584fcb85eaf98c568b7441ceac6dd335c)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 6053,
+          "decls_in_baseline_and_tool_with_refs": 6053,
+          "remaining_decls_in_baseline": 173,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9922072595529428,
+          "overall_overestimation_rate": 0.8671884335046003,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 2.8250291942390033,
+          "mean_of_remaining_refs_in_baseline": 0.022187621642662515,
+          "mean_of_remaining_refs_in_tool_results": 0.432658622031919,
+          "files_len": 444
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 4109495119,
+        "memory": 43019672
+      },
+      "evaluated": {
+        "time": 8665108232,
+        "memory": 3214800
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 12330606143,
+        "memory": 157820264
+      },
+      "evaluated": {
+        "time": 24608834464,
+        "memory": 3247744
+      }
+    },
+    "info": {
+      "repo_name": "junit-team/junit4",
+      "commit": "6973fa1d7e93150ba97846bcf4811161fc1632cb",
+      "no": 250,
+      "batch_id": "junit-team/junit4:(,cc7c500584fcb85eaf98c568b7441ceac6dd335c)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 5212,
+          "decls_in_baseline_and_tool_with_refs": 5212,
+          "remaining_decls_in_baseline": 142,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9930510665804784,
+          "overall_overestimation_rate": 0.8641541274082407,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 2.7317181595910203,
+          "mean_of_remaining_refs_in_baseline": 0.019115358968659703,
+          "mean_of_remaining_refs_in_tool_results": 0.42942876194709934,
+          "files_len": 371
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 4108498351,
+        "memory": 38642856
+      },
+      "evaluated": {
+        "time": 6571709561,
+        "memory": 3657168
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 9280238341,
+        "memory": 151836080
+      },
+      "evaluated": {
+        "time": 18340553580,
+        "memory": 3690112
+      }
+    },
+    "info": {
+      "repo_name": "junit-team/junit4",
+      "commit": "c391c25b230e880289484202f3dc3aa81c373a1c",
+      "no": 500,
+      "batch_id": "junit-team/junit4:(,cc7c500584fcb85eaf98c568b7441ceac6dd335c)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "build/maven/sample_project_template",
+        "content": {
+          "exact_decls_matches": 1,
+          "decls_in_baseline_and_tool_with_refs": 1,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": null,
+          "mean_of_remaining_refs_in_baseline": null,
+          "mean_of_remaining_refs_in_tool_results": null,
+          "files_len": 1
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 2085484016,
+        "memory": 5771032
+      },
+      "evaluated": {
+        "time": 107412,
+        "memory": 10960
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 125474183,
+        "memory": 7901176
+      },
+      "evaluated": {
+        "time": 395192,
+        "memory": 43904
+      }
+    },
+    "info": {
+      "repo_name": "junit-team/junit4",
+      "commit": "e8b91fa9f797dfe16aff66ed6ad5d6104e5133fe",
+      "no": 1350,
+      "batch_id": "junit-team/junit4:(,cc7c500584fcb85eaf98c568b7441ceac6dd335c)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 10,
+          "decls_in_baseline_and_tool_with_refs": 10,
+          "remaining_decls_in_baseline": 6248,
+          "remaining_decls_in_tool_results": 1941,
+          "overall_success_rate": 0.0,
+          "overall_overestimation_rate": 0.0,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.0,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.9,
+          "mean_of_remaining_refs_in_tool_results": 1.4,
+          "files_len": 448
+        }
+      },
+      {
+        "module": "build/maven/sample_project_template",
+        "content": {
+          "exact_decls_matches": 1,
+          "decls_in_baseline_and_tool_with_refs": 1,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": null,
+          "mean_of_remaining_refs_in_baseline": null,
+          "mean_of_remaining_refs_in_tool_results": null,
+          "files_len": 1
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 5327699513,
+        "memory": 43264864
+      },
+      "evaluated": {
+        "time": 4132166597,
+        "memory": 17676992
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 12243476641,
+        "memory": 65718696
+      },
+      "evaluated": {
+        "time": 880256578,
+        "memory": 17709936
+      }
+    },
+    "info": {
+      "repo_name": "junit-team/junit4",
+      "commit": "181369ec84ff3f2903db5a4c6c35679363919163",
+      "no": 1250,
+      "batch_id": "junit-team/junit4:(,cc7c500584fcb85eaf98c568b7441ceac6dd335c)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 2148,
+          "decls_in_baseline_and_tool_with_refs": 2148,
+          "remaining_decls_in_baseline": 3254,
+          "remaining_decls_in_tool_results": 2592,
+          "overall_success_rate": 0.8430566967953985,
+          "overall_overestimation_rate": 0.6811241425094048,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 1.746878547105562,
+          "mean_of_remaining_refs_in_baseline": 0.32519863791146425,
+          "mean_of_remaining_refs_in_tool_results": 0.8178206583427923,
+          "files_len": 383
+        }
+      },
+      {
+        "module": "build/maven/sample_project_template",
+        "content": {
+          "exact_decls_matches": 1,
+          "decls_in_baseline_and_tool_with_refs": 1,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": null,
+          "mean_of_remaining_refs_in_baseline": null,
+          "mean_of_remaining_refs_in_tool_results": null,
+          "files_len": 1
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 5185609190,
+        "memory": 38939968
+      },
+      "evaluated": {
+        "time": 15456162659,
+        "memory": 7698480
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 8958982867,
+        "memory": 58918888
+      },
+      "evaluated": {
+        "time": 15152888468,
+        "memory": 7731424
+      }
+    },
+    "info": {
+      "repo_name": "junit-team/junit4",
+      "commit": "88e2a7611e0c9e93aefca75056ac52c46fb5799b",
+      "no": 850,
+      "batch_id": "junit-team/junit4:(,cc7c500584fcb85eaf98c568b7441ceac6dd335c)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 5153,
+          "decls_in_baseline_and_tool_with_refs": 5153,
+          "remaining_decls_in_baseline": 141,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9929606286322338,
+          "overall_overestimation_rate": 0.8642160005699223,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 2.7242308556029644,
+          "mean_of_remaining_refs_in_baseline": 0.01931282281607905,
+          "mean_of_remaining_refs_in_tool_results": 0.428026049854031,
+          "files_len": 371
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 5672332817,
+        "memory": 38171664
+      },
+      "evaluated": {
+        "time": 10582,
+        "memory": 816
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 9047089796,
+        "memory": 155227376
+      },
+      "evaluated": {
+        "time": 17986745113,
+        "memory": 33760
+      }
+    },
+    "info": {
+      "repo_name": "junit-team/junit4",
+      "commit": "af83b6badeb37083a22bf7247111cbe0b5de0b86",
+      "no": 550,
+      "batch_id": "junit-team/junit4:(,cc7c500584fcb85eaf98c568b7441ceac6dd335c)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "build/maven/sample_project_template",
+        "content": {
+          "exact_decls_matches": 1,
+          "decls_in_baseline_and_tool_with_refs": 1,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": null,
+          "mean_of_remaining_refs_in_baseline": null,
+          "mean_of_remaining_refs_in_tool_results": null,
+          "files_len": 1
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 2076386814,
+        "memory": 5770448
+      },
+      "evaluated": {
+        "time": 360634,
+        "memory": 24464
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 121418149,
+        "memory": 7904136
+      },
+      "evaluated": {
+        "time": 384508,
+        "memory": 57408
+      }
+    },
+    "info": {
+      "repo_name": "junit-team/junit4",
+      "commit": "59e5333b24d0e433de10d74c69e5de7700c6b744",
+      "no": 1300,
+      "batch_id": "junit-team/junit4:(,cc7c500584fcb85eaf98c568b7441ceac6dd335c)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 5257,
+          "decls_in_baseline_and_tool_with_refs": 5257,
+          "remaining_decls_in_baseline": 145,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9931227508996402,
+          "overall_overestimation_rate": 0.8636300417246175,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 2.730650835532102,
+          "mean_of_remaining_refs_in_baseline": 0.018909410729991204,
+          "mean_of_remaining_refs_in_tool_results": 0.43117854001759015,
+          "files_len": 373
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 3827207749,
+        "memory": 38892216
+      },
+      "evaluated": {
+        "time": 6902828340,
+        "memory": 3276064
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 8829432787,
+        "memory": 72077096
+      },
+      "evaluated": {
+        "time": 18956565544,
+        "memory": 3309008
+      }
+    },
+    "info": {
+      "repo_name": "junit-team/junit4",
+      "commit": "9f87b7819a63b53aae70e79fb72cc00e1837a3b6",
+      "no": 450,
+      "batch_id": "junit-team/junit4:(,cc7c500584fcb85eaf98c568b7441ceac6dd335c)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "build/maven/sample_project_template",
+        "content": {
+          "exact_decls_matches": 1,
+          "decls_in_baseline_and_tool_with_refs": 1,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": null,
+          "mean_of_remaining_refs_in_baseline": null,
+          "mean_of_remaining_refs_in_tool_results": null,
+          "files_len": 1
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 2103983000,
+        "memory": 5771312
+      },
+      "evaluated": {
+        "time": 18386,
+        "memory": 1632
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 120883506,
+        "memory": 7906416
+      },
+      "evaluated": {
+        "time": 417971,
+        "memory": 34576
+      }
+    },
+    "info": {
+      "repo_name": "junit-team/junit4",
+      "commit": "067ed0a9c50964ebaca5b413684cc56339c5c23f",
+      "no": 1100,
+      "batch_id": "junit-team/junit4:(,cc7c500584fcb85eaf98c568b7441ceac6dd335c)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 2600,
+          "decls_in_baseline_and_tool_with_refs": 2600,
+          "remaining_decls_in_baseline": 2754,
+          "remaining_decls_in_tool_results": 2246,
+          "overall_success_rate": 0.8453586043506354,
+          "overall_overestimation_rate": 0.6949362606232294,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 1.8012849931161083,
+          "mean_of_remaining_refs_in_baseline": 0.3295089490592015,
+          "mean_of_remaining_refs_in_tool_results": 0.7907296925195043,
+          "files_len": 377
+        }
+      },
+      {
+        "module": "build/maven/sample_project_template",
+        "content": {
+          "exact_decls_matches": 1,
+          "decls_in_baseline_and_tool_with_refs": 1,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": null,
+          "mean_of_remaining_refs_in_baseline": null,
+          "mean_of_remaining_refs_in_tool_results": null,
+          "files_len": 1
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 5148253242,
+        "memory": 38705664
+      },
+      "evaluated": {
+        "time": 5564416370,
+        "memory": 2935584
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 9232504937,
+        "memory": 58542344
+      },
+      "evaluated": {
+        "time": 15832606401,
+        "memory": 2968528
+      }
+    },
+    "info": {
+      "repo_name": "junit-team/junit4",
+      "commit": "c9ceb59d9d459183154fe6e357bee6cb0f504d19",
+      "no": 750,
+      "batch_id": "junit-team/junit4:(,cc7c500584fcb85eaf98c568b7441ceac6dd335c)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 3129,
+          "decls_in_baseline_and_tool_with_refs": 3129,
+          "remaining_decls_in_baseline": 86,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9957300275482094,
+          "overall_overestimation_rate": 0.8656448329541372,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 2.6963819470346886,
+          "mean_of_remaining_refs_in_baseline": 0.011562849682954122,
+          "mean_of_remaining_refs_in_tool_results": 0.4185005594927266,
+          "files_len": 279
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 2917561123,
+        "memory": 25461352
+      },
+      "evaluated": {
+        "time": 42239,
+        "memory": 3136
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 4207756810,
+        "memory": 196608384
+      },
+      "evaluated": {
+        "time": 6490623117,
+        "memory": 36080
+      }
+    },
+    "info": {
+      "repo_name": "junit-team/junit4",
+      "commit": "c20ddf922ea1767eb9944cfb436dc9384b884d24",
+      "no": 1650,
+      "batch_id": "junit-team/junit4:(,cc7c500584fcb85eaf98c568b7441ceac6dd335c)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 2406,
+          "decls_in_baseline_and_tool_with_refs": 2406,
+          "remaining_decls_in_baseline": 2711,
+          "remaining_decls_in_tool_results": 1911,
+          "overall_success_rate": 0.8494596632319679,
+          "overall_overestimation_rate": 0.7009539610120282,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 1.6683119447186574,
+          "mean_of_remaining_refs_in_baseline": 0.2956564659427443,
+          "mean_of_remaining_refs_in_tool_results": 0.7117472852912142,
+          "files_len": 368
+        }
+      },
+      {
+        "module": "build/maven/sample_project_template",
+        "content": {
+          "exact_decls_matches": 1,
+          "decls_in_baseline_and_tool_with_refs": 1,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": null,
+          "mean_of_remaining_refs_in_baseline": null,
+          "mean_of_remaining_refs_in_tool_results": null,
+          "files_len": 1
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 5159166422,
+        "memory": 37365648
+      },
+      "evaluated": {
+        "time": 23422387214,
+        "memory": 11505680
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 8482486748,
+        "memory": 56349632
+      },
+      "evaluated": {
+        "time": 13189931341,
+        "memory": 11538624
+      }
+    },
+    "info": {
+      "repo_name": "junit-team/junit4",
+      "commit": "62c0364775d3c7d3c0b9f7532f0b16b1537cf6fa",
+      "no": 1000,
+      "batch_id": "junit-team/junit4:(,cc7c500584fcb85eaf98c568b7441ceac6dd335c)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 6151,
+          "decls_in_baseline_and_tool_with_refs": 6151,
+          "remaining_decls_in_baseline": 174,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9923407686105885,
+          "overall_overestimation_rate": 0.8672930123311803,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 2.8235519021219653,
+          "mean_of_remaining_refs_in_baseline": 0.021793156184285987,
+          "mean_of_remaining_refs_in_tool_results": 0.4320397629516345,
+          "files_len": 450
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 3935826079,
+        "memory": 43508512
+      },
+      "evaluated": {
+        "time": 20411029915,
+        "memory": 96018576
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 12462961246,
+        "memory": 270005400
+      },
+      "evaluated": {
+        "time": 25456309383,
+        "memory": 96051520
+      }
+    },
+    "info": {
+      "repo_name": "junit-team/junit4",
+      "commit": "cc7c500584fcb85eaf98c568b7441ceac6dd335c",
+      "no": 0,
+      "batch_id": "junit-team/junit4:(,cc7c500584fcb85eaf98c568b7441ceac6dd335c)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 6084,
+          "decls_in_baseline_and_tool_with_refs": 6084,
+          "remaining_decls_in_baseline": 174,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9922575387123065,
+          "overall_overestimation_rate": 0.8669079689076129,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 2.829750145264381,
+          "mean_of_remaining_refs_in_baseline": 0.022080185938407902,
+          "mean_of_remaining_refs_in_tool_results": 0.43443734263025374,
+          "files_len": 447
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 4077302528,
+        "memory": 43201360
+      },
+      "evaluated": {
+        "time": 9313086409,
+        "memory": 1943184
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 12780108894,
+        "memory": 269443296
+      },
+      "evaluated": {
+        "time": 25481683546,
+        "memory": 1976128
+      }
+    },
+    "info": {
+      "repo_name": "junit-team/junit4",
+      "commit": "714019f4c98ba68f470df5a551b90bf95deb07b9",
+      "no": 50,
+      "batch_id": "junit-team/junit4:(,cc7c500584fcb85eaf98c568b7441ceac6dd335c)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "build/maven/sample_project_template",
+        "content": {
+          "exact_decls_matches": 1,
+          "decls_in_baseline_and_tool_with_refs": 1,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": null,
+          "mean_of_remaining_refs_in_baseline": null,
+          "mean_of_remaining_refs_in_tool_results": null,
+          "files_len": 1
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 2092627691,
+        "memory": 5771080
+      },
+      "evaluated": {
+        "time": 1100110,
+        "memory": 78240
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 129359103,
+        "memory": 7906184
+      },
+      "evaluated": {
+        "time": 394411,
+        "memory": 111184
+      }
+    },
+    "info": {
+      "repo_name": "junit-team/junit4",
+      "commit": "6fb53a7e272a6ecc232840c96b4cfe5235a8f823",
+      "no": 1200,
+      "batch_id": "junit-team/junit4:(,cc7c500584fcb85eaf98c568b7441ceac6dd335c)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "build/maven/sample_project_template",
+        "content": {
+          "exact_decls_matches": 1,
+          "decls_in_baseline_and_tool_with_refs": 1,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": null,
+          "mean_of_remaining_refs_in_baseline": null,
+          "mean_of_remaining_refs_in_tool_results": null,
+          "files_len": 1
+        }
+      },
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 1829,
+          "decls_in_baseline_and_tool_with_refs": 1829,
+          "remaining_decls_in_baseline": 3626,
+          "remaining_decls_in_tool_results": 2658,
+          "overall_success_rate": 0.8110944527736131,
+          "overall_overestimation_rate": 0.7002329795495729,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 1.8413886997957793,
+          "mean_of_remaining_refs_in_baseline": 0.42886317222600406,
+          "mean_of_remaining_refs_in_tool_results": 0.7882913546630361,
+          "files_len": 429
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 5130671136,
+        "memory": 39201960
+      },
+      "evaluated": {
+        "time": 93990,
+        "memory": 1088
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 8649839485,
+        "memory": 59333976
+      },
+      "evaluated": {
+        "time": 13896882648,
+        "memory": 34032
+      }
+    },
+    "info": {
+      "repo_name": "junit-team/junit4",
+      "commit": "768a71413d52ee0a7bcefa204d582e7c08f1c19e",
+      "no": 950,
+      "batch_id": "junit-team/junit4:(,cc7c500584fcb85eaf98c568b7441ceac6dd335c)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "build/maven/sample_project_template",
+        "content": {
+          "exact_decls_matches": 1,
+          "decls_in_baseline_and_tool_with_refs": 1,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": null,
+          "mean_of_remaining_refs_in_baseline": null,
+          "mean_of_remaining_refs_in_tool_results": null,
+          "files_len": 1
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 2075885768,
+        "memory": 5770592
+      },
+      "evaluated": {
+        "time": 215795,
+        "memory": 22000
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 107515467,
+        "memory": 7906152
+      },
+      "evaluated": {
+        "time": 393784,
+        "memory": 54944
+      }
+    },
+    "info": {
+      "repo_name": "junit-team/junit4",
+      "commit": "7924760d2d64f5f7651e9e57d1ca01e1bcce74e0",
+      "no": 1450,
+      "batch_id": "junit-team/junit4:(,cc7c500584fcb85eaf98c568b7441ceac6dd335c)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 2342,
+          "decls_in_baseline_and_tool_with_refs": 2342,
+          "remaining_decls_in_baseline": 2952,
+          "remaining_decls_in_tool_results": 2148,
+          "overall_success_rate": 0.8508771929824561,
+          "overall_overestimation_rate": 0.7041742286751361,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 1.7916880451513597,
+          "mean_of_remaining_refs_in_baseline": 0.31400718317085685,
+          "mean_of_remaining_refs_in_tool_results": 0.7526936890713186,
+          "files_len": 377
+        }
+      },
+      {
+        "module": "build/maven/sample_project_template",
+        "content": {
+          "exact_decls_matches": 1,
+          "decls_in_baseline_and_tool_with_refs": 1,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": null,
+          "mean_of_remaining_refs_in_baseline": null,
+          "mean_of_remaining_refs_in_tool_results": null,
+          "files_len": 1
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 5237349259,
+        "memory": 38197984
+      },
+      "evaluated": {
+        "time": 4466326431,
+        "memory": 3087888
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 8930164199,
+        "memory": 57871720
+      },
+      "evaluated": {
+        "time": 13846839650,
+        "memory": 3120832
+      }
+    },
+    "info": {
+      "repo_name": "junit-team/junit4",
+      "commit": "cc6e2c090f1b5c294b7aca4ee8252c6db2347eca",
+      "no": 900,
+      "batch_id": "junit-team/junit4:(,cc7c500584fcb85eaf98c568b7441ceac6dd335c)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 5501,
+          "decls_in_baseline_and_tool_with_refs": 5501,
+          "remaining_decls_in_baseline": 146,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9928741092636579,
+          "overall_overestimation_rate": 0.8673940692148069,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 2.7753266224030844,
+          "mean_of_remaining_refs_in_baseline": 0.019918612122510174,
+          "mean_of_remaining_refs_in_tool_results": 0.424287856071964,
+          "files_len": 416
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 4088983389,
+        "memory": 39978792
+      },
+      "evaluated": {
+        "time": 7449982192,
+        "memory": 3692448
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 9267114131,
+        "memory": 130357760
+      },
+      "evaluated": {
+        "time": 19867711858,
+        "memory": 3725392
+      }
+    },
+    "info": {
+      "repo_name": "junit-team/junit4",
+      "commit": "b87d766f8cf2769aa25a1192e71c22f4c324cf8a",
+      "no": 350,
+      "batch_id": "junit-team/junit4:(,cc7c500584fcb85eaf98c568b7441ceac6dd335c)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 4997,
+          "decls_in_baseline_and_tool_with_refs": 4997,
+          "remaining_decls_in_baseline": 131,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.99291975724882,
+          "overall_overestimation_rate": 0.8628140335457408,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 2.7331786542923435,
+          "mean_of_remaining_refs_in_baseline": 0.01948955916473318,
+          "mean_of_remaining_refs_in_tool_results": 0.4345707656612529,
+          "files_len": 361
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 3687673577,
+        "memory": 37299088
+      },
+      "evaluated": {
+        "time": 10418565785,
+        "memory": 3745136
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 8772785609,
+        "memory": 153795312
+      },
+      "evaluated": {
+        "time": 17142512816,
+        "memory": 3778080
+      }
+    },
+    "info": {
+      "repo_name": "junit-team/junit4",
+      "commit": "364eaa2d2c8c1ef1d3cad6597ab28471fd7dcb8a",
+      "no": 600,
+      "batch_id": "junit-team/junit4:(,cc7c500584fcb85eaf98c568b7441ceac6dd335c)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "build/maven/sample_project_template",
+        "content": {
+          "exact_decls_matches": 1,
+          "decls_in_baseline_and_tool_with_refs": 1,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": null,
+          "mean_of_remaining_refs_in_baseline": null,
+          "mean_of_remaining_refs_in_tool_results": null,
+          "files_len": 1
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 2062453492,
+        "memory": 5770896
+      },
+      "evaluated": {
+        "time": 68205,
+        "memory": 4144
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 129008702,
+        "memory": 7913368
+      },
+      "evaluated": {
+        "time": 399129,
+        "memory": 37088
+      }
+    },
+    "info": {
+      "repo_name": "junit-team/junit4",
+      "commit": "45a44647e7306262162e1346b750c3209019f2e1",
+      "no": 1500,
+      "batch_id": "junit-team/junit4:(,cc7c500584fcb85eaf98c568b7441ceac6dd335c)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 4980,
+          "decls_in_baseline_and_tool_with_refs": 4980,
+          "remaining_decls_in_baseline": 137,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9932983933327606,
+          "overall_overestimation_rate": 0.8614112212204754,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 2.689855746859004,
+          "mean_of_remaining_refs_in_baseline": 0.01814797580269893,
+          "mean_of_remaining_refs_in_tool_results": 0.432759422987436,
+          "files_len": 365
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 3698057273,
+        "memory": 37286560
+      },
+      "evaluated": {
+        "time": 15711,
+        "memory": 944
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 8326752713,
+        "memory": 145408800
+      },
+      "evaluated": {
+        "time": 17028917630,
+        "memory": 33888
+      }
+    },
+    "info": {
+      "repo_name": "junit-team/junit4",
+      "commit": "696f665de2166a43aa83bba39dae97f493defb27",
+      "no": 650,
+      "batch_id": "junit-team/junit4:(,cc7c500584fcb85eaf98c568b7441ceac6dd335c)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 5215,
+          "decls_in_baseline_and_tool_with_refs": 5215,
+          "remaining_decls_in_baseline": 142,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9930538728697197,
+          "overall_overestimation_rate": 0.8642626177421623,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 2.7316151966229727,
+          "mean_of_remaining_refs_in_baseline": 0.01910686514107976,
+          "mean_of_remaining_refs_in_tool_results": 0.4290157742723839,
+          "files_len": 371
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 3712701640,
+        "memory": 38640072
+      },
+      "evaluated": {
+        "time": 41216,
+        "memory": 8560
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 8748141234,
+        "memory": 113615032
+      },
+      "evaluated": {
+        "time": 18778671217,
+        "memory": 41504
+      }
+    },
+    "info": {
+      "repo_name": "junit-team/junit4",
+      "commit": "06187f3e2740e6e6a207484f1fbd9ede1a2ba4da",
+      "no": 150,
+      "batch_id": "junit-team/junit4:(,cc7c500584fcb85eaf98c568b7441ceac6dd335c)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 6071,
+          "decls_in_baseline_and_tool_with_refs": 6071,
+          "remaining_decls_in_baseline": 174,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9922343324250681,
+          "overall_overestimation_rate": 0.8670754211560212,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 2.828349514563107,
+          "mean_of_remaining_refs_in_baseline": 0.022135922330097087,
+          "mean_of_remaining_refs_in_tool_results": 0.4335922330097087,
+          "files_len": 445
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 4040315365,
+        "memory": 43159992
+      },
+      "evaluated": {
+        "time": 8733141904,
+        "memory": 4530176
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 12116813906,
+        "memory": 186772512
+      },
+      "evaluated": {
+        "time": 25187150307,
+        "memory": 4563120
+      }
+    },
+    "info": {
+      "repo_name": "junit-team/junit4",
+      "commit": "a0f07dd2f17f00079d68b85928cadfabbc871803",
+      "no": 100,
+      "batch_id": "junit-team/junit4:(,cc7c500584fcb85eaf98c568b7441ceac6dd335c)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 2469,
+          "decls_in_baseline_and_tool_with_refs": 2469,
+          "remaining_decls_in_baseline": 2825,
+          "remaining_decls_in_tool_results": 2216,
+          "overall_success_rate": 0.8559044048734771,
+          "overall_overestimation_rate": 0.6984703632887189,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 1.7681510164569216,
+          "mean_of_remaining_refs_in_baseline": 0.29767666989351405,
+          "mean_of_remaining_refs_in_tool_results": 0.7633107454017425,
+          "files_len": 377
+        }
+      },
+      {
+        "module": "build/maven/sample_project_template",
+        "content": {
+          "exact_decls_matches": 1,
+          "decls_in_baseline_and_tool_with_refs": 1,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": null,
+          "mean_of_remaining_refs_in_baseline": null,
+          "mean_of_remaining_refs_in_tool_results": null,
+          "files_len": 1
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 6635008092,
+        "memory": 38211480
+      },
+      "evaluated": {
+        "time": 24421696271,
+        "memory": 8213312
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 9048043272,
+        "memory": 57885872
+      },
+      "evaluated": {
+        "time": 14906334054,
+        "memory": 8246256
+      }
+    },
+    "info": {
+      "repo_name": "junit-team/junit4",
+      "commit": "706c38a81f4ebb142855ee3be27e88fa8eca18e9",
+      "no": 800,
+      "batch_id": "junit-team/junit4:(,cc7c500584fcb85eaf98c568b7441ceac6dd335c)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 5825,
+          "decls_in_baseline_and_tool_with_refs": 5825,
+          "remaining_decls_in_baseline": 159,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9924351585014409,
+          "overall_overestimation_rate": 0.8680446152876677,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 2.7833905839563546,
+          "mean_of_remaining_refs_in_baseline": 0.021216407355021217,
+          "mean_of_remaining_refs_in_tool_results": 0.4231157809658517,
+          "files_len": 422
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 3977468111,
+        "memory": 41758136
+      },
+      "evaluated": {
+        "time": 16187793370,
+        "memory": 6233856
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 10551456516,
+        "memory": 131607568
+      },
+      "evaluated": {
+        "time": 21466191510,
+        "memory": 6266800
+      }
+    },
+    "info": {
+      "repo_name": "junit-team/junit4",
+      "commit": "7111b9621997f6c660687b8ac04003398343ee3a",
+      "no": 300,
+      "batch_id": "junit-team/junit4:(,cc7c500584fcb85eaf98c568b7441ceac6dd335c)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "build/maven/sample_project_template",
+        "content": {
+          "exact_decls_matches": 1,
+          "decls_in_baseline_and_tool_with_refs": 1,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": null,
+          "mean_of_remaining_refs_in_baseline": null,
+          "mean_of_remaining_refs_in_tool_results": null,
+          "files_len": 1
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 2060374224,
+        "memory": 5770392
+      },
+      "evaluated": {
+        "time": 197252,
+        "memory": 18272
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 113188662,
+        "memory": 7904344
+      },
+      "evaluated": {
+        "time": 392387,
+        "memory": 51216
+      }
+    },
+    "info": {
+      "repo_name": "junit-team/junit4",
+      "commit": "1e391af3840911fb8b3345afb58871debf0be3bc",
+      "no": 1400,
+      "batch_id": "junit-team/junit4:(,cc7c500584fcb85eaf98c568b7441ceac6dd335c)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "build/maven/sample_project_template",
+        "content": {
+          "exact_decls_matches": 1,
+          "decls_in_baseline_and_tool_with_refs": 1,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": null,
+          "mean_of_remaining_refs_in_baseline": null,
+          "mean_of_remaining_refs_in_tool_results": null,
+          "files_len": 1
+        }
+      },
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 2307,
+          "decls_in_baseline_and_tool_with_refs": 2307,
+          "remaining_decls_in_baseline": 3095,
+          "remaining_decls_in_tool_results": 2519,
+          "overall_success_rate": 0.8499230374551052,
+          "overall_overestimation_rate": 0.681406828465652,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 1.7363731656184487,
+          "mean_of_remaining_refs_in_baseline": 0.30660377358490565,
+          "mean_of_remaining_refs_in_tool_results": 0.8118448637316562,
+          "files_len": 379
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 5165217990,
+        "memory": 38941952
+      },
+      "evaluated": {
+        "time": 4124195,
+        "memory": 24784
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 8782147875,
+        "memory": 58921080
+      },
+      "evaluated": {
+        "time": 16013281171,
+        "memory": 57728
+      }
+    },
+    "info": {
+      "repo_name": "junit-team/junit4",
+      "commit": "79a71342a43577380e038611349df16554d9faee",
+      "no": 700,
+      "batch_id": "junit-team/junit4:(,cc7c500584fcb85eaf98c568b7441ceac6dd335c)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 2289,
+          "decls_in_baseline_and_tool_with_refs": 2289,
+          "remaining_decls_in_baseline": 2828,
+          "remaining_decls_in_tool_results": 1894,
+          "overall_success_rate": 0.8416045255849833,
+          "overall_overestimation_rate": 0.6981655290102389,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 1.6853759011328526,
+          "mean_of_remaining_refs_in_baseline": 0.3171987641606591,
+          "mean_of_remaining_refs_in_tool_results": 0.7286302780638517,
+          "files_len": 370
+        }
+      },
+      {
+        "module": "build/maven/sample_project_template",
+        "content": {
+          "exact_decls_matches": 1,
+          "decls_in_baseline_and_tool_with_refs": 1,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": null,
+          "mean_of_remaining_refs_in_baseline": null,
+          "mean_of_remaining_refs_in_tool_results": null,
+          "files_len": 1
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 5107348529,
+        "memory": 37340312
+      },
+      "evaluated": {
+        "time": 9685,
+        "memory": 1504
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 8196570165,
+        "memory": 56318968
+      },
+      "evaluated": {
+        "time": 12375289115,
+        "memory": 34448
+      }
+    },
+    "info": {
+      "repo_name": "junit-team/junit4",
+      "commit": "4f3ca2d4bdeb34a9e9ebcb315ef22863d3775ef5",
+      "no": 1050,
+      "batch_id": "junit-team/junit4:(,cc7c500584fcb85eaf98c568b7441ceac6dd335c)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "build/maven/sample_project_template",
+        "content": {
+          "exact_decls_matches": 1,
+          "decls_in_baseline_and_tool_with_refs": 1,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": null,
+          "mean_of_remaining_refs_in_baseline": null,
+          "mean_of_remaining_refs_in_tool_results": null,
+          "files_len": 1
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 2107440131,
+        "memory": 5770728
+      },
+      "evaluated": {
+        "time": 159972,
+        "memory": 9616
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 126074054,
+        "memory": 7903048
+      },
+      "evaluated": {
+        "time": 404224,
+        "memory": 42560
+      }
+    },
+    "info": {
+      "repo_name": "junit-team/junit4",
+      "commit": "45aed05bb9e75bc8228af8ffbb44d39626d02dd5",
+      "no": 1150,
+      "batch_id": "junit-team/junit4:(,cc7c500584fcb85eaf98c568b7441ceac6dd335c)"
+    }
+  }
+]
