@@ -1,0 +1,37 @@
+[2022-05-07T00:42:41.945Z WARN] args: ["target/release/reserializing", "quarkusio/quarkus", "", "5ac8332061fbbd4f11d5f280ff12b65fe7308540", ""]
+[2022-05-07T00:43:20.980Z WARN] bad CST
+[2022-05-07T00:43:27.593Z WARN] bad CST
+[2022-05-07T00:43:50.353Z WARN] bad CST
+[2022-05-07T00:43:52.456Z WARN] not possible
+[2022-05-07T00:44:05.783Z WARN] resolution of local type decl without a package should not append
+[2022-05-07T00:44:07.146Z WARN] bad CST
+[2022-05-07T00:44:11.070Z WARN] bad CST
+[2022-05-07T00:44:28.804Z WARN] bad CST
+[2022-05-07T00:44:54.243Z WARN] bad CST
+[2022-05-07T00:44:54.244Z WARN] resolution of local type decl without a package should not append
+[2022-05-07T00:44:54.244Z WARN] resolution of local type decl without a package should not append
+[2022-05-07T00:45:01.302Z WARN] bad CST
+[2022-05-07T00:45:16.145Z WARN] bad CST
+[2022-05-07T00:45:20.548Z WARN] bad CST
+[2022-05-07T00:45:42.241Z WARN] bad CST
+[2022-05-07T00:45:44.159Z WARN] resolution of local type decl without a package should not append
+[2022-05-07T00:45:45.843Z WARN] bad CST
+[2022-05-07T00:45:52.887Z WARN] resolution of local type decl without a package should not append
+[2022-05-07T00:46:17.194Z WARN] bad CST
+[2022-05-07T00:46:17.197Z ERROR] BinaryExpression ScopedIdentifier(2) None
+[2022-05-07T00:46:17.197Z ERROR] BinaryExpression ScopedIdentifier(2) None
+[2022-05-07T00:46:17.197Z ERROR] BinaryExpression ScopedIdentifier(2) None
+[2022-05-07T00:46:21.462Z WARN] bad CST
+[2022-05-07T00:46:27.470Z WARN] bad CST
+[2022-05-07T00:46:35.079Z WARN] bad CST
+[2022-05-07T00:46:35.974Z WARN] resolution of local type decl without a package should not append
+[2022-05-07T00:46:38.637Z WARN] bad CST
+[2022-05-07T00:46:58.435Z WARN] resolution of local type decl without a package should not append
+[2022-05-07T00:47:23.955Z WARN] bad CST
+[2022-05-07T00:47:24.203Z WARN] resolution of local type decl without a package should not append
+[2022-05-07T00:47:26.060Z WARN] bad CST
+[2022-05-07T00:47:28.299Z WARN] resolution of local type decl without a package should not append
+[2022-05-07T00:47:34.688Z WARN] bad CST
+[2022-05-07T00:47:48.792Z WARN] bad CST
+[2022-05-07T00:48:04.345Z WARN] bad CST
+[2022-05-07T00:48:06.015Z WARN] bad CST

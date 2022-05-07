@@ -1,0 +1,16 @@
+[2022-05-07T00:42:58.988Z WARN] args: ["target/release/reserializing", "qos-ch/slf4j", "", "2b0e15874aaf5502c9d6e36b0b81fc6bc14a8531", ""]
+[2022-05-07T00:43:00.216Z WARN] bad CST
+[2022-05-07T00:43:00.923Z WARN] bad CST
+[2022-05-07T00:43:00.923Z ERROR] ScopedTypeIdentifier ScopedTypeIdentifier(4) None
+[2022-05-07T00:43:00.923Z ERROR] ObjectCreationExpression ScopedTypeIdentifier(7) None
+[2022-05-07T00:43:00.923Z ERROR] ObjectCreationExpression None Arguments([])
+[2022-05-07T00:43:00.923Z ERROR] ObjectCreationExpression None Declarations([(None, Field(Old(3)), Runtime([Old(2)]))])
+[2022-05-07T00:43:00.923Z ERROR] AssignmentExpression ScopedIdentifier(2) None
+[2022-05-07T00:43:01.334Z WARN] bad CST
+[2022-05-07T00:43:01.950Z WARN] bad CST
+[2022-05-07T00:43:02.191Z WARN] bad CST
+[2022-05-07T00:43:02.603Z WARN] bad CST
+[2022-05-07T00:43:03.477Z WARN] bad CST
+[2022-05-07T00:43:03.553Z WARN] bad CST
+[2022-05-07T00:43:03.904Z WARN] bad CST
+[2022-05-07T00:43:03.986Z WARN] bad CST

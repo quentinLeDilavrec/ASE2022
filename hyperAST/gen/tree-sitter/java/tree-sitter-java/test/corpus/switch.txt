@@ -1,0 +1,152 @@
+====
+switch scope 0 bis
+====
+
+switch (x) {
+    case 1:
+        String msg = null;
+        msg;
+    default:
+        // system fully initialized
+        assert VM.isBooted() && scl != null;
+        return x;
+}
+
+---
+
+(program 
+  (switch_statement (parenthesized_expression (identifier))
+    (switch_block 
+      (switch_block_statement_group 
+        (switch_label (decimal_integer_literal)) 
+          (scope 
+            (local_variable_declaration 
+              (type_identifier) 
+              (variable_declarator (identifier) (null_literal)))
+
+            (expression_statement (identifier))))
+      (switch_block_statement_group 
+        (switch_label) 
+            (comment) 
+            (assert_statement 
+              (binary_expression 
+                (method_invocation (identifier) (identifier) (argument_list))
+                (binary_expression (identifier) (null_literal))))
+            (return_statement (identifier))))))
+
+====
+switch scope 0
+====
+
+switch (x) {
+    case 1:
+        String msg = null;
+    default:
+        // system fully initialized
+        assert VM.isBooted() && scl != null;
+        return x;
+}
+
+---
+
+(program 
+  (switch_statement (parenthesized_expression (identifier))
+    (switch_block 
+      (switch_block_statement_group 
+        (switch_label (decimal_integer_literal)) 
+          (local_variable_declaration 
+            (type_identifier) 
+            (variable_declarator (identifier) (null_literal))))
+      (switch_block_statement_group 
+        (switch_label) 
+            (comment) 
+            (assert_statement 
+              (binary_expression 
+                (method_invocation (identifier) (identifier) (argument_list))
+                (binary_expression (identifier) (null_literal))))
+            (return_statement (identifier))))))
+
+
+====
+switch scope 2
+====
+
+switch (x) {
+    case 3:
+        String msg = null;
+        throw new IllegalStateException(msg);
+    case 3:
+        // system fully initialized
+        assert VM.isBooted() && scl != null;
+        return x;
+}
+
+---
+
+(program 
+  (switch_statement (parenthesized_expression (identifier))
+    (switch_block 
+      (switch_block_statement_group 
+        (switch_label (decimal_integer_literal)) 
+          (scope 
+            (local_variable_declaration 
+              (type_identifier) 
+              (variable_declarator (identifier) (null_literal)))
+
+            (throw_statement 
+              (object_creation_expression 
+                (type_identifier) 
+                (argument_list (identifier))))))
+      (switch_block_statement_group 
+        (switch_label (decimal_integer_literal)) 
+            (comment) 
+            (assert_statement 
+              (binary_expression 
+                (method_invocation (identifier) (identifier) (argument_list))
+                (binary_expression (identifier) (null_literal))))
+            (return_statement (identifier))))))
+
+
+====
+switch scope 3
+====
+
+class A {
+    Integer a = 0;
+    <T> void test(T x) {
+        test(1);
+        A b = new A();
+        b.test(a);
+        test(a);
+        String s = "";
+        b.test(s);
+    }
+}
+
+---
+
+(program 
+  (scope 
+    (class_declaration (identifier) 
+      (class_body 
+        (field_declaration 
+          (type_identifier) 
+          (variable_declarator (identifier) (decimal_integer_literal)))
+        (method_declaration 
+          (type_parameters (type_parameter (identifier))) 
+          (void_type) 
+          (identifier) 
+          (formal_parameters 
+            (formal_parameter (type_identifier) (identifier))) 
+          (block 
+            (expression_statement 
+              (method_invocation (identifier) 
+                (argument_list (decimal_integer_literal)))) 
+            (scope 
+              (local_variable_declaration (type_identifier) (variable_declarator (identifier) (object_creation_expression (type_identifier) (argument_list))))
+              (expression_statement (method_invocation (identifier) (identifier) (argument_list (identifier))))
+              (expression_statement (method_invocation (identifier) (argument_list (identifier))))
+              (scope 
+                (local_variable_declaration (type_identifier) (variable_declarator (identifier) (string_literal))) 
+                (expression_statement 
+                  (method_invocation (identifier) (identifier) (argument_list (identifier))))))))))))

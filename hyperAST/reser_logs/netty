@@ -1,0 +1,13 @@
+[2022-05-07T00:42:53.976Z WARN] args: ["target/release/reserializing", "netty/netty", "", "c2b846750dd2131d65aa25c8cf66bf3649b248f9", ""]
+[2022-05-07T00:43:23.692Z ERROR] Resource Declaration This(Old(2))
+[2022-05-07T00:43:31.422Z ERROR] Resource Declaration This(Old(2))
+[2022-05-07T00:43:46.892Z ERROR] Resource Declaration This(Old(2))
+[2022-05-07T00:44:03.222Z ERROR] Resource Declaration This(Old(2))
+[2022-05-07T00:45:40.669Z ERROR] Resource Declaration This(Old(2))
+[2022-05-07T00:46:28.437Z WARN] bad CST
+[2022-05-07T00:46:46.092Z ERROR] Resource Declaration This(Old(2))
+[2022-05-07T00:46:54.631Z ERROR] Resource Declaration This(Old(2))
+[2022-05-07T00:47:02.386Z ERROR] Resource Declaration This(Old(2))
+[2022-05-07T00:47:56.050Z WARN] bad CST
+thread 'main' panicked at 'pint None', gen/tree-sitter/java/src/impact/partial_analysis.rs:4125:34
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

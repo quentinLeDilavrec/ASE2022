@@ -1,0 +1,942 @@
+[
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 8275,
+          "decls_in_baseline_and_tool_with_refs": 8275,
+          "remaining_decls_in_baseline": 21,
+          "remaining_decls_in_tool_results": 2,
+          "overall_success_rate": 0.9973040631619488,
+          "overall_overestimation_rate": 0.9612695662933861,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 4.000772498519277,
+          "mean_of_remaining_refs_in_baseline": 0.01081498647987447,
+          "mean_of_remaining_refs_in_tool_results": 0.16119479848574805,
+          "files_len": 258
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 4863562676,
+        "memory": 61504464
+      },
+      "evaluated": {
+        "time": 178031838,
+        "memory": 439992
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 7219751499,
+        "memory": 187227760
+      },
+      "evaluated": {
+        "time": 15515105036,
+        "memory": 0
+      }
+    },
+    "info": {
+      "repo_name": "FasterXML/jackson-core",
+      "commit": "4daafed81edeecea9882384bb050f975065ce0aa",
+      "no": 250,
+      "batch_id": "FasterXML/jackson-core:(,3cb5ce818e476d5b0b504b1833c7d33be80e9ca4)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 8507,
+          "decls_in_baseline_and_tool_with_refs": 8507,
+          "remaining_decls_in_baseline": 23,
+          "remaining_decls_in_tool_results": 2,
+          "overall_success_rate": 0.9973933798128258,
+          "overall_overestimation_rate": 0.9607926183633339,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 3.97235772308038,
+          "mean_of_remaining_refs_in_baseline": 0.01038148842897042,
+          "mean_of_remaining_refs_in_tool_results": 0.16210131330055016,
+          "files_len": 265
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 5036534204,
+        "memory": 63832992
+      },
+      "evaluated": {
+        "time": 514053159,
+        "memory": 1524216
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 7680823892,
+        "memory": 606081368
+      },
+      "evaluated": {
+        "time": 15948413498,
+        "memory": 54824
+      }
+    },
+    "info": {
+      "repo_name": "FasterXML/jackson-core",
+      "commit": "146d4945ce03d9156ae0390897ffa4aa115c8704",
+      "no": 150,
+      "batch_id": "FasterXML/jackson-core:(,3cb5ce818e476d5b0b504b1833c7d33be80e9ca4)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 8267,
+          "decls_in_baseline_and_tool_with_refs": 8267,
+          "remaining_decls_in_baseline": 20,
+          "remaining_decls_in_tool_results": 2,
+          "overall_success_rate": 0.9973970049489042,
+          "overall_overestimation_rate": 0.9611656498714812,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 4.000128882072415,
+          "mean_of_remaining_refs_in_baseline": 0.0104394896236062,
+          "mean_of_remaining_refs_in_tool_results": 0.16161876528397748,
+          "files_len": 257
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 4858847018,
+        "memory": 61355480
+      },
+      "evaluated": {
+        "time": 6635,
+        "memory": 0
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 7364941795,
+        "memory": 235505344
+      },
+      "evaluated": {
+        "time": 15869162988,
+        "memory": 0
+      }
+    },
+    "info": {
+      "repo_name": "FasterXML/jackson-core",
+      "commit": "02070fd2042e604cc6d196e37de61e2b43f49ea6",
+      "no": 300,
+      "batch_id": "FasterXML/jackson-core:(,3cb5ce818e476d5b0b504b1833c7d33be80e9ca4)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 8665,
+          "decls_in_baseline_and_tool_with_refs": 8665,
+          "remaining_decls_in_baseline": 23,
+          "remaining_decls_in_tool_results": 2,
+          "overall_success_rate": 0.9973988170811011,
+          "overall_overestimation_rate": 0.9607457121551082,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 3.953965135777809,
+          "mean_of_remaining_refs_in_baseline": 0.010311809475778073,
+          "mean_of_remaining_refs_in_tool_results": 0.16155168178718982,
+          "files_len": 270
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 4882049350,
+        "memory": 64634768
+      },
+      "evaluated": {
+        "time": 185688132,
+        "memory": 955440
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 7718295324,
+        "memory": 668819840
+      },
+      "evaluated": {
+        "time": 16669909146,
+        "memory": 0
+      }
+    },
+    "info": {
+      "repo_name": "FasterXML/jackson-core",
+      "commit": "542654c97f26ccd8156b9946920a2b15b9cdea7b",
+      "no": 50,
+      "batch_id": "FasterXML/jackson-core:(,3cb5ce818e476d5b0b504b1833c7d33be80e9ca4)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 5851,
+          "decls_in_baseline_and_tool_with_refs": 5851,
+          "remaining_decls_in_baseline": 12,
+          "remaining_decls_in_tool_results": 2,
+          "overall_success_rate": 0.9974939669574903,
+          "overall_overestimation_rate": 0.9613991143713378,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 3.9058695250034763,
+          "mean_of_remaining_refs_in_baseline": 0.009812829364017294,
+          "mean_of_remaining_refs_in_tool_results": 0.1568235507619801,
+          "files_len": 172
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 3905383499,
+        "memory": 44340032
+      },
+      "evaluated": {
+        "time": 121404978,
+        "memory": 791952
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 5062491855,
+        "memory": 455118408
+      },
+      "evaluated": {
+        "time": 9364079728,
+        "memory": 0
+      }
+    },
+    "info": {
+      "repo_name": "FasterXML/jackson-core",
+      "commit": "1dbf1231d65bb27106be9a54a017d4654a873255",
+      "no": 950,
+      "batch_id": "FasterXML/jackson-core:(,3cb5ce818e476d5b0b504b1833c7d33be80e9ca4)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 8394,
+          "decls_in_baseline_and_tool_with_refs": 8394,
+          "remaining_decls_in_baseline": 23,
+          "remaining_decls_in_tool_results": 2,
+          "overall_success_rate": 0.9972379198679281,
+          "overall_overestimation_rate": 0.9601699578162255,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 3.983639821942468,
+          "mean_of_remaining_refs_in_baseline": 0.01103360811527792,
+          "mean_of_remaining_refs_in_tool_results": 0.16525047556559916,
+          "files_len": 260
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 7690343135,
+        "memory": 91057760
+      },
+      "evaluated": {
+        "time": 220309903,
+        "memory": 811824
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 8044459384,
+        "memory": 452395184
+      },
+      "evaluated": {
+        "time": 15751010887,
+        "memory": 0
+      }
+    },
+    "info": {
+      "repo_name": "FasterXML/jackson-core",
+      "commit": "688b4004f50e6fe67e58685e3cb308b0e92fe469",
+      "no": 200,
+      "batch_id": "FasterXML/jackson-core:(,3cb5ce818e476d5b0b504b1833c7d33be80e9ca4)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 8792,
+          "decls_in_baseline_and_tool_with_refs": 8792,
+          "remaining_decls_in_baseline": 23,
+          "remaining_decls_in_tool_results": 2,
+          "overall_success_rate": 0.9974630925818382,
+          "overall_overestimation_rate": 0.9600776676178988,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 3.949891067060047,
+          "mean_of_remaining_refs_in_baseline": 0.010045993704908497,
+          "mean_of_remaining_refs_in_tool_results": 0.16424594527181724,
+          "files_len": 271
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 5194797583,
+        "memory": 65548504
+      },
+      "evaluated": {
+        "time": 2475239397,
+        "memory": 107546368
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 7853825918,
+        "memory": 632943984
+      },
+      "evaluated": {
+        "time": 17335049101,
+        "memory": 106071616
+      }
+    },
+    "info": {
+      "repo_name": "FasterXML/jackson-core",
+      "commit": "3cb5ce818e476d5b0b504b1833c7d33be80e9ca4",
+      "no": 0,
+      "batch_id": "FasterXML/jackson-core:(,3cb5ce818e476d5b0b504b1833c7d33be80e9ca4)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 6889,
+          "decls_in_baseline_and_tool_with_refs": 6889,
+          "remaining_decls_in_baseline": 12,
+          "remaining_decls_in_tool_results": 2,
+          "overall_success_rate": 0.9971335753869673,
+          "overall_overestimation_rate": 0.9614179901978848,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 4.0268559956742,
+          "mean_of_remaining_refs_in_baseline": 0.011575860470508433,
+          "mean_of_remaining_refs_in_tool_results": 0.16159901216829772,
+          "files_len": 206
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 4451867594,
+        "memory": 53119952
+      },
+      "evaluated": {
+        "time": 414937305,
+        "memory": 1687152
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 6192223813,
+        "memory": 774655864
+      },
+      "evaluated": {
+        "time": 13496369933,
+        "memory": 218528
+      }
+    },
+    "info": {
+      "repo_name": "FasterXML/jackson-core",
+      "commit": "89986a820dcc9ee491a826833e0cc158d01453c8",
+      "no": 750,
+      "batch_id": "FasterXML/jackson-core:(,3cb5ce818e476d5b0b504b1833c7d33be80e9ca4)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 7458,
+          "decls_in_baseline_and_tool_with_refs": 7458,
+          "remaining_decls_in_baseline": 13,
+          "remaining_decls_in_tool_results": 2,
+          "overall_success_rate": 0.9971720456714624,
+          "overall_overestimation_rate": 0.958837525492862,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 4.013230899983891,
+          "mean_of_remaining_refs_in_baseline": 0.011381419830504847,
+          "mean_of_remaining_refs_in_tool_results": 0.17228624268426715,
+          "files_len": 228
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 4770188733,
+        "memory": 55904312
+      },
+      "evaluated": {
+        "time": 1232129,
+        "memory": 0
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 6683167789,
+        "memory": 807584392
+      },
+      "evaluated": {
+        "time": 17434912131,
+        "memory": 0
+      }
+    },
+    "info": {
+      "repo_name": "FasterXML/jackson-core",
+      "commit": "a24ae3a813cc5fee1cf4ce1f13bdba0c9758cd4a",
+      "no": 650,
+      "batch_id": "FasterXML/jackson-core:(,3cb5ce818e476d5b0b504b1833c7d33be80e9ca4)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 8044,
+          "decls_in_baseline_and_tool_with_refs": 8044,
+          "remaining_decls_in_baseline": 19,
+          "remaining_decls_in_tool_results": 2,
+          "overall_success_rate": 0.9975673153825646,
+          "overall_overestimation_rate": 0.9617670682730923,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 3.9685801400015137,
+          "mean_of_remaining_refs_in_baseline": 0.009677847009190263,
+          "mean_of_remaining_refs_in_tool_results": 0.1577621635744714,
+          "files_len": 250
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 4717652462,
+        "memory": 59422232
+      },
+      "evaluated": {
+        "time": 244536034,
+        "memory": 579088
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 7054714925,
+        "memory": 342212608
+      },
+      "evaluated": {
+        "time": 16550843897,
+        "memory": 0
+      }
+    },
+    "info": {
+      "repo_name": "FasterXML/jackson-core",
+      "commit": "0b77ee127d3acf9ed97dd560b234157b5fdb1890",
+      "no": 450,
+      "batch_id": "FasterXML/jackson-core:(,3cb5ce818e476d5b0b504b1833c7d33be80e9ca4)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 7418,
+          "decls_in_baseline_and_tool_with_refs": 7418,
+          "remaining_decls_in_baseline": 13,
+          "remaining_decls_in_tool_results": 2,
+          "overall_success_rate": 0.9972996020466174,
+          "overall_overestimation_rate": 0.9599179206566347,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 4.01315413153944,
+          "mean_of_remaining_refs_in_baseline": 0.010866456961557554,
+          "mean_of_remaining_refs_in_tool_results": 0.1675722047229665,
+          "files_len": 223
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 6892721138,
+        "memory": 55467784
+      },
+      "evaluated": {
+        "time": 6529,
+        "memory": 0
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 6592156979,
+        "memory": 446338088
+      },
+      "evaluated": {
+        "time": 17094341583,
+        "memory": 0
+      }
+    },
+    "info": {
+      "repo_name": "FasterXML/jackson-core",
+      "commit": "ac4e14e1d2c017a51c6ffaf5c93f5235a3cea799",
+      "no": 700,
+      "batch_id": "FasterXML/jackson-core:(,3cb5ce818e476d5b0b504b1833c7d33be80e9ca4)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 8623,
+          "decls_in_baseline_and_tool_with_refs": 8623,
+          "remaining_decls_in_baseline": 23,
+          "remaining_decls_in_tool_results": 2,
+          "overall_success_rate": 0.9973527671369398,
+          "overall_overestimation_rate": 0.9607007859842803,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 3.949679328570587,
+          "mean_of_remaining_refs_in_baseline": 0.01048347311168186,
+          "mean_of_remaining_refs_in_tool_results": 0.16156882089768515,
+          "files_len": 267
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 5305052309,
+        "memory": 64256296
+      },
+      "evaluated": {
+        "time": 110468,
+        "memory": 3136
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 7969067288,
+        "memory": 324428016
+      },
+      "evaluated": {
+        "time": 16466347528,
+        "memory": 0
+      }
+    },
+    "info": {
+      "repo_name": "FasterXML/jackson-core",
+      "commit": "1bf0a28175cf7b6fafec9b83df02bef52333ab41",
+      "no": 100,
+      "batch_id": "FasterXML/jackson-core:(,3cb5ce818e476d5b0b504b1833c7d33be80e9ca4)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 6124,
+          "decls_in_baseline_and_tool_with_refs": 6124,
+          "remaining_decls_in_baseline": 12,
+          "remaining_decls_in_tool_results": 2,
+          "overall_success_rate": 0.9971780060849244,
+          "overall_overestimation_rate": 0.9601749246380503,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 3.9364664919170638,
+          "mean_of_remaining_refs_in_baseline": 0.011140121843143582,
+          "mean_of_remaining_refs_in_tool_results": 0.1632724107635731,
+          "files_len": 178
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 3971794048,
+        "memory": 47225600
+      },
+      "evaluated": {
+        "time": 811324617,
+        "memory": 1365216
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 5533873042,
+        "memory": 554076552
+      },
+      "evaluated": {
+        "time": 10451491356,
+        "memory": 0
+      }
+    },
+    "info": {
+      "repo_name": "FasterXML/jackson-core",
+      "commit": "50a14508e015b95b061c0b24e55fa27d09426190",
+      "no": 850,
+      "batch_id": "FasterXML/jackson-core:(,3cb5ce818e476d5b0b504b1833c7d33be80e9ca4)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 7815,
+          "decls_in_baseline_and_tool_with_refs": 7815,
+          "remaining_decls_in_baseline": 17,
+          "remaining_decls_in_tool_results": 2,
+          "overall_success_rate": 0.9972877398976894,
+          "overall_overestimation_rate": 0.9607408632379693,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 3.9655972690831947,
+          "mean_of_remaining_refs_in_baseline": 0.01078498293368123,
+          "mean_of_remaining_refs_in_tool_results": 0.1620477815478433,
+          "files_len": 243
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 4742076499,
+        "memory": 57714760
+      },
+      "evaluated": {
+        "time": 467356236,
+        "memory": 1292560
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 6839443868,
+        "memory": 262749080
+      },
+      "evaluated": {
+        "time": 17340486521,
+        "memory": 0
+      }
+    },
+    "info": {
+      "repo_name": "FasterXML/jackson-core",
+      "commit": "eb477b85f74a2a1250ba6294cf4086d496830e27",
+      "no": 550,
+      "batch_id": "FasterXML/jackson-core:(,3cb5ce818e476d5b0b504b1833c7d33be80e9ca4)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 8212,
+          "decls_in_baseline_and_tool_with_refs": 8212,
+          "remaining_decls_in_baseline": 19,
+          "remaining_decls_in_tool_results": 2,
+          "overall_success_rate": 0.9972867340676378,
+          "overall_overestimation_rate": 0.9613588242620501,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 4.004539558494871,
+          "mean_of_remaining_refs_in_baseline": 0.010894941632828153,
+          "mean_of_remaining_refs_in_tool_results": 0.16095979245642544,
+          "files_len": 251
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 4838476854,
+        "memory": 60946848
+      },
+      "evaluated": {
+        "time": 221555778,
+        "memory": 947760
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 7561791369,
+        "memory": 393731112
+      },
+      "evaluated": {
+        "time": 15792712786,
+        "memory": 0
+      }
+    },
+    "info": {
+      "repo_name": "FasterXML/jackson-core",
+      "commit": "cbd3190d1e72ff186c591261bf1d5adc74a9e329",
+      "no": 350,
+      "batch_id": "FasterXML/jackson-core:(,3cb5ce818e476d5b0b504b1833c7d33be80e9ca4)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 5960,
+          "decls_in_baseline_and_tool_with_refs": 5960,
+          "remaining_decls_in_baseline": 12,
+          "remaining_decls_in_tool_results": 2,
+          "overall_success_rate": 0.9970069384608408,
+          "overall_overestimation_rate": 0.9611769335023828,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 3.916102599943694,
+          "mean_of_remaining_refs_in_baseline": 0.011756323474927622,
+          "mean_of_remaining_refs_in_tool_results": 0.15817598857175347,
+          "files_len": 173
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 3924844059,
+        "memory": 46187888
+      },
+      "evaluated": {
+        "time": 632236357,
+        "memory": 502968
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 5219821220,
+        "memory": 540635640
+      },
+      "evaluated": {
+        "time": 9646617180,
+        "memory": 0
+      }
+    },
+    "info": {
+      "repo_name": "FasterXML/jackson-core",
+      "commit": "1ac5725563acd839ed0c9a48a0ad17b14cbf1778",
+      "no": 900,
+      "batch_id": "FasterXML/jackson-core:(,3cb5ce818e476d5b0b504b1833c7d33be80e9ca4)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 7628,
+          "decls_in_baseline_and_tool_with_refs": 7628,
+          "remaining_decls_in_baseline": 13,
+          "remaining_decls_in_tool_results": 2,
+          "overall_success_rate": 0.9974318039841744,
+          "overall_overestimation_rate": 0.9593430803124374,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 4.008368200277773,
+          "mean_of_remaining_refs_in_baseline": 0.010320781030638663,
+          "mean_of_remaining_refs_in_tool_results": 0.1698744769637553,
+          "files_len": 236
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 4737898608,
+        "memory": 56741544
+      },
+      "evaluated": {
+        "time": 84338,
+        "memory": 2176
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 6663563087,
+        "memory": 698986080
+      },
+      "evaluated": {
+        "time": 16870387223,
+        "memory": 0
+      }
+    },
+    "info": {
+      "repo_name": "FasterXML/jackson-core",
+      "commit": "173748c1b79cd60851184afde8ae05082298720b",
+      "no": 500,
+      "batch_id": "FasterXML/jackson-core:(,3cb5ce818e476d5b0b504b1833c7d33be80e9ca4)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 8104,
+          "decls_in_baseline_and_tool_with_refs": 8104,
+          "remaining_decls_in_baseline": 19,
+          "remaining_decls_in_tool_results": 2,
+          "overall_success_rate": 0.9975278528578021,
+          "overall_overestimation_rate": 0.9612183966459154,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 3.978832500134258,
+          "mean_of_remaining_refs_in_baseline": 0.009860636338435362,
+          "mean_of_remaining_refs_in_tool_results": 0.1605311595897277,
+          "files_len": 250
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 4730755088,
+        "memory": 60030384
+      },
+      "evaluated": {
+        "time": 247619217,
+        "memory": 365032
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 7279496376,
+        "memory": 686057032
+      },
+      "evaluated": {
+        "time": 15470597606,
+        "memory": 0
+      }
+    },
+    "info": {
+      "repo_name": "FasterXML/jackson-core",
+      "commit": "a7b4b3204a0d10dbfe5d72d59d1a2852ac226636",
+      "no": 400,
+      "batch_id": "FasterXML/jackson-core:(,3cb5ce818e476d5b0b504b1833c7d33be80e9ca4)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 7703,
+          "decls_in_baseline_and_tool_with_refs": 7703,
+          "remaining_decls_in_baseline": 15,
+          "remaining_decls_in_tool_results": 2,
+          "overall_success_rate": 0.9972578965636931,
+          "overall_overestimation_rate": 0.9597154023449244,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 3.980465502357929,
+          "mean_of_remaining_refs_in_baseline": 0.010944860070525787,
+          "mean_of_remaining_refs_in_tool_results": 0.16708229424119114,
+          "files_len": 236
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 10001827843,
+        "memory": 84147160
+      },
+      "evaluated": {
+        "time": 210237059,
+        "memory": 880776
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 6674433416,
+        "memory": 464905496
+      },
+      "evaluated": {
+        "time": 17232224511,
+        "memory": 0
+      }
+    },
+    "info": {
+      "repo_name": "FasterXML/jackson-core",
+      "commit": "d1de08087ae1af8dbda9fdc6488276212c05a0eb",
+      "no": 600,
+      "batch_id": "FasterXML/jackson-core:(,3cb5ce818e476d5b0b504b1833c7d33be80e9ca4)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 6290,
+          "decls_in_baseline_and_tool_with_refs": 6290,
+          "remaining_decls_in_baseline": 12,
+          "remaining_decls_in_tool_results": 2,
+          "overall_success_rate": 0.9973531420765027,
+          "overall_overestimation_rate": 0.9602926668858928,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 3.9563082127084996,
+          "mean_of_remaining_refs_in_baseline": 0.010499576628196514,
+          "mean_of_remaining_refs_in_tool_results": 0.163590177787707,
+          "files_len": 181
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 4043292645,
+        "memory": 48464664
+      },
+      "evaluated": {
+        "time": 7713,
+        "memory": 0
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 5434425446,
+        "memory": 697512064
+      },
+      "evaluated": {
+        "time": 11250377188,
+        "memory": 0
+      }
+    },
+    "info": {
+      "repo_name": "FasterXML/jackson-core",
+      "commit": "cc91245d85ac59106181127941220e8033997b07",
+      "no": 800,
+      "batch_id": "FasterXML/jackson-core:(,3cb5ce818e476d5b0b504b1833c7d33be80e9ca4)"
+    }
+  }
+]

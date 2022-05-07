@@ -1,0 +1,15 @@
+[2022-05-07T00:42:46.958Z WARN] args: ["target/release/reserializing", "junit-team/junit4", "", "cc7c500584fcb85eaf98c568b7441ceac6dd335c", ""]
+[2022-05-07T00:42:52.761Z WARN] bad CST
+[2022-05-07T00:42:52.761Z ERROR] ParenthesizedExpression None None
+[2022-05-07T00:42:52.763Z ERROR] BinaryExpression ScopedIdentifier(2) None
+[2022-05-07T00:42:52.763Z ERROR] BinaryExpression ScopedIdentifier(2) None
+[2022-05-07T00:42:55.077Z WARN] bad CST
+[2022-05-07T00:42:58.060Z WARN] bad CST
+[2022-05-07T00:42:58.061Z ERROR] ParenthesizedExpression None None
+[2022-05-07T00:42:59.336Z WARN] bad CST
+[2022-05-07T00:42:59.336Z ERROR] ParenthesizedExpression None None
+[2022-05-07T00:43:02.226Z WARN] bad CST
+[2022-05-07T00:43:02.231Z ERROR] LocalVariableDeclaration Modifiers(Public, EnumSet(Static)) None
+[2022-05-07T00:43:02.231Z ERROR] LocalVariableDeclaration Modifiers(Public, EnumSet(Static)) None
+[2022-05-07T00:43:03.538Z WARN] bad CST
+[2022-05-07T00:43:03.538Z ERROR] ParenthesizedExpression None None

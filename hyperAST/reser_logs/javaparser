@@ -1,0 +1,108 @@
+[2022-05-07T00:42:43.950Z WARN] args: ["target/release/reserializing", "javaparser/javaparser", "", "046bf8be251189452ad6b25bf9107a1a2167ce6f", ""]
+[2022-05-07T00:42:49.368Z WARN] not possible
+[2022-05-07T00:42:50.440Z WARN] bad CST
+[2022-05-07T00:42:50.471Z ERROR] LabeledStatement None Declarations([(None, Variable(Old(3)), Runtime([Old(2)]))])
+[2022-05-07T00:42:56.318Z WARN] not possible
+[2022-05-07T00:42:57.730Z WARN] resolution of local type decl without a package should not append
+[2022-05-07T00:42:57.744Z WARN] not possible
+[2022-05-07T00:43:01.060Z WARN] not possible
+[2022-05-07T00:43:15.237Z WARN] not possible
+[2022-05-07T00:43:17.577Z WARN] not possible
+[2022-05-07T00:43:21.511Z WARN] not possible
+[2022-05-07T00:43:23.267Z WARN] not possible
+[2022-05-07T00:43:23.496Z WARN] not possible
+[2022-05-07T00:43:34.873Z WARN] not possible
+[2022-05-07T00:43:40.479Z WARN] not possible
+[2022-05-07T00:43:41.840Z WARN] not possible
+[2022-05-07T00:43:41.916Z WARN] not possible
+[2022-05-07T00:43:43.481Z WARN] not possible
+[2022-05-07T00:43:46.028Z WARN] not possible
+[2022-05-07T00:43:47.063Z ERROR] ExplicitConstructorInvocation SimpleIdentifier(FlatCase, LabelPtr(SymbolU32 { value: 215 }, FlatCase)) TypeArguments([Old(2)])
+[2022-05-07T00:43:51.060Z WARN] not possible
+[2022-05-07T00:43:55.680Z WARN] not possible
+[2022-05-07T00:44:00.874Z WARN] not possible
+[2022-05-07T00:44:03.331Z WARN] not possible
+[2022-05-07T00:44:04.088Z WARN] bad CST
+[2022-05-07T00:44:12.619Z WARN] bad CST
+[2022-05-07T00:44:13.169Z WARN] bad CST
+[2022-05-07T00:44:23.352Z WARN] not possible
+[2022-05-07T00:44:23.389Z WARN] bad CST
+[2022-05-07T00:44:31.387Z WARN] resolution of local type decl without a package should not append
+[2022-05-07T00:44:35.941Z WARN] not possible
+[2022-05-07T00:44:37.023Z WARN] bad CST
+[2022-05-07T00:44:37.025Z ERROR] AssignmentExpression ScopedIdentifier(2) None
+[2022-05-07T00:44:37.025Z ERROR] AssignmentExpression ScopedIdentifier(2) None
+[2022-05-07T00:44:37.026Z ERROR] AssignmentExpression ScopedIdentifier(2) None
+[2022-05-07T00:44:37.026Z ERROR] AssignmentExpression ScopedIdentifier(2) None
+[2022-05-07T00:44:37.026Z ERROR] SwitchExpression None ScopedIdentifier(Old(2))
+[2022-05-07T00:44:37.026Z ERROR] SwitchExpression None None
+[2022-05-07T00:44:37.026Z ERROR] SwitchExpression None ScopedIdentifier(Old(2))
+[2022-05-07T00:44:37.026Z ERROR] SwitchExpression None None
+[2022-05-07T00:44:37.027Z ERROR] FormalParameter Declaration { visibility: None, kind: Runtime([2]), identifier: None } None
+[2022-05-07T00:44:37.027Z ERROR] FormalParameter None SimpleIdentifier(SnakeCase, LabelPtr(SymbolU32 { value: 22253 }, SnakeCase))
+[2022-05-07T00:44:37.027Z ERROR] Dimensions None None
+[2022-05-07T00:44:37.027Z ERROR] ArrayType ScopedTypeIdentifier(2) None
+[2022-05-07T00:44:37.027Z ERROR] LocalVariableDeclaration None None
+[2022-05-07T00:44:37.027Z ERROR] LocalVariableDeclaration None Declarator(Variable(Old(2)))
+[2022-05-07T00:44:37.027Z ERROR] MethodDeclaration ScopedTypeIdentifier(2) None
+[2022-05-07T00:44:37.027Z ERROR] MethodDeclaration None SimpleIdentifier(UpperCamelCase, LabelPtr(SymbolU32 { value: 15820 }, UpperCamelCase))
+[2022-05-07T00:44:37.027Z ERROR] MethodDeclaration None FormalParameters([])
+[2022-05-07T00:44:37.157Z WARN] resolution of local type decl without a package should not append
+[2022-05-07T00:44:37.157Z WARN] resolution of local type decl without a package should not append
+[2022-05-07T00:44:39.267Z WARN] not possible
+[2022-05-07T00:44:42.635Z WARN] not possible
+[2022-05-07T00:44:43.908Z WARN] bad CST
+[2022-05-07T00:44:45.101Z WARN] not possible
+[2022-05-07T00:44:45.320Z WARN] not possible
+[2022-05-07T00:44:47.238Z ERROR] ExplicitConstructorInvocation SimpleIdentifier(FlatCase, LabelPtr(SymbolU32 { value: 215 }, FlatCase)) TypeArguments([Old(2)])
+[2022-05-07T00:44:50.591Z WARN] bad CST
+[2022-05-07T00:44:50.593Z ERROR] AssignmentExpression ScopedIdentifier(2) None
+[2022-05-07T00:44:50.593Z ERROR] AssignmentExpression ScopedIdentifier(2) None
+[2022-05-07T00:44:50.593Z ERROR] SwitchExpression None ScopedIdentifier(Old(2))
+[2022-05-07T00:44:50.593Z ERROR] SwitchExpression None None
+[2022-05-07T00:44:50.594Z ERROR] SwitchExpression None ScopedIdentifier(Old(2))
+[2022-05-07T00:44:50.594Z ERROR] SwitchExpression None None
+[2022-05-07T00:44:50.594Z ERROR] FormalParameter Declaration { visibility: None, kind: Runtime([2]), identifier: None } None
+[2022-05-07T00:44:50.594Z ERROR] FormalParameter None SimpleIdentifier(SnakeCase, LabelPtr(SymbolU32 { value: 22253 }, SnakeCase))
+[2022-05-07T00:44:50.594Z ERROR] Dimensions None None
+[2022-05-07T00:44:50.594Z ERROR] ArrayType ScopedTypeIdentifier(2) None
+[2022-05-07T00:44:50.594Z ERROR] LocalVariableDeclaration None None
+[2022-05-07T00:44:50.594Z ERROR] LocalVariableDeclaration None Declarator(Variable(Old(2)))
+[2022-05-07T00:44:50.594Z ERROR] MethodDeclaration ScopedTypeIdentifier(2) None
+[2022-05-07T00:44:50.594Z ERROR] MethodDeclaration None SimpleIdentifier(UpperCamelCase, LabelPtr(SymbolU32 { value: 15820 }, UpperCamelCase))
+[2022-05-07T00:44:50.594Z ERROR] MethodDeclaration None FormalParameters([])
+[2022-05-07T00:44:50.726Z WARN] resolution of local type decl without a package should not append
+[2022-05-07T00:44:50.726Z WARN] resolution of local type decl without a package should not append
+[2022-05-07T00:44:54.129Z WARN] not possible
+[2022-05-07T00:44:54.298Z WARN] not possible
+[2022-05-07T00:44:55.722Z WARN] resolution of local type decl without a package should not append
+[2022-05-07T00:44:55.722Z WARN] resolution of local type decl without a package should not append
+[2022-05-07T00:44:57.976Z WARN] bad CST
+[2022-05-07T00:45:05.723Z WARN] not possible
+[2022-05-07T00:45:12.598Z WARN] bad CST
+[2022-05-07T00:45:22.475Z WARN] not possible
+[2022-05-07T00:45:26.263Z WARN] bad CST
+[2022-05-07T00:45:26.265Z ERROR] AssignmentExpression ScopedIdentifier(2) None
+[2022-05-07T00:45:26.265Z ERROR] AssignmentExpression ScopedIdentifier(2) None
+[2022-05-07T00:45:26.265Z ERROR] SwitchExpression None ScopedIdentifier(Old(2))
+[2022-05-07T00:45:26.265Z ERROR] SwitchExpression None None
+[2022-05-07T00:45:26.265Z ERROR] SwitchExpression None ScopedIdentifier(Old(2))
+[2022-05-07T00:45:26.265Z ERROR] SwitchExpression None None
+[2022-05-07T00:45:26.265Z ERROR] FormalParameter Declaration { visibility: None, kind: Runtime([2]), identifier: None } None
+[2022-05-07T00:45:26.265Z ERROR] FormalParameter None SimpleIdentifier(SnakeCase, LabelPtr(SymbolU32 { value: 22253 }, SnakeCase))
+[2022-05-07T00:45:26.265Z ERROR] Dimensions None None
+[2022-05-07T00:45:26.265Z ERROR] ArrayType ScopedTypeIdentifier(2) None
+[2022-05-07T00:45:26.265Z ERROR] LocalVariableDeclaration None None
+[2022-05-07T00:45:26.265Z ERROR] LocalVariableDeclaration None Declarator(Variable(Old(2)))
+[2022-05-07T00:45:26.266Z ERROR] MethodDeclaration ScopedTypeIdentifier(2) None
+[2022-05-07T00:45:26.266Z ERROR] MethodDeclaration None SimpleIdentifier(UpperCamelCase, LabelPtr(SymbolU32 { value: 15820 }, UpperCamelCase))
+[2022-05-07T00:45:26.266Z ERROR] MethodDeclaration None FormalParameters([])
+[2022-05-07T00:45:26.381Z WARN] resolution of local type decl without a package should not append
+[2022-05-07T00:45:26.381Z WARN] resolution of local type decl without a package should not append
+[2022-05-07T00:45:27.265Z WARN] resolution of local type decl without a package should not append
+[2022-05-07T00:45:30.409Z WARN] not possible
+[2022-05-07T00:45:30.486Z WARN] not possible
+[2022-05-07T00:45:33.131Z WARN] resolution of local type decl without a package should not append
+
+thread 'main' has overflowed its stack
+fatal runtime error: stack overflow
