@@ -3,9 +3,9 @@ artifacts repository for ASE 2022
 
 ## Try the tool
 
-You first need to build with [](build.sh)
+You first need to build with [build.sh](build.sh)
 
-Then you can try one of the run_*.sh script.
+Then you can try one of the [run_*.sh](run_*.sh) script.
 
 * [run_benchmark_all.sh](run_benchmark_all.sh) allows you to run the whole benchmark presented in the article. Caution it will take a long time, hours depending on your hardware.
 * [run_benchmark_simp.sh](run_benchmark_simp.sh) allows you to run a part of the benchmark presented in the article. It should take a few minutes to run.
