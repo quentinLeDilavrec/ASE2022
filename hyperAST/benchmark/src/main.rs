@@ -128,6 +128,9 @@ fn multi_commit_ref_ana<const SEARCH_SKIP_SIZE: usize>(
         let root = c.1.ast_root;
         let out = out.as_ref().map(|x| x.join(c.0.to_string()));
         if let Some(out) = out {
+            if !out.exists() || !out.is_dir() {
+                panic!("{:?} should be a valid directory",&out);
+            }
             let mut file = File::create(out).unwrap();
             let mut buf = BufWriter::with_capacity(BUFF_WRITER_CAPACITY, &mut file);
 

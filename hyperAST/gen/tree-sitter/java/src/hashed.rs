@@ -4,7 +4,7 @@ use std::{
 };
 
 use num::{traits::WrappingAdd, PrimInt};
-use rusted_gumtree_core::tree::tree::{HashKind, Type};
+use hyper_ast::types::{HashKind, Type};
 
 use crate::nodes::{CompressedNode, HashSize, LabelIdentifier, NodeIdentifier};
 
@@ -94,12 +94,12 @@ pub struct HashedCompressedNode<U: NodeHashs, N, L> {
     pub(crate) node: CompressedNode<N, L>,
 }
 
-impl<T: Hash + PrimInt, U: NodeHashs<Hash = T>, N, L> rusted_gumtree_core::tree::tree::Node
+impl<T: Hash + PrimInt, U: NodeHashs<Hash = T>, N, L> hyper_ast::types::Node
     for HashedCompressedNode<U, N, L>
 {
 }
 
-impl<T: Hash + PrimInt, U: NodeHashs<Hash = T>, N: Eq, L> rusted_gumtree_core::tree::tree::Stored
+impl<T: Hash + PrimInt, U: NodeHashs<Hash = T>, N: Eq, L> hyper_ast::types::Stored
     for HashedCompressedNode<U, N, L>
 {
     type TreeId = N;
@@ -115,7 +115,7 @@ impl<U: NodeHashs + PartialEq, N: PartialEq, L: PartialEq> PartialEq
 
 impl<U: NodeHashs + PartialEq, N: Eq, L: Eq> Eq for HashedCompressedNode<U, N, L> {}
 
-impl<T: Hash + PrimInt, U: NodeHashs<Hash = T>, N, L> rusted_gumtree_core::tree::tree::Typed
+impl<T: Hash + PrimInt, U: NodeHashs<Hash = T>, N, L> hyper_ast::types::Typed
     for HashedCompressedNode<U, N, L>
 {
     type Type = Type;
@@ -125,7 +125,7 @@ impl<T: Hash + PrimInt, U: NodeHashs<Hash = T>, N, L> rusted_gumtree_core::tree:
     }
 }
 
-impl<T: Hash + PrimInt, U: NodeHashs<Hash = T>, N, L: Eq> rusted_gumtree_core::tree::tree::Labeled
+impl<T: Hash + PrimInt, U: NodeHashs<Hash = T>, N, L: Eq> hyper_ast::types::Labeled
     for HashedCompressedNode<U, N, L>
 {
     type Label = L;
@@ -136,7 +136,7 @@ impl<T: Hash + PrimInt, U: NodeHashs<Hash = T>, N, L: Eq> rusted_gumtree_core::t
 }
 
 impl<T: Hash + PrimInt, U: NodeHashs<Hash = T>, N: Eq + Clone, L>
-    rusted_gumtree_core::tree::tree::WithChildren for HashedCompressedNode<U, N, L>
+    hyper_ast::types::WithChildren for HashedCompressedNode<U, N, L>
 {
     type ChildIdx = u16;
 
@@ -162,7 +162,7 @@ impl<T: Hash + PrimInt, U: NodeHashs<Hash = T>, N: Eq + Clone, L>
 }
 
 impl<T: Hash + PrimInt, U: NodeHashs<Hash = T>, N: Eq + Clone, L: Eq>
-    rusted_gumtree_core::tree::tree::Tree for HashedCompressedNode<U, N, L>
+    hyper_ast::types::Tree for HashedCompressedNode<U, N, L>
 {
     fn has_children(&self) -> bool {
         self.node.has_children()
@@ -182,7 +182,7 @@ where
     }
 }
 
-impl<T: Hash + PrimInt, U: NodeHashs<Hash = T>, N, L> rusted_gumtree_core::tree::tree::WithHashs
+impl<T: Hash + PrimInt, U: NodeHashs<Hash = T>, N, L> hyper_ast::types::WithHashs
     for HashedCompressedNode<U, N, L>
 {
     type HK = U::Kind;

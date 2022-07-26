@@ -1,6 +1,21 @@
 # ASE2022
 artifacts repository for ASE 2022
 
+## Try the tool
+
+You first need to build with [](build.sh)
+
+Then you can try one of the run_*.sh script.
+
+* [run_benchmark_all.sh](run_benchmark_all.sh) allows you to run the whole benchmark presented in the article. Caution it will take a long time, hours depending on your hardware.
+* [run_benchmark_simp.sh](run_benchmark_simp.sh) allows you to run a part of the benchmark presented in the article. It should take a few minutes to run.
+* [run_example_interactive.sh](run_example_interactive.sh) allows you to interactively look at references missed by our tool compared to spoon.
+* [run_notebook.sh](run_notebook.sh) allows you to plot figures presented in the article, through a local observablehq notebook.
+* [run_example_simp.sh](run_example_simp.sh) allows you to construct an hyperAST and to compute reference relations.
+
+
+## Directories
+
 * [hyperAST/](hyperAST/) contains our tool with its intermediary results
 
   Our tool uses nightly rust https://rust-lang.github.io/rustup/concepts/channels.html, then you can compile with ``cargo build --release``
@@ -20,4 +35,4 @@ For each repository after having run the HyperAST and extracted the modules, you
 ``cat the_modules_dir/the_repo/the_repo | bash ana.sh the_git_repository_dir user/repo "" the_results_dir/the_repo/``.
 
 * [observable\_notebook\_results/](observable\_notebook\_results/) contains a notebook for the plotting of results
-* repositories used for the evaluation are not included because they are too large (even compressed) to be put in a git repository, however you can download them, the links are available in hyperAST/launch_all.sh
+* repositories used for the evaluation are not included because they are too large (even compressed) to be put in a git repository, however you can clone them with git, the links are available in hyperAST/launch_all.sh

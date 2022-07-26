@@ -6,7 +6,7 @@ use std::{
 };
 
 use num::ToPrimitive;
-use rusted_gumtree_core::tree::tree::Type;
+use hyper_ast::types::Type;
 
 pub type TypeIdentifier = Type;
 
@@ -146,7 +146,7 @@ impl<N, L> CompressedNode<N, L> {
 
 // CompressedNode
 
-impl<N, L> rusted_gumtree_core::tree::tree::Typed for CompressedNode<N, L> {
+impl<N, L> hyper_ast::types::Typed for CompressedNode<N, L> {
     type Type = Type;
 
     fn get_type(&self) -> Type {
@@ -160,7 +160,7 @@ impl<N, L> rusted_gumtree_core::tree::tree::Typed for CompressedNode<N, L> {
     }
 }
 
-impl<N, L: Eq> rusted_gumtree_core::tree::tree::Labeled for CompressedNode<N, L> {
+impl<N, L: Eq> hyper_ast::types::Labeled for CompressedNode<N, L> {
     type Label = L;
 
     fn get_label(&self) -> &L {
@@ -171,7 +171,7 @@ impl<N, L: Eq> rusted_gumtree_core::tree::tree::Labeled for CompressedNode<N, L>
     }
 }
 
-impl<N: Eq + Clone, L> rusted_gumtree_core::tree::tree::WithChildren for CompressedNode<N, L> {
+impl<N: Eq + Clone, L> hyper_ast::types::WithChildren for CompressedNode<N, L> {
     type ChildIdx = u16;
     fn child_count(&self) -> u16 {
         match self {
@@ -224,12 +224,12 @@ impl<N: Eq + Clone, L> rusted_gumtree_core::tree::tree::WithChildren for Compres
         }
     }
 }
-impl<N, L> rusted_gumtree_core::tree::tree::Node for CompressedNode<N, L> {}
-impl<N: Eq, L> rusted_gumtree_core::tree::tree::Stored for CompressedNode<N, L> {
+impl<N, L> hyper_ast::types::Node for CompressedNode<N, L> {}
+impl<N: Eq, L> hyper_ast::types::Stored for CompressedNode<N, L> {
     type TreeId = N;
 }
 
-impl<N: Eq + Clone, L: Eq> rusted_gumtree_core::tree::tree::Tree for CompressedNode<N, L> {
+impl<N: Eq + Clone, L: Eq> hyper_ast::types::Tree for CompressedNode<N, L> {
     fn has_children(&self) -> bool {
         match self {
             CompressedNode::Children2 {

@@ -1,4 +1,4 @@
-use rusted_gumtree_core::tree::tree::Type;
+use hyper_ast::types::Type;
 
 use crate::nodes::TypeIdentifier;
 

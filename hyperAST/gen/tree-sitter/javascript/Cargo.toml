@@ -7,7 +7,7 @@ edition = "2018"
 
 [dependencies]
 tree-sitter = "0.20.0"
-rusted_gumtree_core = { path = "../../../core" }
+hyper_ast = { path = "../../../hyper_ast" }
 
 
 [build-dependencies]

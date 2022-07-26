@@ -13,12 +13,20 @@ use pretty_assertions::assert_eq;
 use tree_sitter::{Language, Parser};
 
 use crate::{
-    java_tree_gen::spaces_after_lb,
     java_tree_gen_full_compress_legion_ref::{
         print_tree_labels, print_tree_syntax, serialize, JavaTreeGen,
     },
     utils::memusage_linux,
 };
+
+
+pub(crate) fn spaces_after_lb<'b>(lb: &[u8], spaces: &'b [u8]) -> Option<&'b [u8]> {
+    spaces
+        .windows(lb.len())
+        .rev()
+        .position(|window| window == lb)
+        .and_then(|i| Some(&spaces[spaces.len() - i - 1..]))
+}
 
 // use crate::java_tree_gen::{JavaTreeGen, TreeContext, TreeGenerator};
 
