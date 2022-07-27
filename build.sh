@@ -1,8 +1,14 @@
 #!/bin/sh
 
+set -e
+
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
-cd hyper_ast
+source ~/.profile
+
+rustup toolchain install nightly
+
+cd hyperAST
 
 cargo build --release
 

@@ -3,7 +3,7 @@ artifacts repository for ASE 2022
 
 ## Try the tool
 
-You first need to build with [build.sh](build.sh)
+You can try to build with [build.sh](build.sh), if it does not work you can look at [hyperAST/BUILD.md](hyperAST/BUILD.md) to manually install the tool chain and build the HyperAST.
 
 Then you can try one of the [run_*.sh](run_*.sh) script.
 
