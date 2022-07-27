@@ -1,38 +1,79 @@
 #!/bin/sh
 
+set -e
+
+HYPERAST_RESULTS="results"
+SPOON_RESULTS="results"
+HYPERAST_LOGS="logs"
+
 # run the full benchmark
 # WARNING it will take a very long time!
 # You should first try run_benchmark_simp.sh and look at the result then if it looks right run this benchmark on a server.
 
+mkdir -p results/
+mkdir -p modules/
 
-cd HyperAST
+cd hyperAST
+mkdir -p $HYPERAST_LOGS/
 
-# launch impact analysis on all considered repositories
 # For each repository, first construct the HyperAST with indexed references (reference oracles made with bloom filters),
 # then for a sample of commits, for each declaration find all corresponding references.
-./launch_all.sh 
+while IFS=, read -r name repo before after path
+do
+    mkdir -p $HYPERAST_RESULTS/$name
+    target/release/rusted_gumtree_benchmark "$repo" $before $after "" "$HYPERAST_RESULTS/$name" &> "$HYPERAST_LOGS/$name" &
+    sleep 1
+done < all.csv
 
-# extract commits that had their declarations resolved.
-# TODO
-target/release/ref-mining-evaluation
+# extract commits and modules that had their declarations resolved.
+while IFS=, read -r name repo before after path
+do
+    target/release/ref-mining-evaluation modules --refs $HYPERAST_RESULTS/$name > ../modules/$name 2> /dev/null
+done < all.csv
 
-# extract performances measurments on construction
-# TODO
-target/release/ref-mining-evaluation
+# clone repositories for beseline analysis with spoon
+mkdir -p /tmp/spoongitinstances
 
-# do the same kind of analysis with Spoon
-# TODO
+while IFS=, read -r name repo before after path
+do
+    cd /tmp/spoongitinstances
 
-# extract and compare reference relations found with the HyperAST to the one found with Spoon.
-# TODO
-target/release/ref-mining-evaluation 
+    if [[ -d "$name" ]]
+    then
+        cd "$name"
+        git fetch
+    else
+        git clone "https://github.com/$repo" "$name"
+    fi
+done < all.csv
+
+
+# do the same reference analysis with Spoon
+while IFS=, read -r name repo before after path
+do
+    cd ../refsolver
+    mkdir -p $SPOON_RESULTS/$name
+    cat ../modules/$name | bash ana.sh /tmp/spoongitinstances/$name/ "$REPO" "" $SPOON_RESULTS/$name
+done < all.csv
+
+while IFS=, read -r name repo before after path
+do
+    # extract performances measurments on construction
+    target/release/ref-mining-evaluation multi-perfs-stats --json ../refsolver/$SPOON_RESULTS/$name/ $HYPERAST_RESULTS/$name/ > ../results/perfs_$name.json 2> /dev/null
+
+    # extract and compare reference relations found with the HyperAST to the one found with Spoon.
+    target/release/ref-mining-evaluation multi-compare-stats --json ../refsolver/$SPOON_RESULTS/$name/ $HYPERAST_RESULTS/$name/ > ../results/summary_$name.json 2> /dev/null
+done < all.csv
+cd ..
 
 # display some stats on results
-# TODO
-ls results
+ls results/
 
-# a notebook is available to plot results
-# TODO
+# a dedicated notebook is available to plot results
 cd ../observable_notebook_results
-npm install --dev http-server
-npx http-server
+if ! command -v npm &> /dev/null
+then
+    echo "npm could not be found, if you want to plot graphs with the notebook then you need to install or setup node.js and the node package manager"
+else
+    npx http-server
+fi
