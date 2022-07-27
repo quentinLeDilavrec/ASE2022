@@ -17,7 +17,7 @@ use std::{
 use clap::{Parser, Subcommand};
 use rayon::iter::{IntoParallelIterator, IntoParallelRefIterator, ParallelIterator};
 use relations::{Info, Perfs};
-use rusted_gumtree_cvs_git::git::{fetch_repository, read_position, read_position_floating_lines};
+use hyper_ast_cvs_git::git::{fetch_repository, read_position, read_position_floating_lines};
 use serde::{Deserialize, Serialize};
 use stats::CompStats;
 use termion::color;

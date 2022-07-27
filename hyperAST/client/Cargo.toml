@@ -8,4 +8,4 @@ edition = "2021"
 [dependencies]
 tree-sitter = "0.20.1"
 tree-sitter-cli = "0.20.1"
-rusted_gumtree_gen_ts_java = { path = "../gen/tree-sitter/java" }
+hyper_ast_gen_ts_java = { path = "../gen/tree-sitter/java" }

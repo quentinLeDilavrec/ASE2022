@@ -18,7 +18,7 @@ use hyper_ast::{
     utils::memusage_linux,
 };
 use log::info;
-use rusted_gumtree_gen_ts_java::{
+use hyper_ast_gen_ts_java::{
     filter::BloomSize,
     impact::{element::RefPtr, partial_analysis::PartialAnalysis},
     java_tree_gen_full_compress_legion_ref::{self, hash32, BulkHasher},
@@ -31,8 +31,8 @@ use crate::{
     maven::{handle_pom_file, IterMavenModules2, MavenModuleAcc, POM},
     Commit, SimpleStores, MAX_REFS, MD,
 };
-use rusted_gumtree_gen_ts_java::java_tree_gen_full_compress_legion_ref as java_tree_gen;
-use rusted_gumtree_gen_ts_xml::xml_tree_gen::XmlTreeGen;
+use hyper_ast_gen_ts_java::java_tree_gen_full_compress_legion_ref as java_tree_gen;
+use hyper_ast_gen_ts_xml::xml_tree_gen::XmlTreeGen;
 use tuples::CombinConcat;
 
 /// preprocess a git repository
@@ -186,7 +186,7 @@ impl PreProcessedRepository {
                     let mut out = BuffOut {
                         buff: "".to_owned(),
                     };
-                    rusted_gumtree_gen_ts_java::java_tree_gen_full_compress_legion_ref::serialize(
+                    hyper_ast_gen_ts_java::java_tree_gen_full_compress_legion_ref::serialize(
                         &self.main_stores.node_store,
                         &self.main_stores.label_store,
                         &full_node.local.compressed_node,

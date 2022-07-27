@@ -10,12 +10,12 @@ use std::{
     time::{Instant, SystemTime},
 };
 
-use rusted_gumtree_cvs_git::{
+use hyper_ast_cvs_git::{
     allrefs::write_referencial_relations,
     git::{fetch_github_repository, retrieve_commit},
     preprocessed::{self, PreProcessedRepository},
 };
-use rusted_gumtree_gen_ts_java::utils::memusage_linux;
+use hyper_ast_gen_ts_java::utils::memusage_linux;
 use serde::{Deserialize, Serialize, Serializer};
 
 use crate::write_serializer::{WriteJson, WritePartialJson};
@@ -128,10 +128,7 @@ fn multi_commit_ref_ana<const SEARCH_SKIP_SIZE: usize>(
         let root = c.1.ast_root;
         let out = out.as_ref().map(|x| x.join(c.0.to_string()));
         if let Some(out) = out {
-            if !out.exists() || !out.is_dir() {
-                panic!("{:?} should be a valid directory",&out);
-            }
-            let mut file = File::create(out).unwrap();
+            let mut file = File::create(out.clone()).expect(&format!("{:?} should be a valid file",&out));
             let mut buf = BufWriter::with_capacity(BUFF_WRITER_CAPACITY, &mut file);
 
             let info = Info {

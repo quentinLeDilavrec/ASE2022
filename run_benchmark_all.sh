@@ -21,7 +21,7 @@ mkdir -p $HYPERAST_LOGS/
 while IFS=, read -r name repo before after path
 do
     mkdir -p $HYPERAST_RESULTS/$name
-    target/release/rusted_gumtree_benchmark "$repo" $before $after "" "$HYPERAST_RESULTS/$name" &> "$HYPERAST_LOGS/$name" &
+    target/release/hyper_ast_benchmark "$repo" $before $after "" "$HYPERAST_RESULTS/$name" &> "$HYPERAST_LOGS/$name" &
     sleep 1
 done < all.csv
 

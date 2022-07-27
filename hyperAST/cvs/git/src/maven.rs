@@ -11,8 +11,8 @@ use hyper_ast::{
     tree_gen::SubTreeMetrics,
     types::{LabelStore as _, Labeled, Tree, Type, Typed, WithChildren},
 };
-use rusted_gumtree_gen_ts_java::java_tree_gen_full_compress_legion_ref as java_tree_gen;
-use rusted_gumtree_gen_ts_xml::xml_tree_gen::XmlTreeGen;
+use hyper_ast_gen_ts_java::java_tree_gen_full_compress_legion_ref as java_tree_gen;
+use hyper_ast_gen_ts_xml::xml_tree_gen::XmlTreeGen;
 
 use crate::{SimpleStores, PROPAGATE_ERROR_ON_BAD_CST_NODE};
 

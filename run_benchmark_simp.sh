@@ -20,7 +20,9 @@ mkdir -p logs_simp/
 
 # For each repository, first construct the HyperAST with indexed references (reference oracles made with bloom filters),
 # then for a sample of commits, for each declaration find all corresponding references.
-target/release/rusted_gumtree_benchmark "$REPO" "$BEFORE" "$AFTER" "" results_simp/$SHORTNAME &> logs_simp/$SHORTNAME
+target/release/hyper_ast_benchmark "$REPO" "$BEFORE" "$AFTER" "" results_simp/$SHORTNAME &> logs_simp/$SHORTNAME
+
+tail logs_simp/$SHORTNAME
 
 # extract commits and modules that had their declarations resolved.
 target/release/ref-mining-evaluation modules --refs results_simp/$SHORTNAME > ../results_simp/modules/$SHORTNAME 2> /dev/null

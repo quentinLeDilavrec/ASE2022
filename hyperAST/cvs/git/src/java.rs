@@ -4,9 +4,9 @@ use hyper_ast::{
     hashed::{SyntaxNodeHashs},
     types::Type, store::labels::DefaultLabelIdentifier,
 };
-use rusted_gumtree_gen_ts_java::impact::partial_analysis::PartialAnalysis;
+use hyper_ast_gen_ts_java::impact::partial_analysis::PartialAnalysis;
 
-use rusted_gumtree_gen_ts_java::java_tree_gen_full_compress_legion_ref as java_tree_gen;
+use hyper_ast_gen_ts_java::java_tree_gen_full_compress_legion_ref as java_tree_gen;
 
 pub(crate) fn handle_java_file(
     tree_gen: &mut java_tree_gen::JavaTreeGen,

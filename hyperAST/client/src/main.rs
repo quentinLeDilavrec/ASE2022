@@ -6,7 +6,7 @@ extern "C" {
 
 fn main_compress() {
     // TODO reintegrate gumtree algorithms
-    // use rusted_gumtree_gen_ts_java::java_tree_gen_full_compress::{
+    // use hyper_ast_gen_ts_java::java_tree_gen_full_compress::{
     //     JavaTreeGen, LabelStore, NodeStore, SimpleStores,
     // };
     //     println!("Hello, world!");
@@ -119,7 +119,7 @@ fn main_compress() {
 
 fn main() {
     // TODO reintegrate gumtree algorithms
-//     use rusted_gumtree_gen_ts_java::java_tree_gen::{JavaTreeGen, LabelStore, NodeStore,SimpleStores,HashedNode};
+//     use hyper_ast_gen_ts_java::java_tree_gen::{JavaTreeGen, LabelStore, NodeStore,SimpleStores,HashedNode};
 //     // tree_sitter_cli::generate::parse_grammar;
 
 //     println!("Hello, world!");

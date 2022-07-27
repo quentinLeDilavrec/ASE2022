@@ -1,14 +1,27 @@
 # ASE2022
 artifacts repository for ASE 2022
 
+# Building requirements
+
+The HyperAST library is written in Rust, and we currently use the nightly channel.
+If you have a stable version of Rust, you first have to uninstall it.
+Then run:
+
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+to install Rustup. Select 2) for Customize installation. 
+For the Default toolchain? (stable/beta/nightly/none), select nightly.
+
+You can find up to date instructions on how to install Rustup, the Rust version manager here: https://rust-lang.github.io/rustup/installation/index.html and instructions for switching to the nightly channel here: https://rust-lang.github.io/rustup/concepts/channels.html.
+
 ## Try the tool
 
-You can try to build with [build.sh](build.sh), if it does not work you can look at [hyperAST/BUILD.md](hyperAST/BUILD.md) to manually install the tool chain and build the HyperAST.
+Once build requirements are fullfilled, you should be able compile with `cargo build --release`.
 
 Then you can try one of the [run_*.sh](run_*.sh) script.
 
-* [run_benchmark_all.sh](run_benchmark_all.sh) allows you to run the whole benchmark presented in the article. Caution it will take a long time, hours depending on your hardware.
-* [run_benchmark_simp.sh](run_benchmark_simp.sh) allows you to run a part of the benchmark presented in the article. It should take a few minutes to run.
+* __[run_benchmark_simp.sh](run_benchmark_simp.sh)__ allows you to run a part of the benchmark presented in the article. It should take a few minutes to run.
+* [run_benchmark_all.sh](run_benchmark_all.sh) allows you to run the whole benchmark presented in the article. __Caution__ it will take a long time, hours depending on your hardware.
 * [run_example_interactive.sh](run_example_interactive.sh) allows you to interactively look at references missed by our tool compared to spoon.
 * [run_notebook.sh](run_notebook.sh) allows you to plot figures presented in the article, through a local observablehq notebook.
 * [run_example_simp.sh](run_example_simp.sh) allows you to construct an hyperAST and to compute reference relations.
@@ -24,7 +37,7 @@ Then you can try one of the [run_*.sh](run_*.sh) script.
 
   Once you have the results you can extract the commits and modules ``target/release/ref-mining-evaluation modules --refs the_results_dir/the_repo/ > the_modules_dir/the_repo`` that will be used by the baseline tool.
 
-  Finally, with the results from our tool and from the baseline you can use a command line tool that we made ``target/release/ref-mining-evaluation``, it has an help menu. For example you can compute the statistics to compare the previously computed references ``target/release/ref-mining-evaluation multi-^Cmpare-stats --json ../refsolver/comp_jacoco/ ../rusted_gumtree_mask2or/results_1000_commits2/jacoco/ > summary5_jacoco.json``.
+  Finally, with the results from our tool and from the baseline you can use a command line tool that we made ``target/release/ref-mining-evaluation``, it has an help menu. For example you can compute the statistics to compare the previously computed references ``target/release/ref-mining-evaluation multi-^Cmpare-stats --json ../refsolver/comp_jacoco/ ../hyper_ast_mask2or/results_1000_commits2/jacoco/ > summary5_jacoco.json``.
   It is also possible to interactively look at the differences with the subcommand: ``target/release/ref-mining-evaluation interactive --repository github.com/user/repo --commit the_commmitid ``.
 
 * [refsolver/](refsolver/) contains the baseline tool with its intermediary results

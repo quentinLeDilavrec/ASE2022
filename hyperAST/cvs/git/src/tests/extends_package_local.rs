@@ -16,18 +16,18 @@ use hyper_ast::{
     types::{LabelStore as _, Type, Typed}, impact::serialize::CachedHasher,
 };
 
-use rusted_gumtree_gen_ts_java::java_tree_gen_full_compress_legion_ref::{
+use hyper_ast_gen_ts_java::java_tree_gen_full_compress_legion_ref::{
     print_tree_syntax, BulkHasher,
 };
 use tree_sitter::{Language, Parser};
 
 use crate::java::handle_java_file;
 
-use rusted_gumtree_gen_ts_java::impact::{
+use hyper_ast_gen_ts_java::impact::{
     element::{IdentifierFormat, LabelPtr},
     partial_analysis::PartialAnalysis,
 };
-use rusted_gumtree_gen_ts_java::{
+use hyper_ast_gen_ts_java::{
     impact::{element::RefsEnum, usage},
     java_tree_gen_full_compress_legion_ref as java_tree_gen,
 };
