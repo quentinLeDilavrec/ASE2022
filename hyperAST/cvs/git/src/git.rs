@@ -153,7 +153,18 @@ pub fn up_to_date_repo(path: &Path, mut fo: git2::FetchOptions, url: Url) -> Rep
 
         repository
     } else if path.exists() {
-        todo!()
+        let repository = match Repository::open_bare(path) {
+            Ok(repo) => repo,
+            Err(e) => panic!("failed to open: {}", e),
+        };
+        log::info!("fetch: {:?}", path);
+        repository
+            .find_remote("origin")
+            .unwrap()
+            .fetch(&["main"], Some(&mut fo), None)
+            .unwrap_or_else(|e| log::error!("{}", e));
+
+        repository
     } else {
         let mut builder = git2::build::RepoBuilder::new();
 

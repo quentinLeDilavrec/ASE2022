@@ -8,6 +8,8 @@ start=`date +%s`
 totalnb=0
 one=1
 
+mvn package -Dmaven.test.skip
+
 while IFS= read -r line;
 do
     totalnb=$((totalnb+1))
@@ -16,7 +18,7 @@ do
     (cd $1; git checkout $line);
     commit=${line%% *}
     echo "java @.argfile fr.quentin.refSolver.EvalValidPerf \"$1\" \"$2\" \"$3\" \"$line\" > $4/$commit";
-    java @.argfile fr.quentin.refSolver.EvalValidPerf "$1" "$2" "$line" > $4/$commit
+    java -cp target/refsolver-1.0-SNAPSHOT-jar-with-dependencies.jar fr.quentin.refSolver.EvalValidPerf "$1" "$2" "$line" > $4/$commit
     endl=`date +%s`
     runtimel=$((endl-startl))
     echo "$line commit time taken $runtimel"
