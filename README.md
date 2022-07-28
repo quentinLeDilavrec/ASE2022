@@ -29,7 +29,7 @@ Once build requirements are fullfilled, you should be able compile with `cargo b
 
 Then you can try one of the [run_*.sh](run_*.sh) script.
 
-* __[run_benchmark_simp.sh](run_benchmark_simp.sh)__ allows you to run a part of the benchmark presented in the article. It should take a few minutes to run.
+* __[run_benchmark_simp.sh](run_benchmark_simp.sh)__ allows you to run a part of the benchmark presented in the article. It should just take a few minutes to run.
 * [run_benchmark_all.sh](run_benchmark_all.sh) allows you to run the whole benchmark presented in the article. __Caution__ it will take a long time, hours depending on your hardware.
 * [run_example_interactive.sh](run_example_interactive.sh) allows you to interactively look at references missed by our tool compared to spoon.
 * [run_notebook.sh](run_notebook.sh) allows you to plot figures presented in the article, through a local observablehq notebook.

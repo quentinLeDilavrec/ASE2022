@@ -1,3 +1,4 @@
+#!/bin/bash
 
 echo "work on directory $1"
 echo "for repo $2"

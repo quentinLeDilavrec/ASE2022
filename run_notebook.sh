@@ -1,6 +1,6 @@
-#!/bin/sh
+#!/bin/bash
 
-set -e
+set -ex
 
 # a dedicated notebook is available to plot results
 cd observable_notebook_results

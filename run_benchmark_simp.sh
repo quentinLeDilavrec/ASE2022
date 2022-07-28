@@ -1,6 +1,6 @@
-#!/bin/sh
+#!/bin/bash
 
-set -e
+set -ex
 
 # Launch impact analysis on the INRIA/spoon repository.
 SHORTNAME=spoon

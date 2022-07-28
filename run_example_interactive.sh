@@ -1,6 +1,6 @@
-#!/bin/sh
+#!/bin/bash
 
-set -e
+set -ex
 
 #!/bin/sh
 # this script construct an hyperAST and to compute the reference relations.
@@ -18,10 +18,10 @@ read input
 if [[ $input == "Y" || $input == "y"  || $input == "" ]]; then
     read -e -p "Enter the directory for modules: " -i  "modules_comp" MODULES
     mkdir -p "$MODULES"
-    mkdir -p "$HAST_R"
+    mkdir -p "$HAST_R/$REPO_NAME"
     (
     cd hyperAST
-    # target/release/hyper_ast_benchmark "$GITHUB_USER/$REPO_NAME" "$BEFORE" "$AFTER" "" "../$HAST_R/$REPO_NAME"
+    target/release/hyper_ast_benchmark "$GITHUB_USER/$REPO_NAME" "$BEFORE" "$AFTER" "" "../$HAST_R/$REPO_NAME"
     # extract commits and modules that had their declarations resolved.
     target/release/ref-mining-evaluation modules --refs ../$HAST_R/$REPO_NAME > ../$MODULES/$REPO_NAME
     )

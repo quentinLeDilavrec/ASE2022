@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # this script construct an hyperAST to computes the reference relations.
 
 read -e -p "Enter the output directory for results: " -i  "example_simp" OUTDIR

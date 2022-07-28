@@ -57,6 +57,7 @@ import spoon.reflect.code.CtStatement;
 import spoon.reflect.code.CtStatementList;
 import spoon.reflect.code.CtSuperAccess;
 import spoon.reflect.code.CtSwitch;
+import spoon.reflect.code.CtSwitchExpression;
 import spoon.reflect.code.CtSynchronized;
 import spoon.reflect.code.CtThisAccess;
 import spoon.reflect.code.CtThrow;
@@ -1154,5 +1155,12 @@ public class CtRefHolderVisitor implements CtVisitor {
 		// matched(wildcardReference,ref);
 		// decl(wildcardReference);
 		scan(CtRole.TYPE_REF, wildcardReference.getTypeReference());
+	}
+
+	@Override
+	public <T, S> void visitCtSwitchExpression(CtSwitchExpression<T, S> switchExpression) {
+		scan(CtRole.ANNOTATION, switchExpression.getAnnotations());
+		scan(CtRole.EXPRESSION, switchExpression.getSelector());
+		scan(CtRole.CASE, switchExpression.getCases());
 	}
 }
