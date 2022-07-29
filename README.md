@@ -25,7 +25,7 @@ http-server is required to launch the notebook that plots the figures (we use ve
 
 ## Try the tool
 
-Once build requirements are fullfilled, you should be able compile with `cargo build --release`.
+Once build requirements are fullfilled, while being in `hyperAST/`, you should be able compile with `cargo build --release`.
 
 Then you can try one of the [run_*.sh](run_*.sh) script.
 
