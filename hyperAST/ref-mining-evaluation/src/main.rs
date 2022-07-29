@@ -647,7 +647,12 @@ where
     let mut current_inside_zoom: usize = 1;
     let mut current_choice: Option<usize> = None;
     loop {
-        println!("do you want to see details ? [NO/Quit/Help/!#/?#/+#/-#/*#//#]");
+        println!("do you want to see details ? [NO/Quit/Help/{}/+#/-#/*#//#]",
+        (0..ranges.left.len()+ranges.right.len())
+            .into_iter()
+            .map(|x| x.to_string())
+            .intersperse("/".to_string())
+            .collect::<String>());
         // screen.flush().unwrap();
         let mut buffer = String::new();
         io::stdin().read_line(&mut buffer).unwrap();
@@ -662,8 +667,7 @@ where
                 NO\tn: default go back up to declarations 
                 Quit\tq: quit the whole prompt, you can also CTRL-C
                 Help\th: current manual
-                !#: select a range of a reference found in the baseline
-                ?#: select a range of a reference found in the test result to evaluate
+                <number>: select a range (the previous print shows a ! if it is a range found with baseline tool and ? if found with evaluated tool)
                 +#: show more lines around current range
                 -#: show less lines around current range
                 *#: show more lines in the current range
