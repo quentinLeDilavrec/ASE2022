@@ -244,6 +244,9 @@ COPY observable_notebook_results ./observable_notebook_results
 COPY build.sh ./
 COPY run_benchmark_all.sh run_benchmark_simp.sh run_example_interactive.sh run_example_simp.sh run_notebook.sh ./
 
+EXPOSE 8080
+EXPOSE 8081
+
 RUN cd refsolver && mvn package -Dmaven.test.skip
 
 RUN rustup toolchain install nightly && rustup default nightly
