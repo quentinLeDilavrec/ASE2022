@@ -13,8 +13,7 @@ read -e -p "Enter the last wanted commit/reference: " -i  "56e12a0c0e0e69ea70863
 read -e -p "Enter the directory for intermediate hyperAST results: " -i  "hyperast_comp" HAST_R
 read -e -p "Enter the directory for intermediate spoon results: " -i  "spoon_comp" SPOON_R
 
-echo "Do you want to compute relations? [Y,n]"
-read input
+read -e -p "Do you want to compute relations? [Y,n]" input
 if [[ $input == "Y" || $input == "y"  || $input == "" ]]; then
     read -e -p "Enter the directory for modules: " -i  "modules_comp" MODULES
     mkdir -p "$MODULES"

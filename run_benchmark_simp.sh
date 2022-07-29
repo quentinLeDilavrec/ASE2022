@@ -51,7 +51,6 @@ cat ../hyperAST/modules/$SHORTNAME | bash ana.sh /tmp/spoongitinstances/$SHORTNA
 target/release/ref-mining-evaluation multi-perfs-stats --json ../refsolver/comp_simp/$SHORTNAME/ results_simp/$SHORTNAME/ > ../results_simp/perfs_$SHORTNAME.json 2> /dev/null
 
 
-
 # extract and compare reference relations found with the HyperAST to the one found with Spoon.
 target/release/ref-mining-evaluation multi-compare-stats --json ../refsolver/comp_simp/$SHORTNAME/ results_simp/$SHORTNAME/ > ../results_simp/summary_$SHORTNAME.json 2> /dev/null
 
