@@ -1,0 +1,2506 @@
+[
+  {
+    "relations_stats": [
+      {
+        "module": "spoon-visualisation",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 238,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 14
+        }
+      },
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 26956,
+          "decls_in_baseline_and_tool_with_refs": 26956,
+          "remaining_decls_in_baseline": 1795,
+          "remaining_decls_in_tool_results": 1706,
+          "overall_success_rate": 0.9649452948768984,
+          "overall_overestimation_rate": 0.8280420268102066,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 3.412670648318572,
+          "mean_of_remaining_refs_in_baseline": 0.12397610920972799,
+          "mean_of_remaining_refs_in_tool_results": 0.7087030716421202,
+          "files_len": 1518
+        }
+      },
+      {
+        "module": "spoon-control-flow",
+        "content": {
+          "exact_decls_matches": 604,
+          "decls_in_baseline_and_tool_with_refs": 604,
+          "remaining_decls_in_baseline": 2,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9981378026070763,
+          "overall_overestimation_rate": 0.897822445561139,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.8836077403927651,
+          "mean_of_exact_references": 3.165354324477649,
+          "mean_of_remaining_refs_in_baseline": 0.005905511799398599,
+          "mean_of_remaining_refs_in_tool_results": 0.36023621976331455,
+          "files_len": 25
+        }
+      },
+      {
+        "module": "spoon-smpl",
+        "content": {
+          "exact_decls_matches": 2363,
+          "decls_in_baseline_and_tool_with_refs": 2363,
+          "remaining_decls_in_baseline": 8,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9998642411077926,
+          "overall_overestimation_rate": 0.8761598857958601,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9252513595126913,
+          "mean_of_exact_references": 3.5121602272235766,
+          "mean_of_remaining_refs_in_baseline": 0.00047687172127950804,
+          "mean_of_remaining_refs_in_tool_results": 0.49642346185196784,
+          "files_len": 120
+        }
+      },
+      {
+        "module": "spoon-decompiler",
+        "content": {
+          "exact_decls_matches": 231,
+          "decls_in_baseline_and_tool_with_refs": 231,
+          "remaining_decls_in_baseline": 33,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9879275653923542,
+          "overall_overestimation_rate": 0.9533980582524272,
+          "mean_success_rate": 0.9805825242718447,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 2.3834951340607033,
+          "mean_of_remaining_refs_in_baseline": 0.029126213450843624,
+          "mean_of_remaining_refs_in_tool_results": 0.1165048538033745,
+          "files_len": 14
+        }
+      },
+      {
+        "module": "spoon-pom",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 0
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 16596204111,
+        "memory": 207352488
+      },
+      "evaluated": {
+        "time": 86565,
+        "memory": 11840
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 66796693611,
+        "memory": 1445868016
+      },
+      "evaluated": {
+        "time": 104108354422,
+        "memory": 0
+      }
+    },
+    "info": {
+      "repo_name": "INRIA/spoon",
+      "commit": "9b702e2c8dd35920a32aa5961a4d53b649a871b4",
+      "no": 50,
+      "batch_id": "INRIA/spoon:(,56e12a0c0e0e69ea70863011b4f4ca3305e0542b)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "spoon-visualisation",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 241,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 14
+        }
+      },
+      {
+        "module": "spoon-pom",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 0
+        }
+      },
+      {
+        "module": "spoon-control-flow",
+        "content": {
+          "exact_decls_matches": 451,
+          "decls_in_baseline_and_tool_with_refs": 451,
+          "remaining_decls_in_baseline": 151,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.8910411622276029,
+          "overall_overestimation_rate": 0.8860353130016051,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.841347507976221,
+          "mean_of_exact_references": 3.0413223056712884,
+          "mean_of_remaining_refs_in_baseline": 0.37190082542176084,
+          "mean_of_remaining_refs_in_tool_results": 0.39118457192511136,
+          "files_len": 25
+        }
+      },
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 2695,
+          "decls_in_baseline_and_tool_with_refs": 2695,
+          "remaining_decls_in_baseline": 26056,
+          "remaining_decls_in_tool_results": 23915,
+          "overall_success_rate": 0.7876179900055524,
+          "overall_overestimation_rate": 0.5383301707779886,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 1.5920314244713627,
+          "mean_of_remaining_refs_in_baseline": 0.42929292905202415,
+          "mean_of_remaining_refs_in_tool_results": 1.3653198645536924,
+          "files_len": 1534
+        }
+      },
+      {
+        "module": "spoon-decompiler",
+        "content": {
+          "exact_decls_matches": 231,
+          "decls_in_baseline_and_tool_with_refs": 231,
+          "remaining_decls_in_baseline": 33,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9879275653923542,
+          "overall_overestimation_rate": 0.9533980582524272,
+          "mean_success_rate": 0.9805825242718447,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 2.3834951340607033,
+          "mean_of_remaining_refs_in_baseline": 0.029126213450843624,
+          "mean_of_remaining_refs_in_tool_results": 0.1165048538033745,
+          "files_len": 14
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 16042059778,
+        "memory": 187475896
+      },
+      "evaluated": {
+        "time": 2310942284,
+        "memory": 1290152
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 61566154530,
+        "memory": 635042264
+      },
+      "evaluated": {
+        "time": 87087286265,
+        "memory": 323864
+      }
+    },
+    "info": {
+      "repo_name": "INRIA/spoon",
+      "commit": "df73729dd3542c46658e8c1f18c5f5e0258528c7",
+      "no": 850,
+      "batch_id": "INRIA/spoon:(,56e12a0c0e0e69ea70863011b4f4ca3305e0542b)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "spoon-pom",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 0
+        }
+      },
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 2767,
+          "decls_in_baseline_and_tool_with_refs": 2767,
+          "remaining_decls_in_baseline": 25984,
+          "remaining_decls_in_tool_results": 24034,
+          "overall_success_rate": 0.7912713472485768,
+          "overall_overestimation_rate": 0.5411568409343716,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 1.5855513299372344,
+          "mean_of_remaining_refs_in_baseline": 0.41825095034315535,
+          "mean_of_remaining_refs_in_tool_results": 1.344378054674428,
+          "files_len": 1528
+        }
+      },
+      {
+        "module": "spoon-decompiler",
+        "content": {
+          "exact_decls_matches": 231,
+          "decls_in_baseline_and_tool_with_refs": 231,
+          "remaining_decls_in_baseline": 33,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9879275653923542,
+          "overall_overestimation_rate": 0.9533980582524272,
+          "mean_success_rate": 0.9805825242718447,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 2.3834951340607033,
+          "mean_of_remaining_refs_in_baseline": 0.029126213450843624,
+          "mean_of_remaining_refs_in_tool_results": 0.1165048538033745,
+          "files_len": 14
+        }
+      },
+      {
+        "module": "spoon-visualisation",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 241,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 14
+        }
+      },
+      {
+        "module": "spoon-control-flow",
+        "content": {
+          "exact_decls_matches": 602,
+          "decls_in_baseline_and_tool_with_refs": 602,
+          "remaining_decls_in_baseline": 2,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 1.0,
+          "overall_overestimation_rate": 0.8994413407821229,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.885576244329773,
+          "mean_of_exact_references": 3.169291332343915,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.3543307079639159,
+          "files_len": 25
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 14849952645,
+        "memory": 188644520
+      },
+      "evaluated": {
+        "time": 14051,
+        "memory": 320
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 65546168048,
+        "memory": 449850184
+      },
+      "evaluated": {
+        "time": 88280610320,
+        "memory": 0
+      }
+    },
+    "info": {
+      "repo_name": "INRIA/spoon",
+      "commit": "f2c2a1a7c9c6dae98d27f29db2196aa3f908d7a0",
+      "no": 750,
+      "batch_id": "INRIA/spoon:(,56e12a0c0e0e69ea70863011b4f4ca3305e0542b)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "spoon-pom",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 0
+        }
+      },
+      {
+        "module": "spoon-control-flow",
+        "content": {
+          "exact_decls_matches": 447,
+          "decls_in_baseline_and_tool_with_refs": 447,
+          "remaining_decls_in_baseline": 151,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.8886198547215496,
+          "overall_overestimation_rate": 0.885048231511254,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.8432386299040671,
+          "mean_of_exact_references": 3.0498614873965058,
+          "mean_of_remaining_refs_in_baseline": 0.3822714670851206,
+          "mean_of_remaining_refs_in_tool_results": 0.39612188255921915,
+          "files_len": 25
+        }
+      },
+      {
+        "module": "spoon-decompiler",
+        "content": {
+          "exact_decls_matches": 231,
+          "decls_in_baseline_and_tool_with_refs": 231,
+          "remaining_decls_in_baseline": 33,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9879275653923542,
+          "overall_overestimation_rate": 0.9533980582524272,
+          "mean_success_rate": 0.9805825242718447,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 2.3834951340607033,
+          "mean_of_remaining_refs_in_baseline": 0.029126213450843624,
+          "mean_of_remaining_refs_in_tool_results": 0.1165048538033745,
+          "files_len": 14
+        }
+      },
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 2465,
+          "decls_in_baseline_and_tool_with_refs": 2465,
+          "remaining_decls_in_baseline": 26286,
+          "remaining_decls_in_tool_results": 23772,
+          "overall_success_rate": 0.7877342419080068,
+          "overall_overestimation_rate": 0.5045831514622435,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 1.450439145890565,
+          "mean_of_remaining_refs_in_baseline": 0.3908406522014801,
+          "mean_of_remaining_refs_in_tool_results": 1.424090337876982,
+          "files_len": 1532
+        }
+      },
+      {
+        "module": "spoon-visualisation",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 241,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 14
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 14496503830,
+        "memory": 188651032
+      },
+      "evaluated": {
+        "time": 56109293,
+        "memory": 442832
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 61924682585,
+        "memory": 1296474136
+      },
+      "evaluated": {
+        "time": 85118805957,
+        "memory": 0
+      }
+    },
+    "info": {
+      "repo_name": "INRIA/spoon",
+      "commit": "1b2463ab846cfc514f05529561f9ae4738affeea",
+      "no": 900,
+      "batch_id": "INRIA/spoon:(,56e12a0c0e0e69ea70863011b4f4ca3305e0542b)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 12113,
+          "decls_in_baseline_and_tool_with_refs": 12113,
+          "remaining_decls_in_baseline": 16638,
+          "remaining_decls_in_tool_results": 15861,
+          "overall_success_rate": 0.7018476220629142,
+          "overall_overestimation_rate": 0.582150025323104,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 3.082844938603075,
+          "mean_of_remaining_refs_in_baseline": 1.309625508959012,
+          "mean_of_remaining_refs_in_tool_results": 2.212774411223525,
+          "files_len": 1521
+        }
+      },
+      {
+        "module": "spoon-control-flow",
+        "content": {
+          "exact_decls_matches": 604,
+          "decls_in_baseline_and_tool_with_refs": 604,
+          "remaining_decls_in_baseline": 2,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9981378026070763,
+          "overall_overestimation_rate": 0.897822445561139,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.8836077403927651,
+          "mean_of_exact_references": 3.165354324477649,
+          "mean_of_remaining_refs_in_baseline": 0.005905511799398599,
+          "mean_of_remaining_refs_in_tool_results": 0.36023621976331455,
+          "files_len": 25
+        }
+      },
+      {
+        "module": "spoon-visualisation",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 238,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 14
+        }
+      },
+      {
+        "module": "spoon-smpl",
+        "content": {
+          "exact_decls_matches": 2359,
+          "decls_in_baseline_and_tool_with_refs": 2359,
+          "remaining_decls_in_baseline": 8,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9997284453496266,
+          "overall_overestimation_rate": 0.8759219605044016,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9247744877911844,
+          "mean_of_exact_references": 3.5112064837810175,
+          "mean_of_remaining_refs_in_baseline": 0.0009537434425590161,
+          "mean_of_remaining_refs_in_tool_results": 0.4973772052945269,
+          "files_len": 120
+        }
+      },
+      {
+        "module": "spoon-pom",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 0
+        }
+      },
+      {
+        "module": "spoon-decompiler",
+        "content": {
+          "exact_decls_matches": 231,
+          "decls_in_baseline_and_tool_with_refs": 231,
+          "remaining_decls_in_baseline": 33,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9879275653923542,
+          "overall_overestimation_rate": 0.9533980582524272,
+          "mean_success_rate": 0.9805825242718447,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 2.3834951340607033,
+          "mean_of_remaining_refs_in_baseline": 0.029126213450843624,
+          "mean_of_remaining_refs_in_tool_results": 0.1165048538033745,
+          "files_len": 14
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 45774767226,
+        "memory": 206790960
+      },
+      "evaluated": {
+        "time": 165112,
+        "memory": 2176
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 67414742973,
+        "memory": 927579992
+      },
+      "evaluated": {
+        "time": 98582797614,
+        "memory": 0
+      }
+    },
+    "info": {
+      "repo_name": "INRIA/spoon",
+      "commit": "9ed619bd6e8ec1a9c70bd9f2afc2aa18b32865e0",
+      "no": 400,
+      "batch_id": "INRIA/spoon:(,56e12a0c0e0e69ea70863011b4f4ca3305e0542b)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "spoon-decompiler",
+        "content": {
+          "exact_decls_matches": 231,
+          "decls_in_baseline_and_tool_with_refs": 231,
+          "remaining_decls_in_baseline": 33,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9879275653923542,
+          "overall_overestimation_rate": 0.9533980582524272,
+          "mean_success_rate": 0.9805825242718447,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 2.3834951340607033,
+          "mean_of_remaining_refs_in_baseline": 0.029126213450843624,
+          "mean_of_remaining_refs_in_tool_results": 0.1165048538033745,
+          "files_len": 14
+        }
+      },
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 28651,
+          "decls_in_baseline_and_tool_with_refs": 28651,
+          "remaining_decls_in_baseline": 100,
+          "remaining_decls_in_tool_results": 16,
+          "overall_success_rate": 0.9881242734380342,
+          "overall_overestimation_rate": 0.8510262375217174,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 3.4576271185061764,
+          "mean_of_remaining_refs_in_baseline": 0.04155533399634874,
+          "mean_of_remaining_refs_in_tool_results": 0.6052642073537282,
+          "files_len": 1518
+        }
+      },
+      {
+        "module": "spoon-visualisation",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 238,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 14
+        }
+      },
+      {
+        "module": "spoon-control-flow",
+        "content": {
+          "exact_decls_matches": 604,
+          "decls_in_baseline_and_tool_with_refs": 604,
+          "remaining_decls_in_baseline": 2,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9981378026070763,
+          "overall_overestimation_rate": 0.897822445561139,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.8836077403927651,
+          "mean_of_exact_references": 3.165354324477649,
+          "mean_of_remaining_refs_in_baseline": 0.005905511799398599,
+          "mean_of_remaining_refs_in_tool_results": 0.36023621976331455,
+          "files_len": 25
+        }
+      },
+      {
+        "module": "spoon-smpl",
+        "content": {
+          "exact_decls_matches": 2363,
+          "decls_in_baseline_and_tool_with_refs": 2363,
+          "remaining_decls_in_baseline": 8,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9998642411077926,
+          "overall_overestimation_rate": 0.8761598857958601,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9252513595126913,
+          "mean_of_exact_references": 3.5121602272235766,
+          "mean_of_remaining_refs_in_baseline": 0.00047687172127950804,
+          "mean_of_remaining_refs_in_tool_results": 0.49642346185196784,
+          "files_len": 120
+        }
+      },
+      {
+        "module": "spoon-pom",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 0
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 16449796185,
+        "memory": 207402416
+      },
+      "evaluated": {
+        "time": 13976971671,
+        "memory": 416838432
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 65607915071,
+        "memory": 1481314120
+      },
+      "evaluated": {
+        "time": 103911432925,
+        "memory": 415871504
+      }
+    },
+    "info": {
+      "repo_name": "INRIA/spoon",
+      "commit": "56e12a0c0e0e69ea70863011b4f4ca3305e0542b",
+      "no": 0,
+      "batch_id": "INRIA/spoon:(,56e12a0c0e0e69ea70863011b4f4ca3305e0542b)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "spoon-control-flow",
+        "content": {
+          "exact_decls_matches": 603,
+          "decls_in_baseline_and_tool_with_refs": 603,
+          "remaining_decls_in_baseline": 2,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 1.0,
+          "overall_overestimation_rate": 0.8994413407821229,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.885576244329773,
+          "mean_of_exact_references": 3.169291332343915,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.3543307079639159,
+          "files_len": 25
+        }
+      },
+      {
+        "module": "spoon-pom",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 0
+        }
+      },
+      {
+        "module": "spoon-visualisation",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 241,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 14
+        }
+      },
+      {
+        "module": "spoon-decompiler",
+        "content": {
+          "exact_decls_matches": 231,
+          "decls_in_baseline_and_tool_with_refs": 231,
+          "remaining_decls_in_baseline": 33,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9879275653923542,
+          "overall_overestimation_rate": 0.9533980582524272,
+          "mean_success_rate": 0.9805825242718447,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 2.3834951340607033,
+          "mean_of_remaining_refs_in_baseline": 0.029126213450843624,
+          "mean_of_remaining_refs_in_tool_results": 0.1165048538033745,
+          "files_len": 14
+        }
+      },
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 2855,
+          "decls_in_baseline_and_tool_with_refs": 2855,
+          "remaining_decls_in_baseline": 25896,
+          "remaining_decls_in_tool_results": 24367,
+          "overall_success_rate": 0.8006619144602851,
+          "overall_overestimation_rate": 0.5558501237186285,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 1.636316336297442,
+          "mean_of_remaining_refs_in_baseline": 0.4073881371449593,
+          "mean_of_remaining_refs_in_tool_results": 1.3074921949492755,
+          "files_len": 1522
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 16037984473,
+        "memory": 188638728
+      },
+      "evaluated": {
+        "time": 48762,
+        "memory": 2176
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 61837878977,
+        "memory": 414202144
+      },
+      "evaluated": {
+        "time": 90457262326,
+        "memory": 0
+      }
+    },
+    "info": {
+      "repo_name": "INRIA/spoon",
+      "commit": "612eb336d74bda90f46117fd63dd319df841248e",
+      "no": 600,
+      "batch_id": "INRIA/spoon:(,56e12a0c0e0e69ea70863011b4f4ca3305e0542b)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "spoon-decompiler",
+        "content": {
+          "exact_decls_matches": 231,
+          "decls_in_baseline_and_tool_with_refs": 231,
+          "remaining_decls_in_baseline": 33,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9879275653923542,
+          "overall_overestimation_rate": 0.9533980582524272,
+          "mean_success_rate": 0.9805825242718447,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 2.3834951340607033,
+          "mean_of_remaining_refs_in_baseline": 0.029126213450843624,
+          "mean_of_remaining_refs_in_tool_results": 0.1165048538033745,
+          "files_len": 14
+        }
+      },
+      {
+        "module": "spoon-pom",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 0
+        }
+      },
+      {
+        "module": "spoon-visualisation",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 241,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 14
+        }
+      },
+      {
+        "module": "spoon-control-flow",
+        "content": {
+          "exact_decls_matches": 603,
+          "decls_in_baseline_and_tool_with_refs": 603,
+          "remaining_decls_in_baseline": 2,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9981366459627329,
+          "overall_overestimation_rate": 0.8977653631284916,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.8836077403927651,
+          "mean_of_exact_references": 3.1633858205445162,
+          "mean_of_remaining_refs_in_baseline": 0.005905511799398599,
+          "mean_of_remaining_refs_in_tool_results": 0.36023621976331455,
+          "files_len": 25
+        }
+      },
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 2810,
+          "decls_in_baseline_and_tool_with_refs": 2810,
+          "remaining_decls_in_baseline": 25941,
+          "remaining_decls_in_tool_results": 24211,
+          "overall_success_rate": 0.7955145118733509,
+          "overall_overestimation_rate": 0.5472862588491559,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 1.6020191277353777,
+          "mean_of_remaining_refs_in_baseline": 0.41179596152401915,
+          "mean_of_remaining_refs_in_tool_results": 1.3251859716656822,
+          "files_len": 1522
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 15103418485,
+        "memory": 188013696
+      },
+      "evaluated": {
+        "time": 287951,
+        "memory": 5248
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 63865024876,
+        "memory": 913728096
+      },
+      "evaluated": {
+        "time": 89619979222,
+        "memory": 0
+      }
+    },
+    "info": {
+      "repo_name": "INRIA/spoon",
+      "commit": "adb7890225e8915470606f88c5ce87f1869e0368",
+      "no": 650,
+      "batch_id": "INRIA/spoon:(,56e12a0c0e0e69ea70863011b4f4ca3305e0542b)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "spoon-decompiler",
+        "content": {
+          "exact_decls_matches": 231,
+          "decls_in_baseline_and_tool_with_refs": 231,
+          "remaining_decls_in_baseline": 33,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9879275653923542,
+          "overall_overestimation_rate": 0.9533980582524272,
+          "mean_success_rate": 0.9805825242718447,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 2.3834951340607033,
+          "mean_of_remaining_refs_in_baseline": 0.029126213450843624,
+          "mean_of_remaining_refs_in_tool_results": 0.1165048538033745,
+          "files_len": 14
+        }
+      },
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 21893,
+          "decls_in_baseline_and_tool_with_refs": 21893,
+          "remaining_decls_in_baseline": 6858,
+          "remaining_decls_in_tool_results": 6742,
+          "overall_success_rate": 0.8942920743102122,
+          "overall_overestimation_rate": 0.7650163387168818,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 3.497581685108685,
+          "mean_of_remaining_refs_in_baseline": 0.41342433359773084,
+          "mean_of_remaining_refs_in_tool_results": 1.0743228718253266,
+          "files_len": 1520
+        }
+      },
+      {
+        "module": "spoon-smpl",
+        "content": {
+          "exact_decls_matches": 2363,
+          "decls_in_baseline_and_tool_with_refs": 2363,
+          "remaining_decls_in_baseline": 8,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9998642411077926,
+          "overall_overestimation_rate": 0.8761598857958601,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9252513595126913,
+          "mean_of_exact_references": 3.5121602272235766,
+          "mean_of_remaining_refs_in_baseline": 0.00047687172127950804,
+          "mean_of_remaining_refs_in_tool_results": 0.49642346185196784,
+          "files_len": 120
+        }
+      },
+      {
+        "module": "spoon-visualisation",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 238,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 14
+        }
+      },
+      {
+        "module": "spoon-pom",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 0
+        }
+      },
+      {
+        "module": "spoon-control-flow",
+        "content": {
+          "exact_decls_matches": 604,
+          "decls_in_baseline_and_tool_with_refs": 604,
+          "remaining_decls_in_baseline": 2,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 1.0,
+          "overall_overestimation_rate": 0.8994974874371859,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.885576244329773,
+          "mean_of_exact_references": 3.1712598362770477,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.3543307079639159,
+          "files_len": 25
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 17151957442,
+        "memory": 207383312
+      },
+      "evaluated": {
+        "time": 2192921938,
+        "memory": 2944776
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 65777141309,
+        "memory": 1270819704
+      },
+      "evaluated": {
+        "time": 104279834387,
+        "memory": 1978680
+      }
+    },
+    "info": {
+      "repo_name": "INRIA/spoon",
+      "commit": "924fc6a609652855f90738be81f28bb697d6fcd2",
+      "no": 150,
+      "batch_id": "INRIA/spoon:(,56e12a0c0e0e69ea70863011b4f4ca3305e0542b)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "spoon-decompiler",
+        "content": {
+          "exact_decls_matches": 231,
+          "decls_in_baseline_and_tool_with_refs": 231,
+          "remaining_decls_in_baseline": 33,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9879275653923542,
+          "overall_overestimation_rate": 0.9533980582524272,
+          "mean_success_rate": 0.9805825242718447,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 2.3834951340607033,
+          "mean_of_remaining_refs_in_baseline": 0.029126213450843624,
+          "mean_of_remaining_refs_in_tool_results": 0.1165048538033745,
+          "files_len": 14
+        }
+      },
+      {
+        "module": "spoon-pom",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 0
+        }
+      },
+      {
+        "module": "spoon-smpl",
+        "content": {
+          "exact_decls_matches": 2363,
+          "decls_in_baseline_and_tool_with_refs": 2363,
+          "remaining_decls_in_baseline": 8,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9998642411077926,
+          "overall_overestimation_rate": 0.8761598857958601,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9252513595126913,
+          "mean_of_exact_references": 3.5121602272235766,
+          "mean_of_remaining_refs_in_baseline": 0.00047687172127950804,
+          "mean_of_remaining_refs_in_tool_results": 0.49642346185196784,
+          "files_len": 120
+        }
+      },
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 17395,
+          "decls_in_baseline_and_tool_with_refs": 17395,
+          "remaining_decls_in_baseline": 11356,
+          "remaining_decls_in_tool_results": 11164,
+          "overall_success_rate": 0.8109620972110507,
+          "overall_overestimation_rate": 0.6817498102532257,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 3.388873644986358,
+          "mean_of_remaining_refs_in_baseline": 0.7899574701063276,
+          "mean_of_remaining_refs_in_tool_results": 1.5819728356714244,
+          "files_len": 1520
+        }
+      },
+      {
+        "module": "spoon-visualisation",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 238,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 14
+        }
+      },
+      {
+        "module": "spoon-control-flow",
+        "content": {
+          "exact_decls_matches": 604,
+          "decls_in_baseline_and_tool_with_refs": 604,
+          "remaining_decls_in_baseline": 2,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 1.0,
+          "overall_overestimation_rate": 0.8994974874371859,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.885576244329773,
+          "mean_of_exact_references": 3.1712598362770477,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.3543307079639159,
+          "files_len": 25
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 16382305085,
+        "memory": 206848064
+      },
+      "evaluated": {
+        "time": 53362,
+        "memory": 896
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 66110321730,
+        "memory": 1665853280
+      },
+      "evaluated": {
+        "time": 103323095332,
+        "memory": 0
+      }
+    },
+    "info": {
+      "repo_name": "INRIA/spoon",
+      "commit": "660ccd70c4c0cd446f5946c4228e4b8503928fb3",
+      "no": 250,
+      "batch_id": "INRIA/spoon:(,56e12a0c0e0e69ea70863011b4f4ca3305e0542b)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 2400,
+          "decls_in_baseline_and_tool_with_refs": 2400,
+          "remaining_decls_in_baseline": 26351,
+          "remaining_decls_in_tool_results": 23441,
+          "overall_success_rate": 0.7788359788359789,
+          "overall_overestimation_rate": 0.49395973154362416,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 1.4235976779989699,
+          "mean_of_remaining_refs_in_baseline": 0.4042553188882944,
+          "mean_of_remaining_refs_in_tool_results": 1.4584139255587272,
+          "files_len": 1536
+        }
+      },
+      {
+        "module": "spoon-pom",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 0
+        }
+      },
+      {
+        "module": "spoon-control-flow",
+        "content": {
+          "exact_decls_matches": 447,
+          "decls_in_baseline_and_tool_with_refs": 447,
+          "remaining_decls_in_baseline": 151,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.8886198547215496,
+          "overall_overestimation_rate": 0.885048231511254,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.8432386299040671,
+          "mean_of_exact_references": 3.0498614873965058,
+          "mean_of_remaining_refs_in_baseline": 0.3822714670851206,
+          "mean_of_remaining_refs_in_tool_results": 0.39612188255921915,
+          "files_len": 25
+        }
+      },
+      {
+        "module": "spoon-decompiler",
+        "content": {
+          "exact_decls_matches": 231,
+          "decls_in_baseline_and_tool_with_refs": 231,
+          "remaining_decls_in_baseline": 33,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9879275653923542,
+          "overall_overestimation_rate": 0.9533980582524272,
+          "mean_success_rate": 0.9805825242718447,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 2.3834951340607033,
+          "mean_of_remaining_refs_in_baseline": 0.029126213450843624,
+          "mean_of_remaining_refs_in_tool_results": 0.1165048538033745,
+          "files_len": 14
+        }
+      },
+      {
+        "module": "spoon-visualisation",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 241,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 14
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 15283258124,
+        "memory": 188643472
+      },
+      "evaluated": {
+        "time": 4058673975,
+        "memory": 3152264
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 64484433903,
+        "memory": 438862104
+      },
+      "evaluated": {
+        "time": 77894987072,
+        "memory": 2185256
+      }
+    },
+    "info": {
+      "repo_name": "INRIA/spoon",
+      "commit": "54260a0c3d20858cb8508ee0be5b260c81936d62",
+      "no": 950,
+      "batch_id": "INRIA/spoon:(,56e12a0c0e0e69ea70863011b4f4ca3305e0542b)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "spoon-decompiler",
+        "content": {
+          "exact_decls_matches": 231,
+          "decls_in_baseline_and_tool_with_refs": 231,
+          "remaining_decls_in_baseline": 33,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9879275653923542,
+          "overall_overestimation_rate": 0.9533980582524272,
+          "mean_success_rate": 0.9805825242718447,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 2.3834951340607033,
+          "mean_of_remaining_refs_in_baseline": 0.029126213450843624,
+          "mean_of_remaining_refs_in_tool_results": 0.1165048538033745,
+          "files_len": 14
+        }
+      },
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 10151,
+          "decls_in_baseline_and_tool_with_refs": 10151,
+          "remaining_decls_in_baseline": 18600,
+          "remaining_decls_in_tool_results": 17364,
+          "overall_success_rate": 0.6274734260016354,
+          "overall_overestimation_rate": 0.5153448391645961,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 2.7854809434016357,
+          "mean_of_remaining_refs_in_baseline": 1.653720507966882,
+          "mean_of_remaining_refs_in_tool_results": 2.6196007256358618,
+          "files_len": 1522
+        }
+      },
+      {
+        "module": "spoon-control-flow",
+        "content": {
+          "exact_decls_matches": 603,
+          "decls_in_baseline_and_tool_with_refs": 603,
+          "remaining_decls_in_baseline": 2,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9981366459627329,
+          "overall_overestimation_rate": 0.8977653631284916,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.8836077403927651,
+          "mean_of_exact_references": 3.1633858205445162,
+          "mean_of_remaining_refs_in_baseline": 0.005905511799398599,
+          "mean_of_remaining_refs_in_tool_results": 0.36023621976331455,
+          "files_len": 25
+        }
+      },
+      {
+        "module": "spoon-visualisation",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 238,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 14
+        }
+      },
+      {
+        "module": "spoon-smpl",
+        "content": {
+          "exact_decls_matches": 2357,
+          "decls_in_baseline_and_tool_with_refs": 2357,
+          "remaining_decls_in_baseline": 8,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9997284453496266,
+          "overall_overestimation_rate": 0.8759219605044016,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9247744877911844,
+          "mean_of_exact_references": 3.5112064837810175,
+          "mean_of_remaining_refs_in_baseline": 0.0009537434425590161,
+          "mean_of_remaining_refs_in_tool_results": 0.4973772052945269,
+          "files_len": 120
+        }
+      },
+      {
+        "module": "spoon-pom",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 0
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 15906333475,
+        "memory": 206797480
+      },
+      "evaluated": {
+        "time": 4601987,
+        "memory": 11104
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 66112890252,
+        "memory": 1053869136
+      },
+      "evaluated": {
+        "time": 93348718433,
+        "memory": 0
+      }
+    },
+    "info": {
+      "repo_name": "INRIA/spoon",
+      "commit": "414b6d6007fae50be1f31570abd2b57f4351f5b0",
+      "no": 500,
+      "batch_id": "INRIA/spoon:(,56e12a0c0e0e69ea70863011b4f4ca3305e0542b)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "spoon-decompiler",
+        "content": {
+          "exact_decls_matches": 231,
+          "decls_in_baseline_and_tool_with_refs": 231,
+          "remaining_decls_in_baseline": 33,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9879275653923542,
+          "overall_overestimation_rate": 0.9533980582524272,
+          "mean_success_rate": 0.9805825242718447,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 2.3834951340607033,
+          "mean_of_remaining_refs_in_baseline": 0.029126213450843624,
+          "mean_of_remaining_refs_in_tool_results": 0.1165048538033745,
+          "files_len": 14
+        }
+      },
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 2858,
+          "decls_in_baseline_and_tool_with_refs": 2858,
+          "remaining_decls_in_baseline": 25893,
+          "remaining_decls_in_tool_results": 24465,
+          "overall_success_rate": 0.800152749490835,
+          "overall_overestimation_rate": 0.5553984802968722,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 1.6344253761651453,
+          "mean_of_remaining_refs_in_baseline": 0.40821632844086514,
+          "mean_of_remaining_refs_in_tool_results": 1.308372334213015,
+          "files_len": 1522
+        }
+      },
+      {
+        "module": "spoon-visualisation",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 238,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 14
+        }
+      },
+      {
+        "module": "spoon-smpl",
+        "content": {
+          "exact_decls_matches": 2357,
+          "decls_in_baseline_and_tool_with_refs": 2357,
+          "remaining_decls_in_baseline": 8,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9997284453496266,
+          "overall_overestimation_rate": 0.8759219605044016,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9247744877911844,
+          "mean_of_exact_references": 3.5112064837810175,
+          "mean_of_remaining_refs_in_baseline": 0.0009537434425590161,
+          "mean_of_remaining_refs_in_tool_results": 0.4973772052945269,
+          "files_len": 120
+        }
+      },
+      {
+        "module": "spoon-control-flow",
+        "content": {
+          "exact_decls_matches": 603,
+          "decls_in_baseline_and_tool_with_refs": 603,
+          "remaining_decls_in_baseline": 2,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9981366459627329,
+          "overall_overestimation_rate": 0.8977653631284916,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.8836077403927651,
+          "mean_of_exact_references": 3.1633858205445162,
+          "mean_of_remaining_refs_in_baseline": 0.005905511799398599,
+          "mean_of_remaining_refs_in_tool_results": 0.36023621976331455,
+          "files_len": 25
+        }
+      },
+      {
+        "module": "spoon-pom",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 0
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 16486647365,
+        "memory": 207446104
+      },
+      "evaluated": {
+        "time": 3480883039,
+        "memory": 3763768
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 68124944189,
+        "memory": 495735296
+      },
+      "evaluated": {
+        "time": 91949733951,
+        "memory": 2798232
+      }
+    },
+    "info": {
+      "repo_name": "INRIA/spoon",
+      "commit": "c0deb8362253502054b6b7390439975040872dd1",
+      "no": 550,
+      "batch_id": "INRIA/spoon:(,56e12a0c0e0e69ea70863011b4f4ca3305e0542b)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "spoon-pom",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 0
+        }
+      },
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 15350,
+          "decls_in_baseline_and_tool_with_refs": 15350,
+          "remaining_decls_in_baseline": 13401,
+          "remaining_decls_in_tool_results": 13166,
+          "overall_success_rate": 0.7778924069627852,
+          "overall_overestimation_rate": 0.6474178843511927,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 3.289521694035891,
+          "mean_of_remaining_refs_in_baseline": 0.9392401046292346,
+          "mean_of_remaining_refs_in_tool_results": 1.791465058952053,
+          "files_len": 1520
+        }
+      },
+      {
+        "module": "spoon-decompiler",
+        "content": {
+          "exact_decls_matches": 231,
+          "decls_in_baseline_and_tool_with_refs": 231,
+          "remaining_decls_in_baseline": 33,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9879275653923542,
+          "overall_overestimation_rate": 0.9533980582524272,
+          "mean_success_rate": 0.9805825242718447,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 2.3834951340607033,
+          "mean_of_remaining_refs_in_baseline": 0.029126213450843624,
+          "mean_of_remaining_refs_in_tool_results": 0.1165048538033745,
+          "files_len": 14
+        }
+      },
+      {
+        "module": "spoon-control-flow",
+        "content": {
+          "exact_decls_matches": 604,
+          "decls_in_baseline_and_tool_with_refs": 604,
+          "remaining_decls_in_baseline": 2,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9981378026070763,
+          "overall_overestimation_rate": 0.897822445561139,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.8836077403927651,
+          "mean_of_exact_references": 3.165354324477649,
+          "mean_of_remaining_refs_in_baseline": 0.005905511799398599,
+          "mean_of_remaining_refs_in_tool_results": 0.36023621976331455,
+          "files_len": 25
+        }
+      },
+      {
+        "module": "spoon-smpl",
+        "content": {
+          "exact_decls_matches": 2363,
+          "decls_in_baseline_and_tool_with_refs": 2363,
+          "remaining_decls_in_baseline": 8,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9998642411077926,
+          "overall_overestimation_rate": 0.8761598857958601,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9252513595126913,
+          "mean_of_exact_references": 3.5121602272235766,
+          "mean_of_remaining_refs_in_baseline": 0.00047687172127950804,
+          "mean_of_remaining_refs_in_tool_results": 0.49642346185196784,
+          "files_len": 120
+        }
+      },
+      {
+        "module": "spoon-visualisation",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 238,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 14
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 16630973098,
+        "memory": 207372056
+      },
+      "evaluated": {
+        "time": 22321,
+        "memory": 1408
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 66984212984,
+        "memory": 1202552880
+      },
+      "evaluated": {
+        "time": 102013378155,
+        "memory": 0
+      }
+    },
+    "info": {
+      "repo_name": "INRIA/spoon",
+      "commit": "3ec04b66350c3b2c7fc6114d56a966b7a69ded14",
+      "no": 300,
+      "batch_id": "INRIA/spoon:(,56e12a0c0e0e69ea70863011b4f4ca3305e0542b)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 19447,
+          "decls_in_baseline_and_tool_with_refs": 19447,
+          "remaining_decls_in_baseline": 9304,
+          "remaining_decls_in_tool_results": 9166,
+          "overall_success_rate": 0.8490721272511198,
+          "overall_overestimation_rate": 0.7201674808094906,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 3.406981720156081,
+          "mean_of_remaining_refs_in_baseline": 0.6056122760527228,
+          "mean_of_remaining_refs_in_tool_results": 1.3238368893242136,
+          "files_len": 1520
+        }
+      },
+      {
+        "module": "spoon-visualisation",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 238,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 14
+        }
+      },
+      {
+        "module": "spoon-pom",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 0
+        }
+      },
+      {
+        "module": "spoon-decompiler",
+        "content": {
+          "exact_decls_matches": 231,
+          "decls_in_baseline_and_tool_with_refs": 231,
+          "remaining_decls_in_baseline": 33,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9879275653923542,
+          "overall_overestimation_rate": 0.9533980582524272,
+          "mean_success_rate": 0.9805825242718447,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 2.3834951340607033,
+          "mean_of_remaining_refs_in_baseline": 0.029126213450843624,
+          "mean_of_remaining_refs_in_tool_results": 0.1165048538033745,
+          "files_len": 14
+        }
+      },
+      {
+        "module": "spoon-smpl",
+        "content": {
+          "exact_decls_matches": 2363,
+          "decls_in_baseline_and_tool_with_refs": 2363,
+          "remaining_decls_in_baseline": 8,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9998642411077926,
+          "overall_overestimation_rate": 0.8761598857958601,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9252513595126913,
+          "mean_of_exact_references": 3.5121602272235766,
+          "mean_of_remaining_refs_in_baseline": 0.00047687172127950804,
+          "mean_of_remaining_refs_in_tool_results": 0.49642346185196784,
+          "files_len": 120
+        }
+      },
+      {
+        "module": "spoon-control-flow",
+        "content": {
+          "exact_decls_matches": 604,
+          "decls_in_baseline_and_tool_with_refs": 604,
+          "remaining_decls_in_baseline": 2,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 1.0,
+          "overall_overestimation_rate": 0.8994974874371859,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.885576244329773,
+          "mean_of_exact_references": 3.1712598362770477,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.3543307079639159,
+          "files_len": 25
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 16402874132,
+        "memory": 207357384
+      },
+      "evaluated": {
+        "time": 2296064074,
+        "memory": 2883904
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 66825608546,
+        "memory": 726422872
+      },
+      "evaluated": {
+        "time": 103600123607,
+        "memory": 1917600
+      }
+    },
+    "info": {
+      "repo_name": "INRIA/spoon",
+      "commit": "e9ab6c3d775a1ba2fa53463d3e72c46ce94facb2",
+      "no": 200,
+      "batch_id": "INRIA/spoon:(,56e12a0c0e0e69ea70863011b4f4ca3305e0542b)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "spoon-pom",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 0
+        }
+      },
+      {
+        "module": "spoon-smpl",
+        "content": {
+          "exact_decls_matches": 2359,
+          "decls_in_baseline_and_tool_with_refs": 2359,
+          "remaining_decls_in_baseline": 8,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9998642411077926,
+          "overall_overestimation_rate": 0.8761598857958601,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9252513595126913,
+          "mean_of_exact_references": 3.5121602272235766,
+          "mean_of_remaining_refs_in_baseline": 0.00047687172127950804,
+          "mean_of_remaining_refs_in_tool_results": 0.49642346185196784,
+          "files_len": 120
+        }
+      },
+      {
+        "module": "spoon-visualisation",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 238,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 14
+        }
+      },
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 13643,
+          "decls_in_baseline_and_tool_with_refs": 13643,
+          "remaining_decls_in_baseline": 15108,
+          "remaining_decls_in_tool_results": 14590,
+          "overall_success_rate": 0.7433784824085055,
+          "overall_overestimation_rate": 0.6186839826839827,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 3.1316504511235297,
+          "mean_of_remaining_refs_in_baseline": 1.0810763431430381,
+          "mean_of_remaining_refs_in_tool_results": 1.9301428694951228,
+          "files_len": 1520
+        }
+      },
+      {
+        "module": "spoon-decompiler",
+        "content": {
+          "exact_decls_matches": 231,
+          "decls_in_baseline_and_tool_with_refs": 231,
+          "remaining_decls_in_baseline": 33,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9879275653923542,
+          "overall_overestimation_rate": 0.9533980582524272,
+          "mean_success_rate": 0.9805825242718447,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 2.3834951340607033,
+          "mean_of_remaining_refs_in_baseline": 0.029126213450843624,
+          "mean_of_remaining_refs_in_tool_results": 0.1165048538033745,
+          "files_len": 14
+        }
+      },
+      {
+        "module": "spoon-control-flow",
+        "content": {
+          "exact_decls_matches": 604,
+          "decls_in_baseline_and_tool_with_refs": 604,
+          "remaining_decls_in_baseline": 2,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9981378026070763,
+          "overall_overestimation_rate": 0.897822445561139,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.8836077403927651,
+          "mean_of_exact_references": 3.165354324477649,
+          "mean_of_remaining_refs_in_baseline": 0.005905511799398599,
+          "mean_of_remaining_refs_in_tool_results": 0.36023621976331455,
+          "files_len": 25
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 16892032690,
+        "memory": 207270656
+      },
+      "evaluated": {
+        "time": 140215,
+        "memory": 0
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 67974967535,
+        "memory": 1733335152
+      },
+      "evaluated": {
+        "time": 98814492437,
+        "memory": 0
+      }
+    },
+    "info": {
+      "repo_name": "INRIA/spoon",
+      "commit": "7bdddc62ae2902043ccf8d14ec5b02fbcc6db1fe",
+      "no": 350,
+      "batch_id": "INRIA/spoon:(,56e12a0c0e0e69ea70863011b4f4ca3305e0542b)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 24340,
+          "decls_in_baseline_and_tool_with_refs": 24340,
+          "remaining_decls_in_baseline": 4411,
+          "remaining_decls_in_tool_results": 4314,
+          "overall_success_rate": 0.9393476822876915,
+          "overall_overestimation_rate": 0.8101904678311244,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 3.5256147050119067,
+          "mean_of_remaining_refs_in_baseline": 0.2276438290652832,
+          "mean_of_remaining_refs_in_tool_results": 0.8259727858283136,
+          "files_len": 1520
+        }
+      },
+      {
+        "module": "spoon-control-flow",
+        "content": {
+          "exact_decls_matches": 604,
+          "decls_in_baseline_and_tool_with_refs": 604,
+          "remaining_decls_in_baseline": 2,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 1.0,
+          "overall_overestimation_rate": 0.8994974874371859,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.885576244329773,
+          "mean_of_exact_references": 3.1712598362770477,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.3543307079639159,
+          "files_len": 25
+        }
+      },
+      {
+        "module": "spoon-visualisation",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 238,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 14
+        }
+      },
+      {
+        "module": "spoon-decompiler",
+        "content": {
+          "exact_decls_matches": 231,
+          "decls_in_baseline_and_tool_with_refs": 231,
+          "remaining_decls_in_baseline": 33,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9879275653923542,
+          "overall_overestimation_rate": 0.9533980582524272,
+          "mean_success_rate": 0.9805825242718447,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 2.3834951340607033,
+          "mean_of_remaining_refs_in_baseline": 0.029126213450843624,
+          "mean_of_remaining_refs_in_tool_results": 0.1165048538033745,
+          "files_len": 14
+        }
+      },
+      {
+        "module": "spoon-smpl",
+        "content": {
+          "exact_decls_matches": 2363,
+          "decls_in_baseline_and_tool_with_refs": 2363,
+          "remaining_decls_in_baseline": 8,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9998642411077926,
+          "overall_overestimation_rate": 0.8761598857958601,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9252513595126913,
+          "mean_of_exact_references": 3.5121602272235766,
+          "mean_of_remaining_refs_in_baseline": 0.00047687172127950804,
+          "mean_of_remaining_refs_in_tool_results": 0.49642346185196784,
+          "files_len": 120
+        }
+      },
+      {
+        "module": "spoon-pom",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 0
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 17434635269,
+        "memory": 207373864
+      },
+      "evaluated": {
+        "time": 2289433025,
+        "memory": 2858464
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 67009883343,
+        "memory": 1430275128
+      },
+      "evaluated": {
+        "time": 104624048930,
+        "memory": 1892016
+      }
+    },
+    "info": {
+      "repo_name": "INRIA/spoon",
+      "commit": "99c7063798c8198d8696a57205d6f475c876f65a",
+      "no": 100,
+      "batch_id": "INRIA/spoon:(,56e12a0c0e0e69ea70863011b4f4ca3305e0542b)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "spoon-pom",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 0
+        }
+      },
+      {
+        "module": "spoon-control-flow",
+        "content": {
+          "exact_decls_matches": 602,
+          "decls_in_baseline_and_tool_with_refs": 602,
+          "remaining_decls_in_baseline": 2,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 1.0,
+          "overall_overestimation_rate": 0.8994413407821229,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.885576244329773,
+          "mean_of_exact_references": 3.169291332343915,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.3543307079639159,
+          "files_len": 25
+        }
+      },
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 2806,
+          "decls_in_baseline_and_tool_with_refs": 2806,
+          "remaining_decls_in_baseline": 25945,
+          "remaining_decls_in_tool_results": 24103,
+          "overall_success_rate": 0.796031746031746,
+          "overall_overestimation_rate": 0.5466933139534884,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 1.6022364208720785,
+          "mean_of_remaining_refs_in_baseline": 0.41054313077180876,
+          "mean_of_remaining_refs_in_tool_results": 1.3285410003575393,
+          "files_len": 1527
+        }
+      },
+      {
+        "module": "spoon-decompiler",
+        "content": {
+          "exact_decls_matches": 231,
+          "decls_in_baseline_and_tool_with_refs": 231,
+          "remaining_decls_in_baseline": 33,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9879275653923542,
+          "overall_overestimation_rate": 0.9533980582524272,
+          "mean_success_rate": 0.9805825242718447,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 2.3834951340607033,
+          "mean_of_remaining_refs_in_baseline": 0.029126213450843624,
+          "mean_of_remaining_refs_in_tool_results": 0.1165048538033745,
+          "files_len": 14
+        }
+      },
+      {
+        "module": "spoon-visualisation",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 241,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 14
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 16073341628,
+        "memory": 188684144
+      },
+      "evaluated": {
+        "time": 2297107046,
+        "memory": 798360
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 65874006505,
+        "memory": 727334608
+      },
+      "evaluated": {
+        "time": 88753427578,
+        "memory": 0
+      }
+    },
+    "info": {
+      "repo_name": "INRIA/spoon",
+      "commit": "8ecd0f8c2b8ed6a7e5c21c0d5e6f26cd9dccf2cb",
+      "no": 700,
+      "batch_id": "INRIA/spoon:(,56e12a0c0e0e69ea70863011b4f4ca3305e0542b)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "spoon-control-flow",
+        "content": {
+          "exact_decls_matches": 603,
+          "decls_in_baseline_and_tool_with_refs": 603,
+          "remaining_decls_in_baseline": 2,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9981378026070763,
+          "overall_overestimation_rate": 0.897822445561139,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.8836077403927651,
+          "mean_of_exact_references": 3.165354324477649,
+          "mean_of_remaining_refs_in_baseline": 0.005905511799398599,
+          "mean_of_remaining_refs_in_tool_results": 0.36023621976331455,
+          "files_len": 25
+        }
+      },
+      {
+        "module": "spoon-visualisation",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 238,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 14
+        }
+      },
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 11301,
+          "decls_in_baseline_and_tool_with_refs": 11301,
+          "remaining_decls_in_baseline": 17450,
+          "remaining_decls_in_tool_results": 16442,
+          "overall_success_rate": 0.6769546803276609,
+          "overall_overestimation_rate": 0.5594140330287535,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 2.8637485245291545,
+          "mean_of_remaining_refs_in_baseline": 1.3665915672817732,
+          "mean_of_remaining_refs_in_tool_results": 2.255444694533264,
+          "files_len": 1521
+        }
+      },
+      {
+        "module": "spoon-pom",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 0
+        }
+      },
+      {
+        "module": "spoon-decompiler",
+        "content": {
+          "exact_decls_matches": 231,
+          "decls_in_baseline_and_tool_with_refs": 231,
+          "remaining_decls_in_baseline": 33,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9879275653923542,
+          "overall_overestimation_rate": 0.9533980582524272,
+          "mean_success_rate": 0.9805825242718447,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 2.3834951340607033,
+          "mean_of_remaining_refs_in_baseline": 0.029126213450843624,
+          "mean_of_remaining_refs_in_tool_results": 0.1165048538033745,
+          "files_len": 14
+        }
+      },
+      {
+        "module": "spoon-smpl",
+        "content": {
+          "exact_decls_matches": 2357,
+          "decls_in_baseline_and_tool_with_refs": 2357,
+          "remaining_decls_in_baseline": 8,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9997284453496266,
+          "overall_overestimation_rate": 0.8759219605044016,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.9247744877911844,
+          "mean_of_exact_references": 3.5112064837810175,
+          "mean_of_remaining_refs_in_baseline": 0.0009537434425590161,
+          "mean_of_remaining_refs_in_tool_results": 0.4973772052945269,
+          "files_len": 120
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 16230870708,
+        "memory": 206057872
+      },
+      "evaluated": {
+        "time": 1377462493,
+        "memory": 863296
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 65774307542,
+        "memory": 1503078376
+      },
+      "evaluated": {
+        "time": 95814146769,
+        "memory": 0
+      }
+    },
+    "info": {
+      "repo_name": "INRIA/spoon",
+      "commit": "ddf4dead867dde5039ed6aa4d0e36e92bdb60f3e",
+      "no": 450,
+      "batch_id": "INRIA/spoon:(,56e12a0c0e0e69ea70863011b4f4ca3305e0542b)"
+    }
+  },
+  {
+    "relations_stats": [
+      {
+        "module": "spoon-pom",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 0
+        }
+      },
+      {
+        "module": "spoon-control-flow",
+        "content": {
+          "exact_decls_matches": 451,
+          "decls_in_baseline_and_tool_with_refs": 451,
+          "remaining_decls_in_baseline": 151,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.8886198547215496,
+          "overall_overestimation_rate": 0.8836276083467095,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": 0.8385926870395819,
+          "mean_of_exact_references": 3.0330578428841384,
+          "mean_of_remaining_refs_in_baseline": 0.38016528820891105,
+          "mean_of_remaining_refs_in_tool_results": 0.3994490347122616,
+          "files_len": 25
+        }
+      },
+      {
+        "module": "",
+        "content": {
+          "exact_decls_matches": 2746,
+          "decls_in_baseline_and_tool_with_refs": 2746,
+          "remaining_decls_in_baseline": 26005,
+          "remaining_decls_in_tool_results": 23946,
+          "overall_success_rate": 0.7901773533424283,
+          "overall_overestimation_rate": 0.5400969787392764,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 1.589462128655619,
+          "mean_of_remaining_refs_in_baseline": 0.4220636660691198,
+          "mean_of_remaining_refs_in_tool_results": 1.353457738005786,
+          "files_len": 1531
+        }
+      },
+      {
+        "module": "spoon-visualisation",
+        "content": {
+          "exact_decls_matches": 0,
+          "decls_in_baseline_and_tool_with_refs": 0,
+          "remaining_decls_in_baseline": 0,
+          "remaining_decls_in_tool_results": 241,
+          "overall_success_rate": null,
+          "overall_overestimation_rate": null,
+          "mean_success_rate": null,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 0.0,
+          "mean_of_remaining_refs_in_baseline": 0.0,
+          "mean_of_remaining_refs_in_tool_results": 0.0,
+          "files_len": 14
+        }
+      },
+      {
+        "module": "spoon-decompiler",
+        "content": {
+          "exact_decls_matches": 231,
+          "decls_in_baseline_and_tool_with_refs": 231,
+          "remaining_decls_in_baseline": 33,
+          "remaining_decls_in_tool_results": 0,
+          "overall_success_rate": 0.9879275653923542,
+          "overall_overestimation_rate": 0.9533980582524272,
+          "mean_success_rate": 0.9805825242718447,
+          "mean_overestimation_rate": null,
+          "mean_of_exact_references": 2.3834951340607033,
+          "mean_of_remaining_refs_in_baseline": 0.029126213450843624,
+          "mean_of_remaining_refs_in_tool_results": 0.1165048538033745,
+          "files_len": 14
+        }
+      }
+    ],
+    "construction_perfs": {
+      "baseline": {
+        "time": 15070741131,
+        "memory": 187973760
+      },
+      "evaluated": {
+        "time": 3845796,
+        "memory": 0
+      }
+    },
+    "search_perfs": {
+      "baseline": {
+        "time": 60711530391,
+        "memory": 985045456
+      },
+      "evaluated": {
+        "time": 87610082401,
+        "memory": 0
+      }
+    },
+    "info": {
+      "repo_name": "INRIA/spoon",
+      "commit": "d11e7578d607891b5363b528f2ddd554ca3a24b0",
+      "no": 800,
+      "batch_id": "INRIA/spoon:(,56e12a0c0e0e69ea70863011b4f4ca3305e0542b)"
+    }
+  }
+]
