@@ -240,7 +240,8 @@ RUN set -ex \
 
 COPY hyperAST ./hyperAST
 COPY refsolver ./refsolver
-COPY observable_notebook_results ./observable_notebook_results
+COPY notebook_construction_perfs ./notebook_construction_perfs
+COPY notebook_search ./notebook_search
 COPY build.sh ./
 COPY run_benchmark_all.sh run_benchmark_simp.sh run_example_interactive.sh run_example_simp.sh run_notebook.sh ./
 
