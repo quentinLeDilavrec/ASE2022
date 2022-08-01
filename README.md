@@ -25,20 +25,19 @@ You also need Java 11 and Maven to run the experiments (to use Spoon).
 
 ## Try the tool
 
-Once build requirements are fullfilled, while being in `hyperAST/`, you should be able compile with `cargo build --release`.
+Once build requirements are fulfilled, while being in `hyperAST/`, you should be able to compile with `cargo build --release`.
 
 Then you can try one of the [run_*.sh](run_*.sh) script.
 
 * __[run_benchmark_simp.sh](run_benchmark_simp.sh)__ allows you to run a part of the benchmark presented in the article. It should just take a few minutes to run.
-* [run_benchmark_all.sh](run_benchmark_all.sh) allows you to run the whole benchmark presented in the article. __Caution__ it will take a long time, hours depending on your hardware. Note: you can cange what is run by modifying `hyperAST/all.csv`
+* [run_benchmark_all.sh](run_benchmark_all.sh) allows you to run the whole benchmark presented in the article. __Caution__ it will take a long time, hours depending on your hardware. Note: you can change what is run by modifying `hyperAST/all.csv`
 * [run_example_interactive.sh](run_example_interactive.sh) allows you to interactively look at references missed by our tool compared to spoon.
 * [run_notebook.sh](run_notebook.sh) allows you to plot figures presented in the article, through a local observablehq notebook.
-* [run_example_simp.sh](run_example_simp.sh) allows you to construct an hyperAST and to compute the reference relations.
+* [run_example_simp.sh](run_example_simp.sh) allows you to construct an HyperAST and to compute the reference relations.
 
 ### Docker
-
-You can also use the provided Dockerfile to run the srcipts from inside a container.
-It can significantly change performances of things ran inside and it also take more space.
+You can also use the provided Dockerfile to run the scripts from inside a container.
+It can significantly change performances of things ran inside and it also takes more space.
 You first need to build the image `docker build -t hyperast_evalpack .` then run the container in interactive mode `docker run -ti hyperast_evalpack -p 8080:8080 -p 8081:8081`, once inside you can run the same provided shell scripts.
 
 ## Directories
