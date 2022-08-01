@@ -108,7 +108,6 @@ public class EvalValidPerf {
             System.err.println(root + module);
             try {
                 MavenLauncher launcherAll = new MavenLauncher(
-                        // "/home/quentin/resources/Versions/graphhopper/graphhopper/7f80425b6a0af9bdfef12c8a873676e39e0a04a6/",
                         root + module,
                         MavenLauncher.SOURCE_TYPE.ALL_SOURCE);
                 launcherAll.getEnvironment().setLevel("INFO");
@@ -127,7 +126,7 @@ public class EvalValidPerf {
                 System.err.println(e);
             }
         }
-        System.err.println(allLaunchers.size());
+        // System.err.println(allLaunchers.size());
 
         long constructed_point = System.nanoTime();
 
@@ -137,10 +136,6 @@ public class EvalValidPerf {
         long constructed_memory = runtime.totalMemory() - runtime.freeMemory();
         // System.err.println("Used memory is megabytes: "
         //         + (constructed_memory / (1024L * 1024L)));
-
-        // System.err.println("aaa");
-        // HashMap<CtElement, ArrayList<CtElement>> res = new HashMap<>();
-        // find_ref_rel(launcherAll, res);
         JsonObject result = new JsonObject();
         JsonArray permodule = new JsonArray();
 
@@ -150,29 +145,10 @@ public class EvalValidPerf {
                 String module = entry.getKey();
     
                 CtRefHolderVisitor visitor = new CtRefHolderVisitor();
-                // visitor.scan(launcherAll.getModel()
-                // .getUnnamedModule());
-                // RefRelVisitor visitor = new RefRelVisitor();
                 visitor.scan(launcherAll.getModel().getUnnamedModule());
-                // CtType<?> a = launcherAll.getModel().getAllTypes().stream()
-                // .filter(x -> x.getSimpleName().equals("ContractVerifier")).findFirst().get();
-                // visitor.scan(a);
-                // visitor.res.entrySet().stream().forEach((entr) -> {
-                // CtElement k = entr.getKey();
-                // if (k instanceof CtParameter) {
-                // CtParameter<?> aaa = (CtParameter<?>) k;
-                // if (aaa.getSimpleName().equals("msg"))
-                // System.err.println("after scan" + aaa.getParent().toStringDebug());
-                // }
-                // });
-                // Run the garbage collector
-                // runtime.gc();
-                // Calculate the used memory
-                // System.err.println("Used memory is megabytes: "
-                //         + (search_memory / (1024L * 1024L)));
                 Aux2 f = new Aux2();
                 f.root_path = Path.of(root);
-                System.err.println(visitor.res.size());
+                // System.err.println(visitor.res.size());
                 visitor.res.forEach(f);
                 f.toString();
                 JsonElement refs_at_commit = f.toJson();
@@ -184,7 +160,7 @@ public class EvalValidPerf {
                 System.err.println(e);
             }
         }
-        System.err.println(permodule.size());
+        // System.err.println(permodule.size());
 
         result.add("relations", permodule);
 
@@ -204,16 +180,6 @@ public class EvalValidPerf {
         info.addProperty("commit", commit);
         info.addProperty("commit", commit);
         result.add("info", info);
-
-        // result.addProperty("ast_memory_fooprint", constructed_memory); // nano seconds // difficult to measure fo hyperast and not needed here
-        // MiB = B / (1024L * 1024L)
-        // second = nano / (1 000 000 000)
-        // // Run the garbage collector
-        // runtime.gc();
-        // // Calculate the used memory
-        // memory = runtime.totalMemory() - runtime.freeMemory();
-        // System.err.println("Used memory is megabytes: "
-        // + (memory / (1024L * 1024L)));
 
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         System.out.println(gson.toJson(result));
@@ -244,7 +210,6 @@ public class EvalValidPerf {
         long start_point = System.nanoTime();
 
         MavenLauncher launcherAll = new MavenLauncher(
-                // "/home/quentin/resources/Versions/graphhopper/graphhopper/7f80425b6a0af9bdfef12c8a873676e39e0a04a6/",
                 root + module,
                 MavenLauncher.SOURCE_TYPE.ALL_SOURCE);
         launcherAll.getEnvironment().setLevel("INFO");
@@ -267,38 +232,16 @@ public class EvalValidPerf {
         runtime.gc();
         // Calculate the used memory
         long constructed_memory = runtime.totalMemory() - runtime.freeMemory();
-        // System.err.println("Used memory is megabytes: "
-        //         + (constructed_memory / (1024L * 1024L)));
-
-        // System.err.println("aaa");
-        // HashMap<CtElement, ArrayList<CtElement>> res = new HashMap<>();
-        // find_ref_rel(launcherAll, res);
 
         CtRefHolderVisitor visitor = new CtRefHolderVisitor();
-        // visitor.scan(launcherAll.getModel()
-        // .getUnnamedModule());
-        // RefRelVisitor visitor = new RefRelVisitor();
         visitor.scan(launcherAll.getModel().getUnnamedModule());
-        // CtType<?> a = launcherAll.getModel().getAllTypes().stream()
-        // .filter(x -> x.getSimpleName().equals("ContractVerifier")).findFirst().get();
-        // visitor.scan(a);
-        // visitor.res.entrySet().stream().forEach((entr) -> {
-        // CtElement k = entr.getKey();
-        // if (k instanceof CtParameter) {
-        // CtParameter<?> aaa = (CtParameter<?>) k;
-        // if (aaa.getSimpleName().equals("msg"))
-        // System.err.println("after scan" + aaa.getParent().toStringDebug());
-        // }
-        // });
-        // Run the garbage collector
-        // runtime.gc();
         // Calculate the used memory
         long search_memory = runtime.totalMemory() - runtime.freeMemory();
         // System.err.println("Used memory is megabytes: "
         //         + (search_memory / (1024L * 1024L)));
         Aux2 f = new Aux2();
         f.root_path = Path.of(root);
-        System.err.println(visitor.res.size());
+        // System.err.println(visitor.res.size());
         visitor.res.forEach(f);
         f.toString();
         JsonElement refs_at_commit = f.toJson();
@@ -320,31 +263,16 @@ public class EvalValidPerf {
         info.addProperty("commit", commit);
         result.add("info", info);
 
-        // result.addProperty("ast_memory_fooprint", constructed_memory); // nano seconds // difficult to measure fo hyperast and not needed here
-        // MiB = B / (1024L * 1024L)
-        // second = nano / (1 000 000 000)
-        // // Run the garbage collector
-        // runtime.gc();
-        // // Calculate the used memory
-        // memory = runtime.totalMemory() - runtime.freeMemory();
-        // System.err.println("Used memory is megabytes: "
-        // + (memory / (1024L * 1024L)));
-
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         System.out.println(gson.toJson(result));
     }
 
     public static <T> void main_old(String[] args) throws IOException, ImpactAnalysisException {
         String root = "/home/quentin/spoon2/";
-        String repo = "INRIA/spoon";
         String module = "";
         // acc per repo
         JsonObject refs_per_commit = new JsonObject();
-        JsonObject evolutions = new JsonObject(); // "commitid1": {"commitid2": {"ins":[],"del":[],"upd":[]}}
-        // String repo = "/home/quentin/spoon2/";
-        // String root = "/home/quentin/hadoop/";
-        // String module = "hadoop-hdfs-project/hadoop-hdfs/";
-        // String repo = "apache/hadoop";
+        JsonObject evolutions = new JsonObject();
         ArrayList<String> commitids = new ArrayList<>();
         commitids.add("f89b6939ab6eb1b59db09b21c93c040f4bdd1541");
         // Get the Java runtime
@@ -373,23 +301,6 @@ public class EvalValidPerf {
                     System.err.println(pb);
                 }
             }
-            // MavenLauncher launcherAll2 = new MavenLauncher(
-            // //
-            // "/home/quentin/resources/Versions/graphhopper/graphhopper/7f80425b6a0af9bdfef12c8a873676e39e0a04a6/",
-            // root + module,
-            // MavenLauncher.SOURCE_TYPE.ALL_SOURCE);
-            // launcherAll2.getEnvironment().setLevel("INFO");
-            // launcherAll2.getFactory().getEnvironment().setLevel("INFO");
-
-            // try {
-            // launcherAll2.buildModel();
-            // } catch (Exception e) {
-            // System.err.println(e);
-            // for (CategorizedProblem pb : ((JDTBasedSpoonCompiler)
-            // launcherAll2.getModelBuilder()).getProblems()) {
-            // System.err.println(pb);
-            // }
-            // }
 
             // Run the garbage collector
             runtime.gc();
@@ -398,26 +309,8 @@ public class EvalValidPerf {
             System.err.println("Used memory is megabytes: "
                     + (memory / (1024L * 1024L)));
 
-            // System.err.println("aaa");
-            // HashMap<CtElement, ArrayList<CtElement>> res = new HashMap<>();
-            // find_ref_rel(launcherAll, res);
-
             CtRefHolderVisitor visitor = new CtRefHolderVisitor();
-            // visitor.scan(launcherAll.getModel()
-            // .getUnnamedModule());
-            // RefRelVisitor visitor = new RefRelVisitor();
             visitor.scan(launcherAll.getModel().getUnnamedModule());
-            // CtType<?> a = launcherAll.getModel().getAllTypes().stream()
-            // .filter(x -> x.getSimpleName().equals("ContractVerifier")).findFirst().get();
-            // visitor.scan(a);
-            // visitor.res.entrySet().stream().forEach((entr) -> {
-            // CtElement k = entr.getKey();
-            // if (k instanceof CtParameter) {
-            // CtParameter<?> aaa = (CtParameter<?>) k;
-            // if (aaa.getSimpleName().equals("msg"))
-            // System.err.println("after scan" + aaa.getParent().toStringDebug());
-            // }
-            // });
             // Run the garbage collector
             runtime.gc();
             // Calculate the used memory
@@ -458,11 +351,6 @@ public class EvalValidPerf {
             }
             evolutions.add(commitBefore, cBefore);
         }
-
-        // per repo
-        // JsonObject r = new JsonObject();
-        // r.add("refs", refs_per_commit);
-        // r.add("evolutions", evolutions);
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         System.out.println(gson.toJson(refs_per_commit.get("f89b6939ab6eb1b59db09b21c93c040f4bdd1541")));
     }
