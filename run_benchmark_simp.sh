@@ -5,13 +5,13 @@ set -ex
 # Launch impact analysis on the INRIA/spoon repository.
 SHORTNAME=spoon
 REPO=INRIA/spoon
-BEFORE=d44759888f41e67db3f32ea2cd4975cefa727691
+BEFORE=924fc6a609652855f90738be81f28bb697d6fcd2
 AFTER=56e12a0c0e0e69ea70863011b4f4ca3305e0542b
 
 # run the benchmark on a commit slice of spoon
 
 mkdir -p results_simp/
-mkdir -p results_simp/modules
+mkdir -p modules_simp/
 
 cd hyperAST
 
@@ -25,7 +25,7 @@ target/release/hyper_ast_benchmark "$REPO" "$BEFORE" "$AFTER" "" results_simp/$S
 tail logs_simp/$SHORTNAME
 
 # extract commits and modules that had their declarations resolved.
-target/release/ref-mining-evaluation modules --refs results_simp/$SHORTNAME > ../results_simp/modules/$SHORTNAME 2> /dev/null
+target/release/ref-mining-evaluation modules --refs results_simp/$SHORTNAME > ../modules_simp/$SHORTNAME 2> /dev/null
 
 # do the same reference analysis with Spoon
 mkdir -p /tmp/spoongitinstances
@@ -44,7 +44,7 @@ fi
 (
 cd ../refsolver
 mkdir -p comp_simp/$SHORTNAME
-cat ../hyperAST/modules/$SHORTNAME | bash ana.sh /tmp/spoongitinstances/$SHORTNAME/ "$REPO" "" comp_simp/$SHORTNAME
+cat ../modules_simp/$SHORTNAME | bash ana.sh /tmp/spoongitinstances/$SHORTNAME/ "$REPO" "" comp_simp/$SHORTNAME
 )
 
 # extract performances measurments on construction
@@ -57,11 +57,17 @@ target/release/ref-mining-evaluation multi-compare-stats --json ../refsolver/com
 # display some stats on results
 ls ../results_simp/
 
-# a dedicated notebook is available to plot results
-cd ../observable_notebook_results
+# dedicated notebooks are available to plot results
 if ! command -v npm &> /dev/null
 then
-    echo "npm could not be found, if you want to plot graphs with the notebook then you need to install or setup node.js and the node package manager"
+    echo "npm could not be found, if you want to plot graphs with the notebook then you need to install or setup node and the node package manager"
 else
-    npx http-server
+(
+    cd ../notebook_construction_perfs
+    npx http-server &
+)
+(
+    cd ../notebook_search
+    npx http-server &
+)
 fi
