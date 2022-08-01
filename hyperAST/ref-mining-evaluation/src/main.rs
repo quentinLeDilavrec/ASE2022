@@ -398,7 +398,7 @@ fn main() {
             only_misses,
             ..
         } => {
-            let repo = fetch_repository(repository.clone(), "/tmp/hyperastgitresources");
+            let repo = fetch_repository(repository.clone(), "/tmp/hyperastgitresources/repo");
             let bl_rs = handle_file(File::open(baseline).expect("should be a file")).unwrap();
             let t_rs = handle_file(File::open(test).expect("should be a file")).unwrap();
             let mut per_module: HashMap<String, (_, _)> = Default::default();
